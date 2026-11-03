@@ -1,0 +1,6 @@
+build/
+site/data.json
+__pycache__/
+*.tmp
+.DS_Store
+.env

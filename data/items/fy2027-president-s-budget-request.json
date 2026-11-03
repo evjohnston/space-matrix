@@ -1,0 +1,27 @@
+{
+  "id": "fy2027-president-s-budget-request",
+  "name": "FY2027 President's Budget Request",
+  "number": "",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Space Situational Awareness",
+    "Appropriations"
+  ],
+  "status": "Pending before Congress; government operating under a continuing resolution through 12/11/2026",
+  "status_date": "2026-04-21",
+  "aligns": "No",
+  "effect": "Requests $11M for the Office of Space Commerce, funded through Commerce's Departmental Management account rather than NOAA. The congressional justification cuts 16 OSC positions and does not clearly fund continued TraCSS operations (reportedly about $1M to move the TraCSS pilot to a containerized format).",
+  "alignment_notes": "Conflicts with Pillar 1: The report calls for secure, sustained funding to fully operationalize a civil SSA/STC system like TraCSS as critical national infrastructure; this request would leave it largely unfunded for a second straight year.",
+  "gridlock": "",
+  "sponsors": "Taylor Jordan (OSC Director)",
+  "links": [
+    "https://www.whitehouse.gov/wp-content/uploads/2026/04/budget_fy2027.pdf?ref=wordsandmoney.com"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

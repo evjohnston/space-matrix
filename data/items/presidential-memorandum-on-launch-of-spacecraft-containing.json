@@ -1,0 +1,26 @@
+{
+  "id": "presidential-memorandum-on-launch-of-spacecraft-containing",
+  "name": "Presidential Memorandum on Launch of Spacecraft Containing Space Nuclear Systems",
+  "number": "NSPM-20",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "SNPP"
+  ],
+  "status": "Effective",
+  "status_date": "2019-08-20",
+  "aligns": "N/A",
+  "effect": "NSPM-20 established safety guidelines and safety analysis and review processes for Federal Government launches of spacecraft containing space nuclear systems, including SNPP systems, and for launches for which the Department of Transportation has statutory authority to license as commercial space launch activities (commercial launches). These guidelines and processes address launch and any subsequent stages during which accidents may result in radiological effects on the public or the environment—for instance, in an unplanned reentry from Earth orbit or during an Earth flyby. Launch activities shall be conducted in accordance with these guidelines and processes.",
+  "alignment_notes": "Does not provide space sustainability frameworks. Rather, covers radiation safety for launching nuclear power and propulsion systems.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov//presidential-actions/presidential-memorandum-launch-spacecraft-containing-space-nuclear-systems/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

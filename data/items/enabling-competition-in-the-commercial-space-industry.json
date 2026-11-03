@@ -1,0 +1,26 @@
+{
+  "id": "enabling-competition-in-the-commercial-space-industry",
+  "name": "Enabling Competition in the Commercial Space Industry",
+  "number": "E.O. 14335",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Commercial Space System Regulation"
+  ],
+  "status": "Effective",
+  "status_date": "2025-12-13",
+  "aligns": "Yes",
+  "effect": "Directs federal agencies to reform regulatory barriers to US commercial space growth in four key areas: (1) commercial launch and reentry, (2) spaceport infrastructure, (3) novel space activity authorization, and (4) leadership and accountability, specifically by reducing or eliminating duplicative, outdated, and overly restrictive regulations, expediting environmental reviews for launch/reentry licenses and aligning federal review processes for spaceport development, creating a streamlined authorization pathway for novel space activities, and establishing dedicated leadership within DOT/FAA",
+  "alignment_notes": "Aligns with Pillar 1 because it pushes to modernize licensing and elevates the Office of Space Commerce, the agency the report names as running the TraCSS tracking system, into the Commerce Secretary’s office. Does not address pillar or pillar 3.",
+  "gridlock": "",
+  "sponsors": "Michael Kratsios (Director of WH OSTP)",
+  "links": [
+    "https://www.whitehouse.gov/presidential-actions/2025/08/enabling-competition-in-the-commercial-space-industry/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "strengthening-national-resilience-thorugh-responsible-use-of",
+  "name": "Strengthening National Resilience thorugh Responsible Use of Positioning, Navigation, and Timing Services",
+  "number": "E.O. 13905",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Positioning, Navigation, and Timing Services"
+  ],
+  "status": "Effective",
+  "status_date": "2020-02-12",
+  "aligns": "Yes",
+  "effect": "To strengthen national resilience, the Federal Government must foster the responsible use of PNT services by critical infrastructure owners and operators. It is the policy of the United States to ensure that disruption or manipulation of PNT services does not undermine the reliable and efficient functioning of its critical infrastructure. Within 1 year of the date of this order, the Secretary of Commerce, in coordination with the heads of SSAs and in consultation, as appropriate, with the private sector, shall develop and make available, to at least the appropriate agencies and private sector users, PNT profiles which will enable the public and private sectors to identify systems, networks, and assets dependent on PNT services; identify appropriate PNT services; detect the disruption and manipulation of PNT services; and manage the associated risks to the systems, networks, and assets dependent on PNT services. Once made available, the PNT profiles shall be reviewed every 2 years and, as necessary, updated.",
+  "alignment_notes": "Aligns with pillar 1 because the order directs Commerce to work with the private sector to create standards-based PNT profiles to build into federal contract requirements. This aligns because the report recommends turning industry best practices into standardized requirements. It also loosely aligns with pillar 2, as the order calls for a national R&D plan for robust, secure PNT services not dependent on GNSS. Does not address pillar 3.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://www.federalregister.gov/documents/2020/02/18/2020-03337/strengthening-national-resilience-through-responsible-use-of-positioning-navigation-and-timing"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2020-03337"
+    }
+  ],
+  "auto": {
+    "fr_document:2020-03337": {
+      "label": "Federal Register 2020-03337",
+      "title": "Strengthening National Resilience Through Responsible Use of Positioning, Navigation, and Timing Services",
+      "type": "Presidential Document",
+      "action": "",
+      "published": "2020-02-18",
+      "comments_close": "",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2020/02/18/2020-03337/strengthening-national-resilience-through-responsible-use-of-positioning-navigation-and-timing"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

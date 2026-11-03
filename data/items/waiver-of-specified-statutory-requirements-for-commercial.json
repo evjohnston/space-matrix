@@ -1,0 +1,57 @@
+{
+  "id": "waiver-of-specified-statutory-requirements-for-commercial",
+  "name": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
+  "number": "Docket No. FAA-2026-8614; Notice No. 26-11",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Environmental Regulations"
+  ],
+  "status": "Public Review Period",
+  "status_date": "2026-08-20",
+  "aligns": "No",
+  "effect": "Establish a process for FAA to determine whether specific regulatory requirements under 13 federal environmental laws, including the National Environmental Policy Act, Endangered Species Act, Clean Water Act, Clean Air Act, and Coastal Zone Management Act, are necessary for individual space operations to streamline the commercial space industry and reduce regulatory barriers.",
+  "alignment_notes": "The purpose of this bill is to streamline launches and increase commercial space activity by getting rid of environmental regulations. The bill proposes no plan to remediate space debris or to create a traffic coordination system to help control the increase in commercial space flight.",
+  "gridlock": "",
+  "sponsors": "Randy Repcheck (Acting Executive Directive of the FAA Office of Strategic Management)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/07/30/2026-15415/waiver-of-specified-statutory-requirements-for-commercial-space-launch-and-reentry-actions"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-15415"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2026-8614"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-15415": {
+      "label": "Federal Register 2026-15415",
+      "title": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
+      "type": "Proposed Rule",
+      "action": "Notice of proposed rulemaking (NPRM).",
+      "published": "2026-07-30",
+      "comments_close": "2026-08-31",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15415/waiver-of-specified-statutory-requirements-for-commercial-space-launch-and-reentry-actions"
+    },
+    "fr_docket:FAA-2026-8614": {
+      "label": "Docket FAA-2026-8614",
+      "documents": [
+        "2026-15415"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of proposed rulemaking (NPRM).",
+      "latest_date": "2026-07-30",
+      "latest_title": "Waiver of Specified Statutory Requirements for Commercial Space Launch and Reentry Actions",
+      "url": "https://www.federalregister.gov/documents/2026/07/30/2026-15415/waiver-of-specified-statutory-requirements-for-commercial-space-launch-and-reentry-actions"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

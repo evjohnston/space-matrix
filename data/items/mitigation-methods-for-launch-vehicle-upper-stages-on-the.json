@@ -1,0 +1,59 @@
+{
+  "id": "mitigation-methods-for-launch-vehicle-upper-stages-on-the",
+  "name": "Mitigation Methods for Launch Vehicle Upper Stages on the Creation of Orbital Debris (Withdrawal)",
+  "number": "Docket No. FAA-2023-1858; Notice No. 23-13",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Orbital Debris",
+    "Deorbiting"
+  ],
+  "status": "Effective (proposed rule withdrawn)",
+  "status_date": "2026-01-15",
+  "aligns": "No",
+  "effect": "Withdraws FAA's 2023 proposed rule that would have required commercial launch providers to remove spent upper stages from orbit within 25 years of launch. FAA said it would further consider public comments, review its legal authority and industry cost inputs, and may propose orbital debris rules in the future.",
+  "alignment_notes": "Conflicts with Pillar 2: The report's life-cycle model depends on responsible end-of-life disposal and argues orbital carrying capacity cannot absorb defunct objects; the withdrawal leaves commercial upper stage disposal without a binding requirement.",
+  "gridlock": "",
+  "sponsors": "Stephen Earle (OSC Space Policy and Outreach Branch Manager)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/01/15/2026-00680/mitigation-methods-for-launch-vehicle-upper-stages-on-the-creation-of-orbital-debris-withdrawal"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-00680"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2023-1858"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-00680": {
+      "label": "Federal Register 2026-00680",
+      "title": "Mitigation Methods for Launch Vehicle Upper Stages on the Creation of Orbital Debris; Withdrawal",
+      "type": "Proposed Rule",
+      "action": "Notice of Proposed Rulemaking (NPRM); withdrawal.",
+      "published": "2026-01-15",
+      "comments_close": "",
+      "effective": "2026-01-15",
+      "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00680/mitigation-methods-for-launch-vehicle-upper-stages-on-the-creation-of-orbital-debris-withdrawal"
+    },
+    "fr_docket:FAA-2023-1858": {
+      "label": "Docket FAA-2023-1858",
+      "documents": [
+        "2026-00680",
+        "2023-20531"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of Proposed Rulemaking (NPRM); withdrawal.",
+      "latest_date": "2026-01-15",
+      "latest_title": "Mitigation Methods for Launch Vehicle Upper Stages on the Creation of Orbital Debris; Withdrawal",
+      "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00680/mitigation-methods-for-launch-vehicle-upper-stages-on-the-creation-of-orbital-debris-withdrawal"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

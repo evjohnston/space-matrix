@@ -1,0 +1,27 @@
+{
+  "id": "ensuring-american-space-superiority",
+  "name": "Ensuring American Space Superiority",
+  "number": "E.O. 14369",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Space Exploration",
+    "Commercial Space System Regulation"
+  ],
+  "status": "Effective",
+  "status_date": "2025-12-18",
+  "aligns": "Yes",
+  "effect": "Directs the administration’s space policy priorities, including a return of Americans to the moon by 2028, initial elements of a permanent lunar outpost by 2030, a commercial replacement of the ISS by 2030, developing and demonstrating prototype next generation missile defense technologies by 2028, attracting at least $50 billion of additional investment in American space markets by 2028, and enabling commercial launch services",
+  "alignment_notes": "Aligns with Pillar 3 because it calls for the US to be the international standards and services leader, and pillar 3 calls for exporting open US safety standards. It aligns with Pillar 2 because it focuses on orbital debris mitigation and remediation. Does not address pillar 1.",
+  "gridlock": "",
+  "sponsors": "Michael Kratsios (Director of WH OSTP)",
+  "links": [
+    "https://www.whitehouse.gov/presidential-actions/2025/12/ensuring-american-space-superiority/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

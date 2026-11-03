@@ -1,0 +1,42 @@
+{
+  "id": "osc-mission-authorization-pilot-program",
+  "name": "OSC Mission Authorization Pilot Program",
+  "number": "",
+  "kind": "regulatory",
+  "entity": "OSC",
+  "issues": [
+    "Novel Space Activity"
+  ],
+  "status": "Expressions of interest from space operators to participate in program's pilot phase due 10/5/2026",
+  "status_date": "2026-08-20",
+  "aligns": "Yes",
+  "effect": "Seeks to implement a streamlined, unified, whole-of-government mission authorization framework for novel in-space activities",
+  "alignment_notes": "Aligns with Pillars 1 and 2: Addresses the report’s call to clarify regulatory responsibility for space activities, and creates a pathway for the active debris removal and on-orbit servicing the report urges",
+  "gridlock": "",
+  "sponsors": "Gabriel Swiney (Director of OSC's Policy, Advocacy, and International Division)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/08/20/2026-17016/notice-of-mission-authorization-pilot-program"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-17016"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-17016": {
+      "label": "Federal Register 2026-17016",
+      "title": "Notice of Mission Authorization Pilot Program",
+      "type": "Notice",
+      "action": "Notice; request for expressions of interest in participating in mission authorization proposal pilot process.",
+      "published": "2026-08-20",
+      "comments_close": "2026-10-05",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/08/20/2026-17016/notice-of-mission-authorization-pilot-program"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

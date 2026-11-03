@@ -1,0 +1,26 @@
+{
+  "id": "national-strategy-for-space-nuclear-power-and-propulsion",
+  "name": "National Strategy for Space Nuclear Power and Propulsion",
+  "number": "SPD-6",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "SNPP"
+  ],
+  "status": "Effective",
+  "status_date": "2020-12-16",
+  "aligns": "N/A",
+  "effect": "Establishes a national strategy ensuring the development and use of space nuclear power and propulsion (SNPP) systems for scientific, exploration, national security and commercial objectives and outlines policy goals and a supporting roadmap to advance the use of SNPP systems.",
+  "alignment_notes": "Does not provide space sustainability frameworks. Rather, establishes a strategy to use space nuclear power.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/presidential-actions/memorandum-national-strategy-space-nuclear-power-propulsion-space-policy-directive-6/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

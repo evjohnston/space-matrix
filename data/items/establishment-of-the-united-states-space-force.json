@@ -1,0 +1,26 @@
+{
+  "id": "establishment-of-the-united-states-space-force",
+  "name": "Establishment of the United States Space Force",
+  "number": "SPD-4",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Operational Authority"
+  ],
+  "status": "Effective",
+  "status_date": "2019-02-19",
+  "aligns": "N/A",
+  "effect": "Recommends the formation of a United States Space Command to control our space forces and develop the tactics, techniques, and procedures for military space operations; establishment of the Space Force as a separate and distinct branch of the military whose mission will be to organize, train, and equip combat space forces; joint review by the National Space Council and National Security Council of existing space operational authorities for meeting national security objectives, informed by DOD's assessment of the authorities required; creation of a Space Development Agency to ensure Americans in the Space Force have cutting-edge warfighting capabilities; and creation of collaborative mechanisms with the Intelligence Community to improve unity of efforts for the development of space capabilities and operations.",
+  "alignment_notes": "Recommends more government oversight in space but not for safety/sustainability reasons - the command instead focuses on military space operations.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/presidential-actions/text-space-policy-directive-4-establishment-united-states-space-force/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

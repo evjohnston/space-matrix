@@ -1,0 +1,117 @@
+{
+  "id": "space-commerce-activity-advisory-committee-act",
+  "name": "Space Commerce Activity Advisory Committee Act",
+  "number": "S. 434",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Commercial Space System Regulation",
+    "SSA"
+  ],
+  "status": "Passed Senate; Held at the Desk in the House",
+  "status_date": "2026-08-10",
+  "aligns": "Yes",
+  "effect": "This bill requires the Office of Space Commerce to establish a Commercial Space Activity Advisory Committee to provide information and recommendations on nongovernmental space activities and promoting a robust and innovative commercial space sector.",
+  "alignment_notes": "Aligns with Pillar 1 because it would have the Office of Space Commerce set up a 15-member Commercial Space Activity Advisory Committee drawn from industry, matching the report’s push to build industry best practices into US rules. Does not address pillar 2 or pillar 3.",
+  "gridlock": "",
+  "sponsors": "Sen. Ted Cruz [R-TX], Sen. Gary Peters [D-MI]",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/senate-bill/434"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "434"
+    }
+  ],
+  "auto": {
+    "congress:119-s-434": {
+      "label": "S 434 (119th Congress)",
+      "title": "Space Commerce Advisory Committee Act",
+      "introduced": "2025-02-05",
+      "latest_action_date": "2026-08-10",
+      "latest_action_text": "Held at the desk.",
+      "cosponsors": 2,
+      "sponsor": "Sen. Peters, Gary C. [D-MI]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000",
+        "14000",
+        "17000"
+      ],
+      "actions": [
+        {
+          "date": "2026-08-10",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Held at the desk."
+        },
+        {
+          "date": "2026-08-10",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Received in the House."
+        },
+        {
+          "date": "2026-08-10",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Message on Senate action sent to the House."
+        },
+        {
+          "date": "2026-08-06",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Passed Senate with an amendment by Unanimous Consent. (text: CR S4493-4494)"
+        },
+        {
+          "date": "2026-08-06",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "The committee substitute withdrawn by Unanimous Consent."
+        },
+        {
+          "date": "2026-08-06",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Measure laid before Senate by unanimous consent. (consideration: CR S4493-4494)"
+        },
+        {
+          "date": "2025-10-21",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 198."
+        },
+        {
+          "date": "2025-10-21",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-87."
+        },
+        {
+          "date": "2025-06-25",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        },
+        {
+          "date": "2025-02-05",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/434"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

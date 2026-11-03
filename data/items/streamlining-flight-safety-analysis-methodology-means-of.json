@@ -1,0 +1,57 @@
+{
+  "id": "streamlining-flight-safety-analysis-methodology-means-of",
+  "name": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
+  "number": "Docket No. FAA-2026-9936",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Licensing"
+  ],
+  "status": "Proposed rule open to comments",
+  "status_date": "2026-10-05",
+  "aligns": "N/A",
+  "effect": "Proposes to alleviate regulatory burden for license applicants by consolidating information required for an operator's flight safety analysis",
+  "alignment_notes": "Streamlines launch approvals, but focuses primarily on airspace safety rather than orbital lifecycle tracking or on-orbit maneuver intent",
+  "gridlock": "",
+  "sponsors": "Lisa Cacciatore (FAA Office of Commercial Space Transportation)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-20388"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2026-9936"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-20388": {
+      "label": "Federal Register 2026-20388",
+      "title": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
+      "type": "Proposed Rule",
+      "action": "Notice of proposed rulemaking (NPRM).",
+      "published": "2026-10-05",
+      "comments_close": "2026-11-04",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance"
+    },
+    "fr_docket:FAA-2026-9936": {
+      "label": "Docket FAA-2026-9936",
+      "documents": [
+        "2026-20388"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of proposed rulemaking (NPRM).",
+      "latest_date": "2026-10-05",
+      "latest_title": "Streamlining Flight Safety Analysis Methodology Means of Compliance",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20388/streamlining-flight-safety-analysis-methodology-means-of-compliance"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

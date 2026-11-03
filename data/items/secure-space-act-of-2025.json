@@ -1,0 +1,201 @@
+{
+  "id": "secure-space-act-of-2025",
+  "name": "Secure Space Act of 2025",
+  "number": "S. 1962 / H.R. 2458",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Satellite Licensing"
+  ],
+  "status": "Referred to Senate Committee on Commerce, Science, and Transportation",
+  "status_date": "2025-04-29",
+  "aligns": "N/A",
+  "effect": "This bill prohibits the Federal Communications Commission (FCC) from granting satellite licenses or earth station authorizations, including U.S. market access for foreign-licensed satellites, to specified foreign entities of concern and their affiliates. (Earth stations, also commonly known as ground stations, are earth-based radio stations that communicate with satellites. A grant of U.S. market access permits one or more foreign-licensed satellites to communicate with one or more U.S.-licensed earth stations.)\n\nSpecifically, the FCC may not grant a satellite license, an earth station authorization, or market access to any entity, or an affiliate thereof, that produces or provides communications equipment or services deemed to pose an unacceptable risk to the national security of the United States. (The FCC maintains a list of such equipment and services, known as the Covered List. Providers of such equipment and services include, for example, Huawei Technologies Company and ZTE Corporation.)",
+  "alignment_notes": "Does not provide a framework for space sustainability. Rather, prohibits the FCC from granting satelitte licenses or earth station authorizations.",
+  "gridlock": "",
+  "sponsors": "Rep. Frank Pallone [D-NJ], Rep. Bob Latta [R-OH]",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/house-bill/2458",
+    "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "hr",
+      "number": "2458"
+    },
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "1962"
+    }
+  ],
+  "auto": {
+    "congress:119-hr-2458": {
+      "label": "HR 2458 (119th Congress)",
+      "title": "Secure Space Act of 2025",
+      "introduced": "2025-03-27",
+      "latest_action_date": "2025-04-29",
+      "latest_action_text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+      "cosponsors": 1,
+      "sponsor": "Rep. Pallone, Frank [D-NJ-6]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee",
+        "Energy and Commerce Committee"
+      ],
+      "milestones": [
+        "1000",
+        "5000",
+        "8000",
+        "Intro-H"
+      ],
+      "actions": [
+        {
+          "date": "2025-04-29",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        },
+        {
+          "date": "2025-04-28",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        {
+          "date": "2025-04-28",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H1652)"
+        },
+        {
+          "date": "2025-04-28",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2458."
+        },
+        {
+          "date": "2025-04-28",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Considered under suspension of the rules. (consideration: CR H1652-1653)"
+        },
+        {
+          "date": "2025-04-28",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Mr. Bilirakis moved to suspend the rules and pass the bill."
+        },
+        {
+          "date": "2025-04-24",
+          "type": "Calendars",
+          "chamber": "House",
+          "text": "Placed on the Union Calendar, Calendar No. 42."
+        },
+        {
+          "date": "2025-04-24",
+          "type": "Committee",
+          "chamber": "House",
+          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-65."
+        },
+        {
+          "date": "2025-04-08",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Ordered to be Reported by the Yeas and Nays: 52 - 1."
+        },
+        {
+          "date": "2025-04-08",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Committee Consideration and Mark-up Session Held"
+        },
+        {
+          "date": "2025-03-27",
+          "type": "IntroReferral",
+          "chamber": "House",
+          "text": "Referred to the House Committee on Energy and Commerce."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2458"
+    },
+    "congress:119-s-1962": {
+      "label": "S 1962 (119th Congress)",
+      "title": "Secure Space Act of 2026",
+      "introduced": "2025-06-05",
+      "latest_action_date": "2026-09-24",
+      "latest_action_text": "Held at the desk.",
+      "cosponsors": 1,
+      "sponsor": "Sen. Fischer, Deb [R-NE]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000",
+        "14000",
+        "17000"
+      ],
+      "actions": [
+        {
+          "date": "2026-09-24",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Held at the desk."
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Received in the House."
+        },
+        {
+          "date": "2026-09-24",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Message on Senate action sent to the House."
+        },
+        {
+          "date": "2026-09-23",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent. (consideration: CR S4956; text of amendment in the nature of a substitute: CR S4956)"
+        },
+        {
+          "date": "2026-09-14",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 557."
+        },
+        {
+          "date": "2026-09-14",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute and an amendment to the title. With written report No. 119-138."
+        },
+        {
+          "date": "2026-04-14",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        },
+        {
+          "date": "2025-06-05",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1962"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

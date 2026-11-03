@@ -1,0 +1,79 @@
+{
+  "id": "safe-orbit-act",
+  "name": "SAFE Orbit Act",
+  "number": "S. 428",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Space Situational Awareness"
+  ],
+  "status": "Placed on Senate Legislative Calendar under General Orders",
+  "status_date": "2025-09-29",
+  "aligns": "Yes",
+  "effect": "1. This bill authorizes the Traffic Coordination System for Space, which the Office of Space Commerce is developing to provide space situational awareness data and services to space operators. The bill elevates the Office of Space Commerce to a standalone bureau within the Department of Commerce. \n 2. It directs the OSC to obtain data deemed necessary to avoid space collisions, such as location tracking data, positional and orbit determination information, conjunction data messages, and more, and to publish this information at no charge both through the space situational awareness information and services public database and through the basic situational awareness services to satellite operators provision. \n3. It provides immunity for the United States government from any suit arising from the provision or receipt of space situational awareness services or information.",
+  "alignment_notes": "The report Space Safety and Sustainability, Part II: Policy Recommendations states that Congress should implement bills like this one because its provision of statutory authority for the Traffic Coordination System for Space would strengthen safety, orbital lifetime prolongation, and disposal requirements. It aligns with Pillar 1 in particular because it calls for the Traffic Coordination System for Space to share its data and serve as a backbone for the commercial ecosystem. Does not address Pillar 2 or Pillar 3.",
+  "gridlock": "",
+  "sponsors": "Sen. John Cornyn (R-TX), Sen. Gary Peters (D-MI), Sen. Marsha Blackburn (R-TN), Sen. Eric Schmitt (R-MO), Sen. Mark Kelly (D-AZ), Sen. Roger Wicker (R-MS), Sen. Ben Ray Luján (D-NM), and Sen. John Hickenlooper (D-CO)",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/senate-bill/428"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "428"
+    }
+  ],
+  "auto": {
+    "congress:119-s-428": {
+      "label": "S 428 (119th Congress)",
+      "title": "SAFE Orbit Act",
+      "introduced": "2025-02-05",
+      "latest_action_date": "2025-09-29",
+      "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 170.",
+      "cosponsors": 7,
+      "sponsor": "Sen. Cornyn, John [R-TX]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000",
+        "14000"
+      ],
+      "actions": [
+        {
+          "date": "2025-09-29",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 170."
+        },
+        {
+          "date": "2025-09-29",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with amendments. With written report No. 119-65."
+        },
+        {
+          "date": "2025-03-12",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment favorably."
+        },
+        {
+          "date": "2025-02-05",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/428"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

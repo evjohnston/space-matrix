@@ -1,0 +1,26 @@
+{
+  "id": "national-space-strategy",
+  "name": "National Space Strategy",
+  "number": "",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Space Exploration"
+  ],
+  "status": "Effective",
+  "status_date": "2020-12-09",
+  "aligns": "Yes",
+  "effect": "Sets out the nation’s commitment to leading in the responsible and constructive use of space, promoting a robust commercial space industry, returning Americans to the Moon and preparing for Mars, leading in exploration, and defending United States and allied interests in space.",
+  "alignment_notes": "Aligns with Pillar 1 because it commits to providing basic SSA data and basic space traffic coordination free of direct user fees, and to pooling commercial, civil, and national security tracking data in an open architecture data repository. It also directs Commerce to propose licensing requirements for large constellations, servicing, end-of-mission planning, and other operations, which aligns with the report’s licensing modernization. Aligns with Pillar 2 by calling for the evaluation and pursuit of active debris removal with allies, matching the report’s on-orbit servicing and debris removal recommendation. Aligns with Pillar 3 because it directs agencies to pursue common international data standards and to encourage other nations to adopt US regulatory approaches and commercial practices.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/wp-content/uploads/2020/12/National-Space-Policy.pdf"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

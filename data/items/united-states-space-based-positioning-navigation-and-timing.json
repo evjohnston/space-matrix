@@ -1,0 +1,26 @@
+{
+  "id": "united-states-space-based-positioning-navigation-and-timing",
+  "name": "United States Space-Based Positioning, Navigation, and Timing Policy",
+  "number": "SPD-7",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "PNT"
+  ],
+  "status": "Effective",
+  "status_date": "2021-01-15",
+  "aligns": "Yes",
+  "effect": "Provides guidance for: (a) sustainment and modernization of the Global Positioning System (GPS) and federally developed, owned, and operated systems used to augment or otherwise improve GPS; (b) implementation and operation of capabilities to protect United States and allied access to and use of GPS for national, homeland, and economic security, and to deny adversaries hostile applications use of United States space-based PNT services; and (c) United States participation in international cooperative initiatives regarding foreign space-based PNT services and foreign use of GPS and its augmentations.",
+  "alignment_notes": "Aligns with Pillar 3 because it directs the US to encourage foreign development of PNT services and systems based on GPS while ensuring compatibility and interoperability. It also aligns with Pillar 1 because of its commitment to free GPS access with open specifications, as Pillar 1 calls for a national tracking system for public service rather than government competition with industry. Does not address pillar 2.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/presidential-actions/memorandum-space-policy-directive-7/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "national-space-traffic-management-policy",
+  "name": "National Space Traffic Management Policy",
+  "number": "SPD-3",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Orbital Debris",
+    "Space Traffic Management",
+    "Space Situational Awareness"
+  ],
+  "status": "Effective",
+  "status_date": "2018-06-18",
+  "aligns": "Yes",
+  "effect": "Seeks to reduce the growing threat of orbital debris to the common interest of all nations; articulates the policy of the United States to pursue and utilize both Government and commercial sector technologies to track and monitor space debris; requires updates to the U.S. Orbital Debris Mitigation Standard Practices and new guidelines for satellite design and operation; sets guidelines for the United States to manage space traffic more effectively by spearheading new data sharing initiatives; recommends the provision of basic space situational awareness data and basic space traffic management services free of direct user fees; directs the DOC to make space safety data and services available to the public, while the DOD maintains the authoritative catalogue of space objects.",
+  "alignment_notes": "Aligns with pillar 1 because it recommends providing basic space situational awareness data and basic space traffic management services. It also would implement free data sharing to the public. Also aligns with pillar 2 because it would track and monitor space debris. Does not address pillar 3.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/presidential-actions/space-policy-directive-3-national-space-traffic-management-policy/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

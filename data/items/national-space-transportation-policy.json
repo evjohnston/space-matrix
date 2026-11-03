@@ -1,0 +1,26 @@
+{
+  "id": "national-space-transportation-policy",
+  "name": "National Space Transportation Policy",
+  "number": "National Security Presidential Memorandum 17",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Transportation Capabilities"
+  ],
+  "status": "Effective",
+  "status_date": "2026-08-20",
+  "aligns": "Yes",
+  "effect": "The United States must establish and maintain space transportation capabilities that ensure access to the full range of orbital regimes relevant to United States interests, from suborbital and very-low Earth orbit altitudes to the lunar surface, Lagrange points, and deep space. By 2030, our space transportation ranges must grow to support more than 1,000 launches and reentries every year. The Secretary of War and the Administrator of the National Aeronautics and Space Administration (NASA) shall operate Federal launch and reentry ranges and facilities in a transparent manner that accommodates government and non government users.",
+  "alignment_notes": "Aligns the most with Pillar 2 because it directs the Secretary of War and NASA to evaluate government needs for in-space transportation like debris removal. It also has the Secretary of Defense pursue on-orbit servicing and in-space logistics to help grow that industry, as recommended by the report. It aligns with Pillar 3 as well because it calls for policies meant to promote US space transportation capabilities and standards abroad.",
+  "gridlock": "",
+  "sponsors": "Michael Kratsios (Director of WH OSTP)",
+  "links": [
+    "https://www.whitehouse.gov/presidential-actions/2026/08/national-security-presidential-memorandum-nspm-17/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

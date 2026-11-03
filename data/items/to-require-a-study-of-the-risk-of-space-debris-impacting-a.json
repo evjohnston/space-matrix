@@ -1,0 +1,61 @@
+{
+  "id": "to-require-a-study-of-the-risk-of-space-debris-impacting-a",
+  "name": "To require a study of the risk of space debris impacting a metropolitan area, and for other purposes.",
+  "number": "H.R.5529",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Space Debris"
+  ],
+  "status": "Introduced; dead",
+  "status_date": "2023-09-18",
+  "aligns": "N/A",
+  "effect": "The Secretary of Commerce, in consultation with the Administrator of the Federal Emergency Management Agency, the Administrator of the National Aeronautics and Space Administration, and the Secretary of Defense, will conduct a study to examine the risk of space debris impacting a metropolitan area within the next 25 years.\n\nThe study will address the probability of a space-based, manmade object impacting a populated area exceeding 1 million inhabitants in the next 25 years, our ability to predict such an incident, our ability to warn the affected area depending on the amount of time needed to do so, the possibility of an evacuation process and how such a process would happen, how federal relief could be provided, including which agencies would be tasked with response, and options to defend against an imminent impact. \n\nNo later than 28 months after the enactment of this Act, the Secretary of Commerce will submit a report containing the results of the study to the House of Representatives Committees on Science, Space, and Technology; Homeland Security; Armed Services; and Energy and Commerce; and the Senate Committees on Commerce, Science, and Transportation; Homeland Security and Governmental Affairs; and Armed Services.",
+  "alignment_notes": "Analyzes the risk of space debris impacting a city within the next 25 years - does not explore ways to minimize this risk.",
+  "gridlock": "",
+  "sponsors": "Rep. George Santos [R-NY-3]",
+  "links": [
+    "https://www.congress.gov/bill/118th-congress/house-bill/5529"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 118,
+      "bill_type": "hr",
+      "number": "5529"
+    }
+  ],
+  "auto": {
+    "congress:118-hr-5529": {
+      "label": "HR 5529 (118th Congress)",
+      "title": "To require a study of the risk of space debris impacting a metropolitan area, and for other purposes.",
+      "introduced": "2023-09-18",
+      "latest_action_date": "2023-09-18",
+      "latest_action_text": "Referred to the House Committee on Science, Space, and Technology.",
+      "cosponsors": 0,
+      "sponsor": "Rep. Santos, George [R-NY-3]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Science, Space, and Technology Committee"
+      ],
+      "milestones": [
+        "1000",
+        "Intro-H"
+      ],
+      "actions": [
+        {
+          "date": "2023-09-18",
+          "type": "IntroReferral",
+          "chamber": "House",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/5529"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

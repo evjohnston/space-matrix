@@ -1,0 +1,75 @@
+name: Check for updates
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: check-updates
+  cancel-in-progress: false
+
+env:
+  BRANCH: bot/updates
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Continue the open review PR, or start fresh from main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "tracker-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          open_pr=$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number')
+          if [ -n "$open_pr" ]; then
+            # Build on top of the open PR so reviewer edits on that branch are kept.
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+            git merge --no-edit origin/main
+          else
+            git checkout -B "$BRANCH" origin/main
+          fi
+          echo "OPEN_PR=$open_pr" >> "$GITHUB_ENV"
+
+      - name: Poll official sources
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+        run: |
+          python scripts/check_updates.py
+          python scripts/discover.py
+
+      - name: Write review report
+        run: |
+          python scripts/report.py --base origin/main --out build/REPORT.md
+          cat build/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open or update the review PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -z "$(git status --porcelain data/)" ]; then
+            echo "No changes to official data."
+            exit 0
+          fi
+          git add data/
+          git commit -m "Official source updates $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force-with-lease origin "$BRANCH"
+          if [ -n "$OPEN_PR" ]; then
+            gh pr edit "$OPEN_PR" --body-file build/REPORT.md
+          else
+            gh pr create --base main --head "$BRANCH" \
+              --title "Tracker updates for review" --body-file build/REPORT.md
+          fi

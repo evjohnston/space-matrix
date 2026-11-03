@@ -1,0 +1,27 @@
+{
+  "id": "noaa-commercial-space-policy",
+  "name": "NOAA Commercial Space Policy",
+  "number": "NAO 217-109",
+  "kind": "regulatory",
+  "entity": "NOAA",
+  "issues": [
+    "Commercial Space System Regulation",
+    "Environmental Data"
+  ],
+  "status": "Effective",
+  "status_date": "2016-01-08",
+  "aligns": "N/A",
+  "effect": "NOAA will:\nSeek opportunities to integrate commercial space systems or services, where appropriate, into approved future space segment architectures and capabilities;\nExplore and, where appropriate, pursue demonstration projects to validate the viability of assimilating commercially provided environmental data and data products into NOAA meteorological models and add value to the forecast;\nPeriodically evaluate, identify, and publish NOAA mission requirements and capability gaps that offer appropriate opportunities for the purchase and use of commercial space capabilities and services;\nPeriodically solicit, identify, and evaluate commercially available space capabilities and services that could potentially address NOAA mission requirements;\nApply the same validation, data integrity, and security criteria to commercial data and data products as to those obtained by other means, before entering into any binding agreement for the purchase and utilization of observations to support the NOAA mission;\nDesignate the Office of Space Commerce as the NOAA entry point for commercial sector engagement;\nContinue to work with industry to evaluate and implement business models and legal mechanisms that allow NOAA priorities and requirements to be met with commercial capabilities.",
+  "alignment_notes": "Does not provide a framework for space sustainability or in-orbit tracking. Rather, calls for policy buying commercial weather and Earth-observation data.",
+  "gridlock": "",
+  "sponsors": "Kathryn D. Sullivan (NOAA Administrator)",
+  "links": [
+    "https://www.noaa.gov/organization/administration/nao-217-109-noaa-commercial-space-policy"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

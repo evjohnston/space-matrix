@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Space Sustainability Tracker</title>
+  <meta name="description" content="Live, reviewed tracker of U.S. legislation, executive actions, and rulemakings on space safety and sustainability.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-25 12 12)"/></svg>
+        <div>
+          <h1 id="title">Space Sustainability Legislation Matrix</h1>
+          <p class="sub">U.S. bills, executive actions &amp; rulemakings on space safety and sustainability</p>
+        </div>
+      </div>
+      <div class="top-right">
+        <span class="live" id="live"><span class="pulse"></span><span id="live-text">Loading…</span></span>
+        <button class="icon-btn" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="filterbar" role="search">
+    <div class="wrap filter-in">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span class="sr-only">Search</span>
+        <input id="q" type="search" placeholder="Search bills, sponsors, issues, actions…  ( / )" autocomplete="off">
+      </label>
+      <div class="seg" id="kind" role="group" aria-label="Type">
+        <button data-v="" aria-pressed="true">All</button>
+        <button data-v="legislation" aria-pressed="false"><i class="tdot t-legislation"></i>Legislation</button>
+        <button data-v="regulatory" aria-pressed="false"><i class="tdot t-regulatory"></i>Regulatory</button>
+        <button data-v="executive" aria-pressed="false"><i class="tdot t-executive"></i>Executive</button>
+      </div>
+      <select id="issue" aria-label="Issue"><option value="">All issues</option></select>
+      <select id="aligns" aria-label="Alignment">
+        <option value="">Any alignment</option>
+        <option value="Yes">Aligns</option>
+        <option value="No">Doesn’t align</option>
+        <option value="N/A">N/A</option>
+        <option value="Unassessed">Unassessed</option>
+      </select>
+    </div>
+    <div class="wrap chips" id="chips" hidden></div>
+  </div>
+
+  <main class="wrap">
+    <section class="kpis" id="kpis" aria-label="Key figures"></section>
+
+    <section class="grid g-top">
+      <article class="card span-2">
+        <header class="card-h">
+          <div>
+            <h2>Official activity</h2>
+            <p class="hint">Actions and Federal Register publications per month, last 24 months. Click a month to filter.</p>
+          </div>
+          <button class="ghost" id="act-toggle" aria-pressed="false">Table</button>
+        </header>
+        <div class="legend" id="act-legend"></div>
+        <div id="activity" class="chart"></div>
+      </article>
+      <article class="card">
+        <header class="card-h"><div><h2>Comment deadlines</h2><p class="hint">Open Federal Register comment periods</p></div></header>
+        <ol class="deadlines" id="deadlines"></ol>
+      </article>
+    </section>
+
+    <section class="grid g-mid">
+      <article class="card">
+        <header class="card-h"><div><h2>Legislative pipeline</h2><p class="hint">Furthest stage reached by any version of the bill</p></div></header>
+        <div id="pipeline" class="hbars"></div>
+      </article>
+      <article class="card">
+        <header class="card-h"><div><h2>Rulemaking &amp; executive status</h2><p class="hint">Regulatory and executive items by stage</p></div></header>
+        <div id="regstatus" class="hbars"></div>
+      </article>
+      <article class="card">
+        <header class="card-h"><div><h2>Alignment by issue</h2><p class="hint">Against the policy recommendations report</p></div></header>
+        <div class="legend" id="al-legend"></div>
+        <div id="alignment" class="stack-rows"></div>
+      </article>
+    </section>
+
+    <section class="grid g-main">
+      <article class="card tablecard">
+        <header class="card-h">
+          <div><h2>All items</h2><p class="hint" id="count"></p></div>
+        </header>
+        <div class="table-wrap">
+          <table class="tbl" id="tbl">
+            <thead>
+              <tr>
+                <th data-sort="name" scope="col">Item</th>
+                <th data-sort="stage" scope="col">Stage</th>
+                <th data-sort="activity" scope="col" aria-sort="descending">Latest official action</th>
+                <th data-sort="cosponsors" scope="col" class="num">Cosp.</th>
+                <th data-sort="aligns" scope="col">Alignment</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </article>
+      <aside class="card feedcard" aria-label="Latest official actions">
+        <header class="card-h"><div><h2>Latest official actions</h2><p class="hint">Across all filtered items</p></div></header>
+        <ol class="feed" id="feed"></ol>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Official data from the <a href="https://api.congress.gov/">Congress.gov API</a> and <a href="https://www.federalregister.gov/developers/documentation/api/v1">Federal Register API</a>, checked every six hours. Status wording and analysis are curated, and every change is reviewed before publication. Executive and agency actions without an API are reviewed by hand.</p>
+    <p id="generated"></p>
+  </footer>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="dr-title" hidden>
+    <div class="drawer-in" id="drawer-body"></div>
+  </aside>
+  <div class="tip" id="tip" role="tooltip" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

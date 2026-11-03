@@ -1,0 +1,26 @@
+{
+  "id": "cybersecurity-principles-for-space-systems",
+  "name": "Cybersecurity Principles for Space Systems",
+  "number": "SPD-5",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Cybersecurity"
+  ],
+  "status": "Effective",
+  "status_date": "2020-09-04",
+  "aligns": "N/A",
+  "effect": "Directs executive departments and agencies to foster practices within government space operations and across the commercial space industry to protect space assets and their supporting infrastructure from cyber threats and ensure continuity of operations.",
+  "alignment_notes": "Does not provide space sustainability frameworks. Rather, recommends practices to bolster cyber security.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/presidential-actions/memorandum-space-policy-directive-5-cybersecurity-principles-space-systems/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

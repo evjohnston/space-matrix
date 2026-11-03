@@ -1,0 +1,74 @@
+{
+  "id": "commercial-space-act-of-2023",
+  "name": "Commercial Space Act of 2023",
+  "number": "H.R. 6131",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Commercial Space System Regulation"
+  ],
+  "status": "Introduced; dead",
+  "status_date": "2023-11-29",
+  "aligns": "N/A",
+  "effect": "Would enhance the existing outer space authorization and supervision framework of the Federal Government to increase transparency and efficiency, reduce the administrative burden for nongovernmental U.S. entities seeking to conduct space activities, and ensure that the United States remains the world leader in commercial space activities.\n\nNo later than one year after the enactment of this Act, the Secretary will begin issuing certifications for the operation of a space object to any United States entity that submits an application, satisfying the requirements. \n\nBeginning on the date that is one year after the enactment of this Act, a United States entity may not operate a space object unless the entity holds a certification issued under this chapter for the operation of such space object, holds a valid covered license, and the entity is from the United States.\n\nThe Secretary will require only one certification for a United States entity to conduct multiple operations carried out using a single space object, operate multiple space objects that carry out substantially similar operations, or use multiple space objects to carry out a single space operation.\n\nTo be eligible, a United States entity must submit an application to the Secretary, and each application must include a space debris mitigation plan for the space object.",
+  "alignment_notes": "Facilitates authorization for private sector, does not provide any framework for how to practice space sustainability during this time of increased commercial space activity.",
+  "gridlock": "",
+  "sponsors": "Rep. Brian Babin [R-TX-36], Rep. Frank Lucas [R-OK-3], Rep. Bill Posey [R-FL-8], Rep. Mike Garcia [R-CA-27], Rep. Jay Obernolte [R-CA-23], Rep. Claudia Tenney [R-NY-24], Rep. Daniel Webster [R-FL-11], Rep. Scott Franklin [R-FL-18], Rep. Vince Fong [R-CA-20]",
+  "links": [
+    "https://www.congress.gov/118/crec/2023/11/01/169/180/CREC-2023-11-01.pdf",
+    "https://www.congress.gov/bill/118th-congress/house-bill/6131/text"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 118,
+      "bill_type": "hr",
+      "number": "6131"
+    }
+  ],
+  "auto": {
+    "congress:118-hr-6131": {
+      "label": "HR 6131 (118th Congress)",
+      "title": "Commercial Space Act of 2023",
+      "introduced": "2023-11-01",
+      "latest_action_date": "2023-11-29",
+      "latest_action_text": "Ordered to be Reported (Amended) by the Yeas and Nays: 21 - 17.",
+      "cosponsors": 8,
+      "sponsor": "Rep. Babin, Brian [R-TX-36]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Science, Space, and Technology Committee"
+      ],
+      "milestones": [
+        "1000",
+        "Intro-H"
+      ],
+      "actions": [
+        {
+          "date": "2023-11-29",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 21 - 17."
+        },
+        {
+          "date": "2023-11-29",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Committee Consideration and Mark-up Session Held"
+        },
+        {
+          "date": "2023-11-01",
+          "type": "IntroReferral",
+          "chamber": "House",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/6131"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

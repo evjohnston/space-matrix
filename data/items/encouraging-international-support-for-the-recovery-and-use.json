@@ -1,0 +1,42 @@
+{
+  "id": "encouraging-international-support-for-the-recovery-and-use",
+  "name": "Encouraging International Support for the Recovery and Use of Space Resources",
+  "number": "E.O. 13914",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Space Exploration and Use of Space Resources"
+  ],
+  "status": "Effective",
+  "status_date": "2020-04-06",
+  "aligns": "N/A",
+  "effect": "Commercial partners will participate in an “innovative and sustainable program” headed by the United States to “lead the return of humans to the Moon for long-term exploration and utilization. Successful long-term exploration and scientific discovery of the Moon, Mars, and other celestial bodies will require partnership with commercial entities to recover and use resources in outer space. The United States is not a party to the Moon Agreement. Further, the United States does not consider the Moon Agreement to be an effective or necessary instrument to guide nation states regarding the promotion of commercial participation in the long-term exploration, scientific discovery, and use of the Moon, Mars, or other celestial bodies. The Secretary of State shall take all appropriate actions to encourage international support for the public and private recovery and use of resources in outer space",
+  "alignment_notes": "Does not provide space sustainability frameworks. Rather, encourages participation in a program that returns humans to the Moon and calls for resource extraction in outer space.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://www.federalregister.gov/documents/2020/04/10/2020-07800/encouraging-international-support-for-the-recovery-and-use-of-space-resources"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2020-07800"
+    }
+  ],
+  "auto": {
+    "fr_document:2020-07800": {
+      "label": "Federal Register 2020-07800",
+      "title": "Encouraging International Support for the Recovery and Use of Space Resources",
+      "type": "Presidential Document",
+      "action": "",
+      "published": "2020-04-10",
+      "comments_close": "",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2020/04/10/2020-07800/encouraging-international-support-for-the-recovery-and-use-of-space-resources"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

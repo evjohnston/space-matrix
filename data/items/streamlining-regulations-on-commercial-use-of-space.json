@@ -1,0 +1,26 @@
+{
+  "id": "streamlining-regulations-on-commercial-use-of-space",
+  "name": "Streamlining Regulations on Commercial Use of Space",
+  "number": "SPD-2",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Commercial Space System Regulation"
+  ],
+  "status": "Effective",
+  "status_date": "2018-08-24",
+  "aligns": "Yes",
+  "effect": "Requires DOT to review licensing and regulations for launch and re-entry of commercial space vehicles; directs Transportation Secretary to consider implementing a single blanket license for commercial spaceflight and replacing existing prescriptive requirements in the licensing process with performance-based criteria; directs SECDEF and NASA Administrator to minimize regulatory requirements for commercial spaceflight launches and re-entry operations from federal government ranges",
+  "alignment_notes": "This legislation aligns with pillar 1 by calling for a civil space situational awareness and traffic coordination system treated as critical national infrastructure like air traffic control, with secure and sustained funding from Congress. Does not address pillars 2 or 3.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://trumpwhitehouse.archives.gov/presidential-actions/space-policy-directive-2-streamlining-regulations-commercial-use-space/"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "overpressure-blast-effects-analysis-burden-reducing",
+  "name": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
+  "number": "Docket No. FAA-2026-9941",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Licensing"
+  ],
+  "status": "Proposed rule open to comments",
+  "status_date": "2026-10-09",
+  "aligns": "N/A",
+  "effect": "Proposes to amend the regulations to state that a far-field overpressure blast effects analysis required for license applicants does not need to account for members of the public in hypothetical locations",
+  "alignment_notes": "Streamlines launch approvals, but focuses primarily on airspace safety rather than orbital lifecycle tracking or on-orbit maneuver intent",
+  "gridlock": "",
+  "sponsors": "Lisa Cacciatore (FAA Office of Commercial Space Transportation)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-20392"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2026-9941"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-20392": {
+      "label": "Federal Register 2026-20392",
+      "title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
+      "type": "Proposed Rule",
+      "action": "Notice of proposed rulemaking (NPRM).",
+      "published": "2026-10-05",
+      "comments_close": "2026-11-04",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification"
+    },
+    "fr_docket:FAA-2026-9941": {
+      "label": "Docket FAA-2026-9941",
+      "documents": [
+        "2026-20392"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of proposed rulemaking (NPRM).",
+      "latest_date": "2026-10-05",
+      "latest_title": "Overpressure Blast Effects Analysis Burden Reducing Clarification",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20392/overpressure-blast-effects-analysis-burden-reducing-clarification"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

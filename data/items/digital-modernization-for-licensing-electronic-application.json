@@ -1,0 +1,57 @@
+{
+  "id": "digital-modernization-for-licensing-electronic-application",
+  "name": "Digital Modernization for Licensing Electronic Application Submissions",
+  "number": "Docket No. FAA-2026-9935",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Licensing"
+  ],
+  "status": "Proposed rule open to comments",
+  "status_date": "2026-10-08",
+  "aligns": "N/A",
+  "effect": "FAA proposes to amend its commercial space launch and reentry licensing regulations to allow for submission of license and permit applications and requests for waivers, alternative time frames, and safety element approvals through additional electronic methods",
+  "alignment_notes": "Streamlines launch approvals, but focuses primarily on airspace safety rather than orbital lifecycle tracking or on-orbit maneuver intent",
+  "gridlock": "",
+  "sponsors": "Lisa Cacciatore (FAA Office of Commercial Space Transportation)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/10/05/2026-20387/digital-modernization-for-licensing-electronic-application-submissions"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-20387"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2026-9935"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-20387": {
+      "label": "Federal Register 2026-20387",
+      "title": "Digital Modernization for Licensing Electronic Application Submissions",
+      "type": "Proposed Rule",
+      "action": "Notice of proposed rulemaking (NPRM).",
+      "published": "2026-10-05",
+      "comments_close": "2026-11-04",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20387/digital-modernization-for-licensing-electronic-application-submissions"
+    },
+    "fr_docket:FAA-2026-9935": {
+      "label": "Docket FAA-2026-9935",
+      "documents": [
+        "2026-20387"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of proposed rulemaking (NPRM).",
+      "latest_date": "2026-10-05",
+      "latest_title": "Digital Modernization for Licensing Electronic Application Submissions",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20387/digital-modernization-for-licensing-electronic-application-submissions"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

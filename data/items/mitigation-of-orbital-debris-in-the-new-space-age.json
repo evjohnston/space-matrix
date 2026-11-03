@@ -1,0 +1,26 @@
+{
+  "id": "mitigation-of-orbital-debris-in-the-new-space-age",
+  "name": "Mitigation of Orbital Debris in the New Space Age",
+  "number": "Docket No. 18-313",
+  "kind": "regulatory",
+  "entity": "FCC",
+  "issues": [
+    "Deorbiting"
+  ],
+  "status": "Effective",
+  "status_date": "2022-09-29",
+  "aligns": "Yes",
+  "effect": "Adopts new rules requiring satellite operators in low-Earth orbit to dispose of their satellites within 5 years of completing their missions",
+  "alignment_notes": "Aligns with Pillar 1: serves as a key regulatory foundation for maintaining LEO orbital carrying capacity",
+  "gridlock": "",
+  "sponsors": "Jessica Rosenworcel (FCC Chairwoman), Geoffrey Starks (FCC Commissioner), Nathan Simington (FCC Commissioner)",
+  "links": [
+    "https://www.fcc.gov/document/fcc-adopts-new-5-year-rule-deorbiting-satellites-0"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

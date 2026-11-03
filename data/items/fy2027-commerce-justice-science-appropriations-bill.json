@@ -1,0 +1,67 @@
+{
+  "id": "fy2027-commerce-justice-science-appropriations-bill",
+  "name": "FY2027 Commerce, Justice, Science Appropriations Bill",
+  "number": "",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Space Situational Awareness",
+    "Appropriations"
+  ],
+  "status": "Approved by House Appropriations Committee; Senate committee action pending; government operating under a continuing resolution through 12/11/2026",
+  "status_date": "2026-05-13",
+  "aligns": "Yes",
+  "effect": "Provides $50M for the Office of Space Commerce (within NOAA), well above the $11M requested, and directs continuation of TraCSS.",
+  "alignment_notes": "Aligns with Pillar 1: Restores funding for the civil SSA/STC backbone the report says Congress should fund securely and sustainably.",
+  "gridlock": "",
+  "sponsors": "House Appropriations Committee Chairman Rep. Tom Cole [R-OK-4]",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/house-bill/8845"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "hr",
+      "number": "8845"
+    }
+  ],
+  "auto": {
+    "congress:119-hr-8845": {
+      "label": "HR 8845 (119th Congress)",
+      "title": "Commerce, Justice, Science, and Related Agencies Appropriations Act, 2027",
+      "introduced": "2026-05-15",
+      "latest_action_date": "2026-05-15",
+      "latest_action_text": "Placed on the Union Calendar, Calendar No. 567.",
+      "cosponsors": 0,
+      "sponsor": "Rep. Rogers, Harold [R-KY-5]",
+      "law": "",
+      "policy_area": "Economics and Public Finance",
+      "committees": [
+        "Appropriations Committee"
+      ],
+      "milestones": [
+        "1010"
+      ],
+      "actions": [
+        {
+          "date": "2026-05-15",
+          "type": "Calendars",
+          "chamber": "House",
+          "text": "Placed on the Union Calendar, Calendar No. 567."
+        },
+        {
+          "date": "2026-05-15",
+          "type": "Committee",
+          "chamber": "House",
+          "text": "The House Committee on Appropriations reported an original measure, H. Rept. 119-652, by Mr. Rogers (KY)."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8845"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

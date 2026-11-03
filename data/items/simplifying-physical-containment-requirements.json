@@ -1,0 +1,57 @@
+{
+  "id": "simplifying-physical-containment-requirements",
+  "name": "Simplifying Physical Containment Requirements",
+  "number": "Docket No. FAA-2026-9934",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Licensing"
+  ],
+  "status": "Proposed rule open to comments",
+  "status_date": "2026-10-06",
+  "aligns": "N/A",
+  "effect": "Proposes to relieve the burden by specifying that, when using physical containment as a hazard control strategy, operators do not need to develop flight hazard areas in accordance with FAA's existing flight hazard area analysis requirements",
+  "alignment_notes": "Streamlines launch approvals, but focuses primarily on airspace safety rather than orbital lifecycle tracking or on-orbit maneuver intent",
+  "gridlock": "",
+  "sponsors": "Lisa Cacciatore (FAA Office of Commercial Space Transportation)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/10/05/2026-20386/simplifying-physical-containment-requirements"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-20386"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2026-9934"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-20386": {
+      "label": "Federal Register 2026-20386",
+      "title": "Simplifying Physical Containment Requirements",
+      "type": "Proposed Rule",
+      "action": "Notice of proposed rulemaking (NPRM).",
+      "published": "2026-10-05",
+      "comments_close": "2026-11-04",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20386/simplifying-physical-containment-requirements"
+    },
+    "fr_docket:FAA-2026-9934": {
+      "label": "Docket FAA-2026-9934",
+      "documents": [
+        "2026-20386"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of proposed rulemaking (NPRM).",
+      "latest_date": "2026-10-05",
+      "latest_title": "Simplifying Physical Containment Requirements",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20386/simplifying-physical-containment-requirements"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

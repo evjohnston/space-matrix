@@ -1,0 +1,73 @@
+{
+  "id": "nasa-reauthorization-act-of-2026",
+  "name": "NASA Reauthorization Act of 2026",
+  "number": "H.R. 7273",
+  "kind": "legislation",
+  "entity": "NASA, Executive",
+  "issues": [
+    "NASA technology R&D, space safety, and commercial LEO platform transition"
+  ],
+  "status": "Reported by House Committee on Science, Space, and Technology; Placed on Union Calendar",
+  "status_date": "2026-02-04",
+  "aligns": "Yes",
+  "effect": "This bill reauthorizes through FY2026 NASA's programs and activities, specifically directing continued planning for the eventual deorbit of the International Space Station (ISS) and planning for lunar and Mars exploration missions. It provides statutory authority for NASA's acquisition of ISS deorbit capabilities from a commercial entity and specifies that NASA must not, to the greatest extent practicable, reduce or deprioritize ISS activities. It also requires NASA to continue researching advanced air mobility, unmanned aircraft systems (i.e., drones), and hypersonic technologies.",
+  "alignment_notes": "Aligns with Pillar 2: supports investment in R&D activities aimed at mitigating the hazards posed by orbital debris and improving the characterization and modeling of the space environment",
+  "gridlock": "",
+  "sponsors": "Rep. Frank Lucas [R-OK], Rep. Zoe Lofgren [D-CA]",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/house-bill/7273"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "hr",
+      "number": "7273"
+    }
+  ],
+  "auto": {
+    "congress:119-hr-7273": {
+      "label": "HR 7273 (119th Congress)",
+      "title": "NASA Reauthorization Act of 2026",
+      "introduced": "2026-01-30",
+      "latest_action_date": "2026-02-04",
+      "latest_action_text": "Ordered to be Reported (Amended) by the Yeas and Nays: 37 - 0.",
+      "cosponsors": 3,
+      "sponsor": "Rep. Babin, Brian [R-TX-36]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Science, Space, and Technology Committee"
+      ],
+      "milestones": [
+        "1000",
+        "Intro-H"
+      ],
+      "actions": [
+        {
+          "date": "2026-02-04",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 37 - 0."
+        },
+        {
+          "date": "2026-02-04",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Committee Consideration and Mark-up Session Held"
+        },
+        {
+          "date": "2026-01-30",
+          "type": "IntroReferral",
+          "chamber": "House",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7273"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

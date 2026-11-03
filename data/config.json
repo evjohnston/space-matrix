@@ -1,0 +1,10 @@
+{
+  "site_title": "Space Sustainability Legislation Matrix",
+  "stale_after_days": 90,
+  "discovery": {
+    "lookback_days": 3,
+    "max_pages": 40,
+    "include_pattern": "\\b(outer space|space|spacecraft|spaceport|satellites?|NASA|lunar|cislunar|orbit(al|s)?|astronauts?|launch vehicles?|planetary|geostationary|reentry|space ?force|aerospace)\\b",
+    "exclude_pattern": "\\b(open|green|office|parking|work|living|public|outdoor|air|retail|storage|commercial office) ?space"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "lightning-hazard-mitigation-burden-reducing-exception",
+  "name": "Lightning Hazard Mitigation Burden-Reducing Exception",
+  "number": "Docket No. FAA-2026-9940",
+  "kind": "regulatory",
+  "entity": "FAA, DOT",
+  "issues": [
+    "Licensing"
+  ],
+  "status": "Proposed rule open to comments",
+  "status_date": "2026-10-07",
+  "aligns": "N/A",
+  "effect": "Proposes to add an exception for compliance with lightning hazard mitigation requirements for certain licensed launch and reentry operations",
+  "alignment_notes": "Streamlines launch approvals, but focuses primarily on airspace safety rather than orbital lifecycle tracking or on-orbit maneuver intent",
+  "gridlock": "",
+  "sponsors": "Lisa Cacciatore (FAA Office of Commercial Space Transportation)",
+  "links": [
+    "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2026-20391"
+    },
+    {
+      "type": "fr_docket",
+      "docket": "FAA-2026-9940"
+    }
+  ],
+  "auto": {
+    "fr_document:2026-20391": {
+      "label": "Federal Register 2026-20391",
+      "title": "Lightning Hazard Mitigation Burden-Reducing Exception",
+      "type": "Proposed Rule",
+      "action": "Notice of proposed rulemaking (NPRM).",
+      "published": "2026-10-05",
+      "comments_close": "2026-11-04",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception"
+    },
+    "fr_docket:FAA-2026-9940": {
+      "label": "Docket FAA-2026-9940",
+      "documents": [
+        "2026-20391"
+      ],
+      "latest_type": "Proposed Rule",
+      "latest_action": "Notice of proposed rulemaking (NPRM).",
+      "latest_date": "2026-10-05",
+      "latest_title": "Lightning Hazard Mitigation Burden-Reducing Exception",
+      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20391/lightning-hazard-mitigation-burden-reducing-exception"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

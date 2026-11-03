@@ -1,0 +1,251 @@
+{
+  "id": "accessing-satellite-capabilities-to-enable-new-discoveries",
+  "name": "Accessing Satellite Capabilities to Enable New Discoveries (ASCEND) Act",
+  "number": "H.R. 2600 / S. 1437",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Commercial Satellite Data Acquisition",
+    "Orbital Safety"
+  ],
+  "status": "Passed House; Placed on Senate Legislative Calendar under General Orders",
+  "status_date": "2026-02-24",
+  "aligns": "N/A",
+  "effect": "This bill provides statutory authority for the Commercial SmallSat Data Acquisition (CSDA) program run by the National Aeronautics and Space Administration (NASA). Through the CSDA program, NASA acquires remote sensing data and imagery from commercial satellites to support its Earth science research. (Remote sensing generally refers to the collection of data by instruments in Earth’s orbit, such as satellites, that can be processed into imagery of Earth’s surface.)\n\nUnder the bill, NASA may establish or modify end-use agreements to allow for broad use of data and imagery acquired under the program, including by individuals outside of NASA (e.g., other federal agencies). The terms of any data or imagery acquisition may not prevent the publication of such data or imagery for scientific purposes or the publication of information derived from it. To the extent practicable, NASA must acquire such data and imagery from U.S. vendors.",
+  "alignment_notes": "Does not provide a framework for space sustainability. Rather, it focuses on NOAA weather/earth science research and forecasting and aims to expand commercial opportunities for providing weather data.",
+  "gridlock": "",
+  "sponsors": "Rep. Brian Babin [R-TX], Sen. John Hickenlooper [D-CO]",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/senate-bill/3923"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "3923"
+    },
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "hr",
+      "number": "2600"
+    },
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "1437"
+    }
+  ],
+  "auto": {
+    "congress:119-s-3923": {
+      "label": "S 3923 (119th Congress)",
+      "title": "Weather Research and Forecasting Innovation Reauthorization Act of 2026",
+      "introduced": "2026-02-25",
+      "latest_action_date": "2026-09-28",
+      "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 685.",
+      "cosponsors": 11,
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "law": "",
+      "policy_area": "Public Lands and Natural Resources",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000",
+        "14000"
+      ],
+      "actions": [
+        {
+          "date": "2026-09-28",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 685."
+        },
+        {
+          "date": "2026-09-28",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with amendments. With written report No. 119-154."
+        },
+        {
+          "date": "2026-03-04",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with amendments favorably."
+        },
+        {
+          "date": "2026-02-25",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3923"
+    },
+    "congress:119-hr-2600": {
+      "label": "HR 2600 (119th Congress)",
+      "title": "ASCEND Act",
+      "introduced": "2025-04-02",
+      "latest_action_date": "2026-02-24",
+      "latest_action_text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344.",
+      "cosponsors": 6,
+      "sponsor": "Rep. Hurd, Jeff [R-CO-3]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Science, Space, and Technology Committee"
+      ],
+      "milestones": [
+        "1000",
+        "5000",
+        "8000",
+        "Intro-H"
+      ],
+      "actions": [
+        {
+          "date": "2026-02-24",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 344."
+        },
+        {
+          "date": "2026-02-23",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Motion to reconsider laid on the table Agreed to without objection."
+        },
+        {
+          "date": "2026-02-23",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H2242-2243)"
+        },
+        {
+          "date": "2026-02-23",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 2600."
+        },
+        {
+          "date": "2026-02-23",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Considered under suspension of the rules. (consideration: CR H2242-2244)"
+        },
+        {
+          "date": "2026-02-23",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Mr. Babin moved to suspend the rules and pass the bill, as amended."
+        },
+        {
+          "date": "2026-02-20",
+          "type": "Calendars",
+          "chamber": "House",
+          "text": "Placed on the Union Calendar, Calendar No. 428."
+        },
+        {
+          "date": "2026-02-20",
+          "type": "Committee",
+          "chamber": "House",
+          "text": "Reported by the Committee on Science, Space, and Technology. H. Rept. 119-502."
+        },
+        {
+          "date": "2025-04-29",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Ordered to be Reported by Voice Vote."
+        },
+        {
+          "date": "2025-04-29",
+          "type": "Committee",
+          "chamber": "House committee actions",
+          "text": "Committee Consideration and Mark-up Session Held"
+        },
+        {
+          "date": "2025-04-02",
+          "type": "IntroReferral",
+          "chamber": "House",
+          "text": "Referred to the House Committee on Science, Space, and Technology."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2600"
+    },
+    "congress:119-s-1437": {
+      "label": "S 1437 (119th Congress)",
+      "title": "ASCEND Act",
+      "introduced": "2025-04-10",
+      "latest_action_date": "2025-12-10",
+      "latest_action_text": "Held at the desk.",
+      "cosponsors": 1,
+      "sponsor": "Sen. Hickenlooper, John W. [D-CO]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000",
+        "14000",
+        "17000"
+      ],
+      "actions": [
+        {
+          "date": "2025-12-10",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Held at the desk."
+        },
+        {
+          "date": "2025-12-10",
+          "type": "Floor",
+          "chamber": "House",
+          "text": "Received in the House."
+        },
+        {
+          "date": "2025-12-10",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Message on Senate action sent to the House."
+        },
+        {
+          "date": "2025-12-09",
+          "type": "Floor",
+          "chamber": "Senate",
+          "text": "Passed Senate with an amendment by Unanimous Consent. (consideration: CR S8581; text: CR S8581)"
+        },
+        {
+          "date": "2025-09-29",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 173."
+        },
+        {
+          "date": "2025-09-29",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-68."
+        },
+        {
+          "date": "2025-04-30",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        },
+        {
+          "date": "2025-04-10",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1437"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

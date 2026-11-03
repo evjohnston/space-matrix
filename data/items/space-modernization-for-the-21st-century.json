@@ -1,0 +1,26 @@
+{
+  "id": "space-modernization-for-the-21st-century",
+  "name": "Space Modernization for the 21st Century",
+  "number": "Docket No. 25-306",
+  "kind": "regulatory",
+  "entity": "FCC",
+  "issues": [
+    "Licensing"
+  ],
+  "status": "Effective",
+  "status_date": "2026-07-22",
+  "aligns": "Yes",
+  "effect": "The Order overhauls the Commission's rules for licensing space and earth stations by replacing part 25 with a new rule part—part 100—that creates a \"licensing assembly line\" to process applications with greater speed and predictability. Part 100 allows an applicant to apply for a geostationary-orbit (GSO) system, a non-geostationary orbit (NGSO) system, a Variable Trajectory Space Station (VTSS) system, or a Multi-orbit Satellite System (MOSS). The GSO system application will now allow for multiple satellites operating together at a single orbital location in line with innovative new designs that industry is pursuing. The VTSS category will allow for requests that may not cleanly fit into the other categories, but represent a growing area of the space economy.",
+  "alignment_notes": "Aligns with Pillar 1: Modernizes domestic space licensing; requires all space station licensees and market access grantees to share ephemeris data, characterized by the FCC as a \"meaningful step towards enhancing space safety\"",
+  "gridlock": "",
+  "sponsors": "Brendan Carr (FCC Chairman), Olivia Trusty (FCC Commissioner)",
+  "links": [
+    "https://www.fcc.gov/document/space-modernization-21st-century-nprm"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

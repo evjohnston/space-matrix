@@ -1,0 +1,66 @@
+{
+  "id": "satellite-and-telecommunications-sat-streamlining-act",
+  "name": "Satellite and Telecommunications (SAT) Streamlining Act",
+  "number": "S. 3639",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Satellite Licensing"
+  ],
+  "status": "Placed on Senate Calendar",
+  "status_date": "2026-02-12",
+  "aligns": "Unassessed",
+  "effect": "Expedites processing of satellite and space licenses, updates the Federal Communications Commission’s (FCC) application process, and removes regulatory barriers and uncertainty that could threaten investments in the United States’ commercial satellite industry.",
+  "alignment_notes": "Aligns partly with Pillar 1 as it aims to speed up the FCC’s processing of satellite and space licenses, but does not provide a framework for in-orbit tracking, debris remediation, or international standards. Does not address pillars 2 or 3.",
+  "gridlock": "",
+  "sponsors": "Sen. Ted Cruz [R-TX], Sen. Peter Welch [D-VT]",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/senate-bill/3639"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "3639"
+    }
+  ],
+  "auto": {
+    "congress:119-s-3639": {
+      "label": "S 3639 (119th Congress)",
+      "title": "SAT Streamlining Act",
+      "introduced": "2026-01-14",
+      "latest_action_date": "2026-02-12",
+      "latest_action_text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+      "cosponsors": 9,
+      "sponsor": "Sen. Cruz, Ted [R-TX]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000"
+      ],
+      "actions": [
+        {
+          "date": "2026-02-12",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably."
+        },
+        {
+          "date": "2026-01-14",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3639"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

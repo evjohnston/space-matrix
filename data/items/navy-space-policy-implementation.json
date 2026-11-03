@@ -1,0 +1,26 @@
+{
+  "id": "navy-space-policy-implementation",
+  "name": "Navy Space Policy Implementation",
+  "number": "OPNAV INSTRUCTION 5400.43C",
+  "kind": "regulatory",
+  "entity": "Department of Defense",
+  "issues": [
+    "Organization, Operations"
+  ],
+  "status": "Effective",
+  "status_date": "2025-05-01",
+  "aligns": "N/A",
+  "effect": "To identify Navy organizational roles and responsibilities that implement Department of Defense (DoD) and Department of the Navy (DON) space policies per references (a) and (b) and to provide an organizational structure for requirements identification and prioritization; planning, programming, budgeting, and execution per reference (c); space-related education and training; and coordination of space issues relevant to national security space and the advancement of Navy warfighting needs.",
+  "alignment_notes": "Does not provide a framework for space sustainability. Rather, identifies and provides structure for warfighting in space.",
+  "gridlock": "",
+  "sponsors": "Karl O. Thomas (Deputy Chief of Naval Operations for Information Warfare)",
+  "links": [
+    "https://csps.aerospace.org/sites/default/files/2025-10/Navy%20Space%20Policy%20Implementation%20OPNAV%205400.43C%20%281%20May%202025%29.pdf"
+  ],
+  "tracking": [],
+  "auto": {},
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

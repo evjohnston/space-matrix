@@ -1,0 +1,42 @@
+{
+  "id": "reinvigorating-america-s-human-space-exploration-program",
+  "name": "Reinvigorating America's Human Space Exploration Program",
+  "number": "SPD-1 (82 FR 59501)",
+  "kind": "executive",
+  "entity": "Executive",
+  "issues": [
+    "Space Exploration"
+  ],
+  "status": "Effective",
+  "status_date": "2017-12-14",
+  "aligns": "N/A",
+  "effect": "Amends Presidential Policy Directive-4 (2010), articulating a direct call for space missions beyond LEO, specifically to the Moon and eventually to Mars and other celestial bodies.",
+  "alignment_notes": "Calls for more space missions but does not provide a space sustainability framework.",
+  "gridlock": "",
+  "sponsors": "Scott Pace (Deputy Assistant to the President & Executive Secretary of the National Space Council)",
+  "links": [
+    "https://www.federalregister.gov/documents/2017/12/14/2017-27160/reinvigorating-americas-human-space-exploration-program"
+  ],
+  "tracking": [
+    {
+      "type": "fr_document",
+      "document": "2017-27160"
+    }
+  ],
+  "auto": {
+    "fr_document:2017-27160": {
+      "label": "Federal Register 2017-27160",
+      "title": "Reinvigorating America's Human Space Exploration Program",
+      "type": "Presidential Document",
+      "action": "",
+      "published": "2017-12-14",
+      "comments_close": "",
+      "effective": "",
+      "url": "https://www.federalregister.gov/documents/2017/12/14/2017-27160/reinvigorating-americas-human-space-exploration-program"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}

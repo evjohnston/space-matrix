@@ -1,0 +1,79 @@
+{
+  "id": "orbits-act",
+  "name": "ORBITS Act",
+  "number": "S. 1898",
+  "kind": "legislation",
+  "entity": "Congress",
+  "issues": [
+    "Orbital Debris"
+  ],
+  "status": "Placed on Senate Legislative Calendar under General Orders",
+  "status_date": "2026-06-18",
+  "aligns": "Yes",
+  "effect": "1. This bill requires specified agencies to support research and develop guidance on the remediation of orbital debris.\n2. The Department of Commerce must maintain a list of orbital debris to remediate to improve space safety and sustainability. NASA must establish a demonstration project to make competitive awards for research and development leading to the remediation of listed debris. NASA must select and partner with an entity to carry out a demonstration mission using technology capable of on-orbit remediation. After the first mission, NASA must make recommendations to Congress to improve debris remediation.\n3. NASA and other relevant agencies would be permitted to contract for orbital debris remediation services.\n4. The National Space Council and specified agencies must coordinate to update the existing U.S. Government Orbital Debris Mitigation Standard Practices, considering planned space systems and addressing factors including collision risk and post-mission space system disposal. The updated standard practices will inform future federal regulations of orbital debris and international discussions about nongovernment space activities.\n5. Commerce must coordinate with specified federal entities to facilitate the development of standard practices for coordinating space traffic and promote their adoption and use for domestic and international space missions.",
+  "alignment_notes": "The report Space Safety and Sustainability, Part II: Policy Recommendations states that Congress should implement bills like this one because of the authorities it would implement and fund to support debris remediation demonstrations. It aligns with pillar 2 in particular because it tracks space debris and calls for its remediation. Aligns with pillar 3 in that it pushes for the adoption of US practices for international space missions. Does not address pillar 1.",
+  "gridlock": "",
+  "sponsors": "Sen. John Hickenlooper (D-CO), Sen. Maria Cantwell (D-WA), Sen. Cynthia Lummis (R-WY), and Sen. Roger Wicker (R-MS)",
+  "links": [
+    "https://www.congress.gov/bill/119th-congress/senate-bill/1898"
+  ],
+  "tracking": [
+    {
+      "type": "congress",
+      "congress": 119,
+      "bill_type": "s",
+      "number": "1898"
+    }
+  ],
+  "auto": {
+    "congress:119-s-1898": {
+      "label": "S 1898 (119th Congress)",
+      "title": "ORBITS Act of 2025",
+      "introduced": "2025-05-22",
+      "latest_action_date": "2026-06-18",
+      "latest_action_text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 440.",
+      "cosponsors": 3,
+      "sponsor": "Sen. Hickenlooper, John W. [D-CO]",
+      "law": "",
+      "policy_area": "Science, Technology, Communications",
+      "committees": [
+        "Commerce, Science, and Transportation Committee"
+      ],
+      "milestones": [
+        "10000",
+        "14000"
+      ],
+      "actions": [
+        {
+          "date": "2026-06-18",
+          "type": "Calendars",
+          "chamber": "Senate",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 440."
+        },
+        {
+          "date": "2026-06-18",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz without amendment. With written report No. 119-128."
+        },
+        {
+          "date": "2026-02-12",
+          "type": "Committee",
+          "chamber": "Senate",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported without amendment favorably."
+        },
+        {
+          "date": "2025-05-22",
+          "type": "IntroReferral",
+          "chamber": "Senate",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+        }
+      ],
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1898"
+    }
+  },
+  "review": {
+    "last_reviewed": "2026-11-03",
+    "notes": ""
+  }
+}
