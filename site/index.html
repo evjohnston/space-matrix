@@ -7,32 +7,45 @@
   <meta name="description" content="Live, reviewed tracker of U.S. legislation, executive actions, and rulemakings on space safety and sustainability.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap topbar-in">
-      <div class="brand">
-        <svg class="logo" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-25 12 12)"/></svg>
-        <div>
-          <h1 id="title">Space Sustainability Legislation Matrix</h1>
-          <p class="sub">U.S. bills, executive actions &amp; rulemakings on space safety and sustainability</p>
-        </div>
-      </div>
-      <div class="top-right">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-check" viewBox="0 0 16 16"><path d="M3 8.5 6.5 12 13 4.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square"/></symbol>
+    <symbol id="i-play" viewBox="0 0 16 16"><path d="M5 3.5v9l7.5-4.5z" fill="currentColor"/></symbol>
+    <symbol id="i-x" viewBox="0 0 16 16"><path d="m4 4 8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 16 16"><path d="M8 1.8 15 14.2H1z" fill="currentColor"/><path d="M8 6v4" stroke="var(--alert-ink, #fff)" stroke-width="1.8"/><rect x="7.1" y="11.2" width="1.8" height="1.8" fill="var(--alert-ink, #fff)"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></symbol>
+    <symbol id="i-pencil" viewBox="0 0 16 16"><path d="m10.5 2.5 3 3L6 13H3v-3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 16 16"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2.2"/></symbol>
+    <symbol id="i-search" viewBox="0 0 16 16"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m10.5 10.5 3.5 3.5" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 16 16"><path d="M13.5 9.6A5.8 5.8 0 0 1 6.4 2.5a5.8 5.8 0 1 0 7.1 7.1z" fill="currentColor"/></symbol>
+  </svg>
+
+  <header class="shell">
+    <div class="wrap shell-in">
+      <a class="brand" href="#" aria-label="Space Sustainability Tracker, home">
+        <span id="title">Space Sustainability <em>Tracker</em></span>
+      </a>
+      <nav class="tabs" aria-label="Views">
+        <a href="#" class="tab" data-view="matrix" aria-current="page">Matrix <span class="tab-n" id="tab-n-matrix"></span></a>
+        <a href="#watchlist" class="tab" data-view="watch">Watchlist <span class="tab-n" id="tab-n-watch"></span></a>
+      </nav>
+      <div class="shell-r">
         <span class="live" id="live"><span class="pulse"></span><span id="live-text">Loading…</span></span>
-        <button class="icon-btn" id="theme" aria-label="Toggle dark mode" title="Toggle dark mode">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
-        </button>
+        <div class="account" id="account" hidden></div>
+        <button class="icon-btn" id="theme" aria-label="Switch light or dark" title="Switch light or dark"><svg class="ic"><use href="#i-moon"/></svg></button>
       </div>
     </div>
   </header>
 
+  <div id="view-matrix">
+  <section class="cuebar" aria-label="What needs attention now"><div class="wrap cue-in" id="kpis"></div></section>
   <div class="filterbar" role="search">
     <div class="wrap filter-in">
       <label class="search">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg>
         <span class="sr-only">Search</span>
         <input id="q" type="search" placeholder="Search bills, sponsors, issues, actions…  ( / )" autocomplete="off">
       </label>
@@ -55,9 +68,32 @@
   </div>
 
   <main class="wrap">
-    <section class="kpis" id="kpis" aria-label="Key figures"></section>
-
-    <section class="grid g-top">
+    <section class="grid g-main">
+      <article class="card tablecard">
+        <header class="card-h">
+          <div><h2>The matrix</h2><p class="hint" id="count"></p></div>
+        </header>
+        <div class="table-wrap">
+          <table class="tbl" id="tbl">
+            <thead>
+              <tr>
+                <th data-sort="name" scope="col">Item</th>
+                <th data-sort="stage" scope="col">Stage</th>
+                <th data-sort="activity" scope="col" aria-sort="descending">Latest official action</th>
+                <th data-sort="cosponsors" scope="col" class="num">Cosp.</th>
+                <th data-sort="aligns" scope="col">Alignment</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+      </article>
+      <aside class="card feedcard" aria-label="Latest official actions">
+        <header class="card-h"><div><h2>Latest official actions</h2><p class="hint">Across all filtered items</p></div></header>
+        <ol class="feed" id="feed"></ol>
+      </aside>
+    </section>
+    <section class="grid g-top" aria-label="Charts">
       <article class="card span-2">
         <header class="card-h">
           <div>
@@ -91,32 +127,79 @@
       </article>
     </section>
 
-    <section class="grid g-main">
+  </main>
+  </div>
+
+  <div id="view-watch" hidden>
+    <div class="filterbar" role="search">
+      <div class="wrap filter-in">
+        <label class="search">
+          <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg>
+          <span class="sr-only">Search the watchlist</span>
+          <input id="wq" type="search" placeholder="Search titles, sponsors, subjects…" autocomplete="off">
+        </label>
+        <div class="seg" id="wsrc" role="group" aria-label="Source">
+          <button data-v="" aria-pressed="true">All sources</button>
+          <button data-v="congress" aria-pressed="false">Bills</button>
+          <button data-v="federal_register" aria-pressed="false">Federal Register</button>
+        </div>
+        <div class="seg" id="wtier" role="group" aria-label="Relevance tier">
+          <button data-v="" aria-pressed="false">All</button>
+          <button data-v="relevant" aria-pressed="true">Relevant</button>
+          <button data-v="High" aria-pressed="false"><i class="tdot tier-High"></i>High</button>
+          <button data-v="Medium" aria-pressed="false"><i class="tdot tier-Medium"></i>Med</button>
+          <button data-v="Low" aria-pressed="false"><i class="tdot tier-Low"></i>Low</button>
+          <button data-v="Likely noise" aria-pressed="false"><i class="tdot tier-noise"></i>Noise</button>
+        </div>
+        <select id="wsort" aria-label="Sort">
+          <option value="score">Highest score</option>
+          <option value="latest">Latest activity</option>
+          <option value="found">Newest found</option>
+        </select>
+        <label class="check"><input type="checkbox" id="wnomatrix"> Hide items in matrix</label>
+      </div>
+      <div class="wrap chips" id="wchips" hidden></div>
+    </div>
+
+    <main class="wrap">
+      <section class="wsumbar" id="wkpis" aria-label="Watchlist totals"></section>
+      <section class="grid g-top">
+        <article class="card">
+          <header class="card-h">
+            <div>
+              <h2>Relevance score distribution</h2>
+              <p class="hint">Every match from the automated scan, in 5-point bands. Gray bars are probably noise. Click a band to filter.</p>
+            </div>
+          </header>
+          <div class="legend" id="whist-legend"></div>
+          <div id="whist" class="chart"></div>
+        </article>
+        <article class="card">
+          <header class="card-h"><div><h2>What drives the scores</h2><p class="hint">How many entries each signal fired on. Penalties are gray. Click to filter.</p></div></header>
+          <div id="wsignals" class="hbars"></div>
+        </article>
+      </section>
       <article class="card tablecard">
         <header class="card-h">
-          <div><h2>All items</h2><p class="hint" id="count"></p></div>
+          <div><h2>Watchlist</h2><p class="hint" id="wcount"></p></div>
         </header>
         <div class="table-wrap">
-          <table class="tbl" id="tbl">
+          <table class="tbl" id="wtbl">
             <thead>
               <tr>
-                <th data-sort="name" scope="col">Item</th>
-                <th data-sort="stage" scope="col">Stage</th>
-                <th data-sort="activity" scope="col" aria-sort="descending">Latest official action</th>
-                <th data-sort="cosponsors" scope="col" class="num">Cosp.</th>
-                <th data-sort="aligns" scope="col">Alignment</th>
+                <th scope="col" data-wsort="score">Score</th>
+                <th scope="col">Bill or document</th>
+                <th scope="col" data-wsort="latest">Latest action</th>
+                <th scope="col">Why it scored</th>
               </tr>
             </thead>
-            <tbody id="rows"></tbody>
+            <tbody id="wrows"></tbody>
           </table>
         </div>
+        <button class="ghost more-btn" id="wmore" hidden>Show more</button>
       </article>
-      <aside class="card feedcard" aria-label="Latest official actions">
-        <header class="card-h"><div><h2>Latest official actions</h2><p class="hint">Across all filtered items</p></div></header>
-        <ol class="feed" id="feed"></ol>
-      </aside>
-    </section>
-  </main>
+    </main>
+  </div>
 
   <footer class="wrap foot">
     <p>Official data from the <a href="https://api.congress.gov/">Congress.gov API</a> and <a href="https://www.federalregister.gov/developers/documentation/api/v1">Federal Register API</a>, checked every six hours. Status wording and analysis are curated, and every change is reviewed before publication. Executive and agency actions without an API are reviewed by hand.</p>
@@ -128,7 +211,11 @@
     <div class="drawer-in" id="drawer-body"></div>
   </aside>
   <div class="tip" id="tip" role="tooltip" hidden></div>
+  <div class="ed-modal" id="ed-modal" hidden><div class="ed-box" role="dialog" aria-modal="true"></div></div>
+  <div class="toast" id="ed-toast" role="status" aria-live="polite" hidden></div>
 
   <script src="app.js"></script>
+  <script src="watch.js"></script>
+  <script src="edit.js"></script>
 </body>
 </html>

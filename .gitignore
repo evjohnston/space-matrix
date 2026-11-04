@@ -4,3 +4,8 @@ __pycache__/
 *.tmp
 .DS_Store
 .env
+site/watchlist.json
+.claude/
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/build/

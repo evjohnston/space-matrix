@@ -2,7 +2,7 @@
 
 Usage:  python scripts/report.py [--base origin/main] [--out build/REPORT.md]
 
-"Pending" changes are changelog entries and candidates that are not yet on the
+"Pending" changes are changelog entries and watchlist entries that are not yet on the
 base branch, i.e. what merging this PR would publish.
 """
 import datetime as dt
@@ -12,7 +12,7 @@ import re
 import subprocess
 import sys
 
-from common import CANDIDATES, CHANGELOG, ROOT, load_config, load_items, read_json
+from common import CHANGELOG, DATA, ROOT, load_config, load_items, read_json
 
 RUN_ERRORS = os.path.join(ROOT, "build", "run_errors.json")
 STOP = set("a an and the of for to in on act bill by with from or at as is be this that".split())
@@ -77,17 +77,20 @@ def main():
     base_ids = {e["id"] for e in base_log} if base_log is not None else set()
     pending = [e for e in changelog if e["id"] not in base_ids]
 
-    cands = read_json(CANDIDATES, {"candidates": []})["candidates"]
-    base_c = at_base(base, "data/candidates.json")
-    base_ckeys = {c["key"] for c in base_c["candidates"]} if base_c else set()
-    new_cands = [c for c in cands if c["key"] not in base_ckeys]
+    wl = read_json(os.path.join(DATA, "watchlist.json"), {"entries": {}})["entries"]
+    base_w = at_base(base, "data/watchlist.json")
+    base_keys = set(base_w["entries"]) if base_w else set()
+    fresh = [e for k, e in wl.items() if k not in base_keys and not e.get("in_matrix")]
+    floor = cfg.get("report_min_score", 45)
+    new_cands = sorted([e for e in fresh if e["score"] >= floor], key=lambda e: -e["score"])
+    low_count = len(fresh) - len(new_cands)
 
     errors = read_json(RUN_ERRORS, [])
     by_id = {i["id"]: i for i in items}
     L = []
     L.append("## Tracker review — %s\n" % today)
-    L.append("**%d official update(s)** · **%d new candidate bill(s)** · %d source error(s)\n"
-             % (len(pending), len(new_cands), len(errors)))
+    L.append("**%d official update(s)** · **%d new relevant watchlist entr%s** · %d source error(s)\n"
+             % (len(pending), len(new_cands), "y" if len(new_cands) == 1 else "ies", len(errors)))
     L.append("> Merging this PR publishes the official updates below. Curated fields (status, analysis, alignment) are "
              "never changed by the bot — edit them on this branch if an update warrants it, then merge.\n")
 
@@ -125,13 +128,18 @@ def main():
                 i["name"], i.get("review", {}).get("last_reviewed") or "never", (i.get("links") or [""])[0]))
         L.append("\nAfter checking: `python scripts/triage.py reviewed <item-id>`\n")
 
-    if new_cands:
-        L.append("### New space-related bills to triage\n")
-        for c in new_cands:
-            L.append("- [ ] `%s` [%s](%s) — matched “%s” · latest: %s %s" % (
-                c["key"], c["title"], c["url"], c["matched"], c["latest_action_date"], c["latest_action_text"]))
-        L.append("\nAdd one: `python scripts/triage.py promote <key> --issue \"...\"` · "
-                 "Ignore: `python scripts/triage.py dismiss <key>`\n")
+    if new_cands or low_count:
+        L.append("### New on the watchlist (score ≥ %d)\n" % floor)
+        for c in new_cands[:60]:
+            why = "; ".join(r for p, r in sorted(c["reasons"], key=lambda r: -r[0])[:2])
+            L.append("- [ ] **%d** · `%s` [%s](%s) — %s · latest: %s %s" % (
+                c["score"], c["key"], c["title"][:110], c["url"], why, c.get("latest_date", ""), (c.get("latest_text") or "")[:90]))
+        if len(new_cands) > 60:
+            L.append("- …and %d more (see the Watchlist tab)" % (len(new_cands) - 60))
+        if low_count:
+            L.append("\n%d lower-scoring match(es) were also added and labelled Low / Likely noise." % low_count)
+        L.append("\nAdd one to the matrix: `python scripts/triage.py promote <key> --issue \"...\"` · "
+                 "Hide it: `python scripts/triage.py dismiss <key>`\n")
 
     if errors:
         L.append("### Source errors (will retry next run)\n")

@@ -54,7 +54,7 @@ def item_stage(item):
         types = {s.get("type") for s in auto.values()} | {s.get("latest_type") for s in auto.values()}
         closes = [s["comments_close"] for s in auto.values() if s.get("comments_close")]
         if "withdraw" in status:
-            return {"track": "regulatory", "step": 3, "steps": REG_STEPS, "label": "Withdrawn", "expired": True}
+            return {"track": "regulatory", "step": 2, "steps": REG_STEPS, "label": "Withdrawn", "expired": True}
         if "Rule" in types or ("effective" in status and "proposed" not in status):
             return {"track": "regulatory", "step": 3, "steps": REG_STEPS, "label": "Final / in effect", "expired": False}
         if closes:
@@ -72,7 +72,7 @@ def timeline(item):
     for k, s in item.get("auto", {}).items():
         if k.startswith("congress:"):
             for a in s.get("actions") or []:
-                ev.append({"date": a["date"], "text": a["text"], "source": s.get("label", k), "kind": a["type"], "url": s.get("url", "")})
+                ev.append({"date": a["date"], "text": a["text"], "source": s.get("label", k), "kind": a["type"], "chamber": a.get("chamber", ""), "url": s.get("url", "")})
         elif k.startswith("fr_document:"):
             if s.get("published"):
                 ev.append({"date": s["published"], "text": "%s published%s" % (s.get("type", "Document"), (" — " + s["action"].rstrip(".")) if s.get("action") and "proposed rulemaking" not in s["action"].lower() else (" (NPRM)" if "proposed rulemaking" in (s.get("action") or "").lower() else "")),
@@ -140,6 +140,7 @@ def main():
             "comments_close": max(closes) if closes else "",
             "activity_date": max(filter(None, [it.get("status_date", ""), (latest or {}).get("date", "")]), default=""),
             "last_reviewed": it.get("review", {}).get("last_reviewed", ""),
+            "last_editor": it.get("review", {}).get("last_editor", ""),
         })
     out_items.sort(key=lambda i: i["activity_date"], reverse=True)
     os.makedirs(os.path.join(ROOT, "site"), exist_ok=True)
@@ -147,9 +148,22 @@ def main():
         "title": cfg.get("site_title", "Legislation Tracker"),
         "generated_at": now_iso(),
         "current_congress": CURRENT_CONGRESS,
+        "editing": cfg.get("editing", {}),
         "items": out_items,
         "changes": changelog[:150],
     })
+    wl = read_json(os.path.join(ROOT, "data", "watchlist.json"), {"entries": {}})["entries"]
+    keep = ("key", "source", "label", "title", "introduced", "latest_date", "latest_text", "sponsor", "party", "cosponsors",
+            "policy_area", "subjects", "committees", "agencies", "comments_close", "dockets", "law", "url", "score",
+            "tier", "reasons", "first_seen", "status", "in_matrix", "congress")
+    entries = []
+    for e in wl.values():
+        out = {k: e[k] for k in keep if k in e and (e[k] not in (None, "", [], 0) or k in ("score", "cosponsors", "reasons"))}
+        out["summary"] = (e.get("summary") or "")[:700]
+        entries.append(out)
+    entries.sort(key=lambda e: (-e["score"], e.get("latest_date", "")), reverse=False)
+    write_json(os.path.join(ROOT, "site", "watchlist.json"), {"generated_at": now_iso(), "entries": entries})
+    print("Built site/watchlist.json with %d entries." % len(entries))
     print("Built site/data.json with %d items, %d timeline events, %d changes." % (
         len(out_items), sum(len(i["timeline"]) for i in out_items), min(len(changelog), 150)))
 

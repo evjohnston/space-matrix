@@ -1,0 +1,9 @@
+name = "space-matrix-oauth"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+
+[vars]
+# Site origins allowed to receive a sign-in token (comma-separated).
+ALLOWED_ORIGINS = "https://www.emersonjohnston.org,http://localhost:8000"
+SCOPE = "public_repo"
+# GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET are set with `wrangler secret put` (see README).

@@ -1,0 +1,179 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-04T00:27:39.428Z",
+        "reason": "Claude: non-shipping decision sketch; dimmed rows and muted gutter numerals demonstrate the direction"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-04T00:27:39.473Z",
+        "reason": "Claude: non-shipping decision sketch; dimmed rows and muted gutter numerals demonstrate the direction"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-04T00:27:39.512Z",
+        "reason": "Claude: non-shipping decision sketch; dimmed rows and muted gutter numerals demonstrate the direction"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-split-flap.html"
+        ],
+        "createdAt": "2026-11-04T00:27:39.552Z",
+        "reason": "Claude: non-shipping decision sketch; the glow is the board's literal signal lamp"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "site/index.html"
+        ],
+        "createdAt": "2026-11-04T00:35:54.605Z",
+        "reason": "Claude: hazard stripes are the direction contract's named caution block (Flight Data File world), used only on caution/warning blocks"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-04T00:37:21.292Z",
+        "reason": "Claude: non-shipping decision sketch of the category-standard card; Inter is the point of that card"
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-04T00:37:21.333Z",
+        "reason": "Claude: non-shipping decision sketch; tracked caps imitate GPO bill headers"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.113Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.159Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.197Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.230Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.264Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.298Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-split-flap.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.334Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-split-flap.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.371Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-split-flap.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.402Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.437Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.471Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-11-04T00:51:49.507Z",
+        "reason": "Claude: spent decision-round sketch showing an alternative direction's own type and palette; not shipping, not bound by DESIGN.md"
+      }
+    ]
+  }
+}

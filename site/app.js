@@ -2,7 +2,8 @@
   "use strict";
 
   // ---------------------------------------------------------------- state
-  var S = { q: "", kind: "", issue: "", aligns: "", stage: "", month: "", sort: "activity", dir: -1, actTable: false };
+  var S = { q: "", kind: "", issue: "", aligns: "", stage: "", month: "", flag: false, sort: "activity", dir: -1, actTable: false };
+  var SEL = "";  // id of the item open in the procedure card
   var D = null, ITEMS = [], BY = {};
   var TODAY = new Date(); TODAY.setHours(12, 0, 0, 0);
   var TODAY_ISO = iso(TODAY);
@@ -11,6 +12,7 @@
   var AL = { Yes: ["a-yes", "Aligns"], "N/A": ["a-na", "N/A"], Unassessed: ["a-un", "Unassessed"], No: ["a-no", "Doesn’t align"] };
   var AL_ORDER = ["Yes", "N/A", "Unassessed", "No"];
   var $ = function (id) { return document.getElementById(id); };
+  function ic(name, cls) { return '<svg class="ic' + (cls ? " " + cls : "") + '" aria-hidden="true" focusable="false"><use href="#i-' + name + '"/></svg>'; }
 
   // ---------------------------------------------------------------- utils
   function esc(s) {
@@ -81,6 +83,7 @@
     if (S.issue && except !== "issue" && it.issues.map(norm).indexOf(S.issue) < 0) return false;
     if (S.aligns && except !== "aligns" && it.aligns !== S.aligns) return false;
     if (S.stage && except !== "stage" && stageKey(it) !== S.stage) return false;
+    if (S.flag && except !== "flag" && !flags(it).length) return false;
     if (S.month && except !== "month" && !it.timeline.some(function (e) { return e.date.slice(0, 7) === S.month; })) return false;
     if (S.q) {
       var hay = it._hay || (it._hay = [it.name, it.number, it.entity, it.status, it.sponsors, it.issues.join(" "), it.effect,
@@ -112,7 +115,7 @@
     root.addEventListener("focusout", hideTip);
   }
 
-  // ---------------------------------------------------------------- KPIs
+  // ---------------------------------------------------------------- cue strip
   function renderKPIs() {
     var L = filtered();
     var byKind = {}; KINDS.forEach(function (k) { byKind[k] = 0; });
@@ -121,37 +124,27 @@
     var acts30 = 0; L.forEach(function (i) { i.timeline.forEach(function (e) { if (days(e.date) <= 30) acts30++; }); });
     var open = L.filter(function (i) { return i.comments_close && i.comments_close >= TODAY_ISO; })
       .sort(function (a, b) { return a.comments_close < b.comments_close ? -1 : 1; });
+    var review = filtered("flag").filter(function (i) { return flags(i).length; });
     var bills = L.filter(function (i) { return i.stage.track === "legislation" && !i.stage.expired; });
     var passed = bills.filter(function (i) { return i.stage.step >= 3; });
-    var reported = bills.filter(function (i) { return i.stage.step === 2; });
-    var al = {}; AL_ORDER.forEach(function (k) { al[k] = 0; }); L.forEach(function (i) { al[i.aligns] = (al[i.aligns] || 0) + 1; });
-    var nextDays = open.length ? -days(open[0].comments_close) : null;
-
-    function split(parts) {
-      var tot = parts.reduce(function (s, p) { return s + p[1]; }, 0) || 1;
-      return '<div class="splitbar">' + parts.filter(function (p) { return p[1]; }).map(function (p) {
-        return '<i class="' + p[0] + '" style="flex:' + p[1] / tot + '"></i>';
-      }).join("") + "</div>";
-    }
-    var tiles = [
-      { act: "reset", label: "Items tracked", val: L.length, small: L.length !== ITEMS.length ? "of " + ITEMS.length : "",
-        sub: KINDS.map(function (k) { return byKind[k] + " " + KIND_LABEL[k].toLowerCase(); }).join(" · "),
-        extra: split(KINDS.map(function (k) { return ["t-" + k, byKind[k]]; })) },
-      { act: "active", label: "Moved in the last 30 days", val: active.length, sub: acts30 + " official action" + (acts30 === 1 ? "" : "s") + " recorded" },
-      { act: "deadlines", label: "Open comment periods", val: open.length,
-        sub: open.length ? "Next closes " + (nextDays === 0 ? "today" : "in " + nextDays + (nextDays === 1 ? " day" : " days")) : "None open",
-        crit: nextDays !== null && nextDays <= 7 },
-      { act: "passed", label: "Bills through a chamber", val: passed.length, small: "of " + bills.length + " active",
-        sub: reported.length + " more reported or on a calendar" },
-      { act: "aligns", label: "Align with recommendations", val: al.Yes, small: L.length ? Math.round(100 * al.Yes / L.length) + "%" : "",
-        sub: al.No + " don’t align · " + al.Unassessed + " unassessed",
-        extra: split(AL_ORDER.map(function (k) { return [AL[k][0], al[k]]; })) }
+    var next = open.length ? -days(open[0].comments_close) : null;
+    var when = next === null ? "" : next === 0 ? "today" : next === 1 ? "tomorrow" : "in " + next + " days";
+    var sameDay = open.filter(function (i) { return i.comments_close === (open[0] || {}).comments_close; }).length;
+    var cues = [
+      { act: "deadlines", n: open.length, crit: next !== null && next <= 7,
+        t: open.length ? (sameDay === open.length ? (open.length === 1 ? "comment period closes " : "comment periods close ") + when
+                                                  : "open comment periods · next closes " + when) : "open comment periods",
+        d: open.length ? fmt(open[0].comments_close, { weekday: "short", month: "short", day: "numeric" }) + " · " + esc(open[0].name.slice(0, 44)) + (open[0].name.length > 44 ? "…" : "") : "Nothing closing" },
+      { act: "review", n: review.length, on: S.flag, t: (review.length === 1 ? "item needs" : "items need") + " review",
+        d: "Official record ahead of the curated status" },
+      { act: "active", n: active.length, t: (active.length === 1 ? "item" : "items") + " moved in 30 days", d: acts30 + " official action" + (acts30 === 1 ? "" : "s") + " logged" },
+      { act: "passed", n: passed.length, t: "of " + bills.length + " active bills through a chamber", d: bills.filter(function (i) { return i.stage.step === 2; }).length + " more reported or on a calendar" }
     ];
-    $("kpis").innerHTML = tiles.map(function (t) {
-      return '<button class="kpi" data-act="' + t.act + '"><div class="k-label">' + t.label + '</div><div class="k-val">' + t.val +
-        (t.small ? "<small>" + t.small + "</small>" : "") + '</div><div class="k-sub' + (t.crit ? " crit" : "") + '">' +
-        (t.crit ? "⚠ " : "") + esc(t.sub) + "</div>" + (t.extra || "") + "</button>";
-    }).join("");
+    $("kpis").innerHTML = '<div class="cue-h">Cue<span>now</span></div>' + cues.map(function (c) {
+      return '<button class="cue' + (c.crit ? " crit" : "") + (c.on ? " on" : "") + '" data-act="' + c.act + '"' + (c.act === "review" ? ' aria-pressed="' + !!c.on + '"' : "") + ">" +
+        '<span class="cue-t">' + (c.crit ? ic("alert") : "") + "<b>" + c.n + "</b> " + c.t + '</span><span class="cue-d">' + c.d + "</span></button>";
+    }).join("") + '<div class="cue-sum">' + L.length + (L.length !== ITEMS.length ? " of " + ITEMS.length : "") + " items · " +
+      KINDS.map(function (k) { return '<span><i class="tdot t-' + k + '"></i>' + byKind[k] + " " + KIND_LABEL[k].toLowerCase() + "</span>"; }).join("") + "</div>";
   }
 
   // ---------------------------------------------------------------- activity chart
@@ -302,7 +295,7 @@
     var html = open.map(function (i) {
       var left = -days(i.comments_close), pub = (i.documents.filter(function (d) { return d.comments_close; })[0] || {}).published;
       var total = pub ? Math.max(1, days(pub) + left) : 0, pct = total ? Math.min(100, 100 * (total - left) / total) : 0;
-      return '<li><button class="dl' + (left <= 7 ? " urgent" : "") + '" data-open="' + esc(i.id) + '"><span class="days"><b>' + left + "</b><small>" +
+      return '<li><button class="dl' + (left <= 2 ? " closing" : left <= 7 ? " urgent" : "") + '" data-open="' + esc(i.id) + '"><span class="days"><b>' + left + "</b><small>" +
         (left === 1 ? "day" : "days") + '</small></span><span><span class="dl-name">' + esc(i.name) + '</span><span class="dl-meta">' + esc(i.number.split(";")[0]) +
         " · closes " + fmt(i.comments_close) + "</span>" + (total ? '<span class="prog" title="' + Math.round(pct) + '% of the comment period elapsed"><i style="width:' + pct + '%"></i></span>' : "") +
         "</span></button></li>";
@@ -322,12 +315,22 @@
     cosponsors: function (i) { return i.cosponsors; },
     aligns: function (i) { return AL_ORDER.indexOf(i.aligns); }
   };
-  function stepper(it, cls) {
-    var st = it.stage;
-    return '<div class="' + (cls || "stepper") + (st.expired ? " dead" : "") + '" title="' + esc(st.label) + '">' +
-      st.steps.map(function (_, i) { return "<i" + (i <= st.step ? ' class="on"' : "") + "></i>"; }).join("") + "</div>";
+  function stepState(st, i) {
+    if (i < st.step) return "done";
+    if (i === st.step) return st.expired || i === st.steps.length - 1 ? "done" : "cur";
+    if (st.expired && i === st.step + 1) return "x";  // where it stopped: withdrawn / died
+    return "";
   }
-  function pill(a) { return '<span class="pill"><i class="' + AL[a][0] + '"></i>' + AL[a][1] + "</span>"; }
+  function stepper(it) {
+    var st = it.stage;
+    return '<div class="steps' + (st.expired ? " dead" : "") + '" role="img" aria-label="' + esc(st.label) + ", step " + (st.step + 1) + " of " + st.steps.length + '">' +
+      st.steps.map(function (n, i) {
+        var cls = stepState(st, i);
+        return '<i class="' + cls + '" title="' + esc(n) + (cls === "x" ? " (not reached)" : "") + '">' + (cls === "done" ? ic("check") : cls === "x" ? ic("x") : i + 1) + "</i>";
+      }).join("") + "</div>";
+  }
+  function nw(t) { return esc(t).replace(/\[([^\]]+)\]/g, '<span class="nw">[$1]</span>'); }
+  function pill(a) { return '<span class="pill al-' + AL[a][0] + '"><i class="' + AL[a][0] + '"></i>' + AL[a][1] + "</span>"; }
   function renderTable() {
     var L = filtered(), f = SORTS[S.sort];
     L.sort(function (a, b) { var x = f(a), y = f(b); return (x < y ? -1 : x > y ? 1 : 0) * S.dir || a.name.localeCompare(b.name); });
@@ -337,17 +340,18 @@
     });
     $("rows").innerHTML = L.map(function (it) {
       var lt = it.latest, fl = flags(it).length;
-      var act = lt ? '<div class="act">' + esc(lt.text) + '</div><div class="act-date">' + (days(lt.date) <= 14 ? '<span class="fresh">New</span> · ' : "") +
+      var act = lt ? '<div class="act">' + esc(lt.text) + '</div><div class="act-date">' + (days(lt.date) <= 14 ? '<span class="fresh">New</span> ' : "") +
         fmt(lt.date) + " · " + rel(lt.date) + " · " + esc(lt.source) + "</div>"
         : '<div class="act">' + esc(it.status || "—") + '</div><div class="act-date">Curated status' + (it.status_date ? " · " + fmt(it.status_date) : "") + " · no API source</div>";
-      return '<tr data-open="' + esc(it.id) + '" tabindex="0">' +
+      return '<tr data-open="' + esc(it.id) + '" tabindex="0"' + (it.id === SEL ? ' class="sel" aria-current="true"' : "") + ">" +
         '<td class="c-item"><div class="it-name"><i class="tdot t-' + it.kind + '" title="' + KIND_LABEL[it.kind] + '"></i><span>' + esc(it.name) + "</span></div>" +
-        '<div class="it-meta">' + esc([it.number.split(";")[0], it.entity].filter(Boolean).join(" · ")) + (fl ? ' · <span class="flag">⚠ ' + fl + " to review</span>" : "") + "</div></td>" +
+        '<div class="it-meta">' + esc([it.number.split(";")[0], it.entity].filter(Boolean).join(" · ")) + (fl ? ' <span class="flag">' + ic("alert") + fl + " to review</span>" : "") + "</div></td>" +
         '<td class="c-stage">' + stepper(it) + '<div class="stage-lbl">' + esc(it.stage.label) + "</div></td>" +
         '<td class="c-act">' + act + "</td>" +
         '<td class="c-cos num">' + (it.bills.length ? it.cosponsors : "—") + "</td>" +
         '<td class="c-al">' + pill(it.aligns) + "</td></tr>";
-    }).join("") || '<tr><td colspan="5" class="empty">No items match these filters.</td></tr>';
+    }).join("") || '<tr><td colspan="5" class="empty">No items match these filters. <button class="link" data-clear="all">Clear filters</button></td></tr>';
+    $("tbl").classList.toggle("has-sel", !!SEL && L.some(function (i) { return i.id === SEL; }));
   }
 
   // ---------------------------------------------------------------- feed
@@ -374,10 +378,11 @@
     if (S.issue) c.push(["issue", "Issue", S.issue]);
     if (S.aligns) c.push(["aligns", "Alignment", AL[S.aligns][1]]);
     if (S.stage) c.push(["stage", "Stage", stageKeyLabel(S.stage)]);
+    if (S.flag) c.push(["flag", "Showing", "Needs review"]);
     if (S.month) c.push(["month", "Activity in", monthLabel(S.month, true)]);
     $("chips").hidden = !c.length;
     $("chips").innerHTML = c.map(function (x) {
-      return '<button class="chip" data-clear="' + x[0] + '">' + x[1] + ": <b>" + esc(x[2]) + '</b><span aria-label="Remove">✕</span></button>';
+      return '<button class="chip" data-clear="' + x[0] + '">' + x[1] + ": <b>" + esc(x[2]) + '</b><span aria-label="Remove">' + ic("x") + "</span></button>";
     }).join("") + (c.length > 1 ? '<button class="chip clear" data-clear="all">Clear all</button>' : "");
   }
 
@@ -392,23 +397,34 @@
   function fact(k, v) { return v || v === 0 ? '<div class="fact"><dt>' + k + "</dt><dd>" + v + "</dd></div>" : ""; }
   function openDrawer(id) {
     var it = BY[id]; if (!it) return;
-    lastFocus = document.activeElement;
     var b0 = it.bills.slice().sort(function (a, b) { return b.stage - a.stage; })[0];
     var committees = []; it.bills.forEach(function (b) { b.committees.forEach(function (c) { if (committees.indexOf(c) < 0) committees.push(c); }); });
     var fl = flags(it), st = it.stage;
-    var h = '<div class="dr-top"><div class="dr-kicker"><i class="tdot t-' + it.kind + '"></i>' + KIND_LABEL[it.kind] + " · " + esc(it.entity) +
-      (it.number ? " · " + esc(it.number) : "") + '</div><button class="close" id="dr-close" aria-label="Close">✕</button></div>' +
-      '<h2 class="dr-title" id="dr-title">' + esc(it.name) + "</h2>" +
-      '<div class="tags">' + pill(it.aligns) + it.issues.map(function (x) { return '<span class="tag">' + esc(x) + "</span>"; }).join("") + "</div>";
-    h += '<div class="big-stepper' + (st.expired ? " dead" : "") + '"><div class="bars">' + st.steps.map(function (_, i) { return "<i" + (i <= st.step ? ' class="on"' : "") + "></i>"; }).join("") +
-      '</div><div class="names">' + st.steps.map(function (n, i) { return "<span" + (i === st.step ? ' class="cur"' : "") + ">" + esc(n) + "</span>"; }).join("") + "</div></div>";
-    if (st.expired || st.label !== st.steps[st.step]) h += '<p class="hint">Current: <b>' + esc(st.label) + "</b></p>";
-    if (fl.length) h += '<div class="callout"><b>Needs review:</b><br>' + fl.join("<br>") + "</div>";
+    var h = '<div class="dr-top"><h2 class="dr-title" id="dr-title">' + esc(it.name) + '</h2><button class="close" id="dr-close" aria-label="Close">' + ic("x") + "</button></div>" +
+      '<div class="dr-id"><span class="cardtab t-' + it.kind + '">' + KIND_LABEL[it.kind] + (it.number ? " · " + esc(it.number.split(";")[0]) : "") + "</span>" +
+      "<span>" + esc(it.entity) + "</span>" + pill(it.aligns) + "</div>" +
+      (it.issues.length ? '<div class="tags">' + it.issues.map(function (x) { return '<span class="tag">' + esc(x) + "</span>"; }).join("") + "</div>" : "");
+    h += '<div class="ed-slot" id="ed-slot"></div>';
+    var cur = it.latest ? fmt(it.latest.date) : "";
+    h += '<ol class="proc' + (st.expired ? " dead" : "") + '" aria-label="Stage">' + st.steps.map(function (n, i) {
+      var cls = stepState(st, i), here = cls === "cur";
+      return '<li class="' + cls + '"' + (here ? ' aria-current="step"' : "") + '><span class="pn">' + (i < 9 ? "0" : "") + (i + 1) +
+        '</span><span class="pb">' + (cls === "done" ? ic("check") : here ? ic("play") : cls === "x" ? ic("x") : "") + "</span><span>" + esc(n) +
+        (cls === "x" ? ' <em class="stop">' + esc(st.label) + "</em>" : "") + "</span>" +
+        '<span class="pd">' + (i === st.step ? cur : "") + "</span></li>";
+    }).join("") + "</ol>";
+    if (st.expired || st.label !== st.steps[st.step]) h += '<p class="hint">Now: <b>' + esc(st.label) + "</b></p>";
+    if (it.comments_close && it.comments_close >= TODAY_ISO) {
+      var left = -days(it.comments_close);
+      h += '<div class="caution' + (left <= 7 ? " warn" : "") + '"><div class="cz"></div><p><b class="cl">' + (left <= 7 ? "Warning" : "Note") + "</b> Comment period closes " +
+        fmt(it.comments_close, { weekday: "long", month: "long", day: "numeric" }) + " (" + rel(it.comments_close) + ").</p></div>";
+    }
+    if (fl.length) h += '<div class="caution"><div class="cz"></div><p><b class="cl">Caution</b> ' + fl.join("</p><p>") + "</p></div>";
 
     h += '<dl class="facts">' +
       fact("Curated status", esc(it.status || "—") + (it.status_date ? ' <span class="hint">(' + fmt(it.status_date) + ")</span>" : "")) +
       fact("Latest official action", it.latest ? fmt(it.latest.date) + ' <span class="hint">' + rel(it.latest.date) + "</span>" : "") +
-      fact("Sponsor", b0 ? esc(b0.sponsor) : "") +
+      fact("Sponsor", b0 ? nw(b0.sponsor) : "") +
       fact("Cosponsors", it.bills.length ? it.cosponsors : "") +
       fact("Committees", committees.map(function (c) { return esc(c.replace(/ Committee$/, "")); }).join("; ")) +
       fact("Policy area", b0 ? esc(b0.policy_area) : "") +
@@ -434,27 +450,68 @@
 
     var tl = it.upcoming.map(function (e) { return { e: e, future: true }; }).concat(it.timeline.map(function (e) { return { e: e }; }));
     if (tl.length) {
-      h += '<section class="dr-sec"><h3>Official timeline</h3><ol class="tl" id="dr-tl">' + tl.map(function (x, i) {
-        var major = /Passed|Became|Reported|Placed on|Presented|Signed|Received in the|published/i.test(x.e.text);
-        return '<li class="' + (x.future ? "future" : major ? "major" : "") + '"' + (i >= 12 ? " hidden" : "") + "><time>" + fmt(x.e.date) + (x.future ? " · upcoming" : "") + "</time>" +
-          '<span class="chamber">' + esc(x.e.source.replace(/ \(\d+th Congress\)/, "")) + "</span><p>" + esc(x.e.text) + "</p></li>";
-      }).join("") + "</ol>" + (tl.length > 12 ? '<button class="more" id="dr-more">Show all ' + tl.length + " entries</button>" : "") + "</section>";
+      var bil = tl.some(function (x) { return x.e.chamber === "House" || x.e.chamber === "Senate"; });
+      h += '<section class="dr-sec"><h3>Official timeline</h3>' + (bil ? '<div class="tl-heads"><span>House</span><span></span><span>Senate</span></div>' : "") +
+        '<ol class="tl' + (bil ? " bil" : "") + '" id="dr-tl">' + tl.map(function (x, i) {
+          var side = x.e.chamber === "House" ? "l" : x.e.chamber === "Senate" ? "r" : "c";
+          var major = /Passed|Became|Reported|Placed on|Presented|Signed|Received in the|published/i.test(x.e.text);
+          return '<li class="s-' + side + (x.future ? " future" : major ? " major" : "") + '"' + (i >= 14 ? " hidden" : "") + '><time>' + fmt(x.e.date, { month: "short", day: "numeric", year: "2-digit" }) +
+            '</time><div class="ev"><p>' + esc(x.e.text) + '</p><span class="src">' + (x.future ? "Upcoming · " : "") + esc(x.e.source.replace(/ \(\d+th Congress\)/, "")) + "</span></div></li>";
+        }).join("") + "</ol>" + (tl.length > 14 ? '<button class="more" id="dr-more">Show all ' + tl.length + " entries</button>" : "") + "</section>";
     }
     if (it.links.length) h += '<section class="dr-sec"><h3>Primary sources</h3><div class="links">' + it.links.map(function (l) {
       return '<a href="' + esc(l) + '" target="_blank" rel="noopener">' + esc(l.replace(/^https?:\/\/(www\.)?/, "")) + "</a>";
     }).join("") + "</div></section>";
 
+    SEL = id; renderTable();
+    showDrawer(h, id);
+    var row = document.querySelector("#rows tr.sel");
+    if (row && document.body.classList.contains("docked")) {
+      var r = row.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > innerHeight) row.scrollIntoView({ block: "center" });
+    }
+    document.dispatchEvent(new CustomEvent("drawer:open", { detail: { type: "item", id: id } }));
+  }
+  function showDrawer(h, hash) {
+    if ($("drawer").hidden) lastFocus = document.activeElement;
     $("drawer-body").innerHTML = h;
-    $("drawer").hidden = false; $("scrim").hidden = false; $("drawer").scrollTop = 0;
-    document.body.style.overflow = "hidden";
-    $("dr-close").focus();
-    if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+    var dock = matchMedia("(min-width: 1280px)").matches, was = document.body.classList.contains("docked");
+    document.body.classList.toggle("docked", dock);
+    if (dock !== was) window.dispatchEvent(new Event("resize"));  // charts re-measure for the narrower column
+    $("drawer").hidden = false; $("scrim").hidden = dock; $("drawer").scrollTop = 0;
+    document.body.style.overflow = dock ? "" : "hidden";
+    var c = $("dr-close"); if (c) c.focus();
+    if (hash && location.hash !== "#" + hash) history.replaceState(null, "", "#" + hash);
   }
   function closeDrawer() {
     if ($("drawer").hidden) return;
     $("drawer").hidden = true; $("scrim").hidden = true; document.body.style.overflow = "";
-    history.replaceState(null, "", location.pathname + location.search);
+    if (document.body.classList.contains("docked")) { document.body.classList.remove("docked"); window.dispatchEvent(new Event("resize")); }
+    if (SEL) { SEL = ""; if (D) renderTable(); }
+    history.replaceState(null, "", VIEW === "watch" ? "#watchlist" : location.pathname + location.search);
     if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  // ---------------------------------------------------------------- views
+  var VIEW = "matrix";
+  function setView(v) {
+    VIEW = v;
+    $("view-matrix").hidden = v !== "matrix"; $("view-watch").hidden = v !== "watch";
+    Array.prototype.forEach.call(document.querySelectorAll(".tab"), function (t) {
+      if (t.dataset.view === v) t.setAttribute("aria-current", "page"); else t.removeAttribute("aria-current");
+    });
+    if (v === "watch" && window.Watch) window.Watch.show();
+    if (v === "matrix" && D) renderActivity();
+  }
+  function route() {
+    var h = decodeURIComponent(location.hash.slice(1));
+    if (h === "watchlist" || h.indexOf("w/") === 0) {
+      setView("watch");
+      if (h.indexOf("w/") === 0 && window.Watch) window.Watch.open(h.slice(2)); else if ($("drawer").hidden === false) closeDrawer();
+    } else {
+      setView("matrix");
+      if (BY[h]) openDrawer(h); else if (!$("drawer").hidden) closeDrawer();
+    }
   }
 
   // ---------------------------------------------------------------- events
@@ -467,13 +524,13 @@
     $("kind").addEventListener("click", function (e) { var b = e.target.closest("button"); if (b) { S.kind = b.dataset.v; renderAll(); } });
     $("chips").addEventListener("click", function (e) {
       var b = e.target.closest("[data-clear]"); if (!b) return;
-      if (b.dataset.clear === "all") { S.q = S.kind = S.issue = S.aligns = S.stage = S.month = ""; } else S[b.dataset.clear] = "";
+      if (b.dataset.clear === "all") { S.q = S.kind = S.issue = S.aligns = S.stage = S.month = ""; S.flag = false; } else S[b.dataset.clear] = b.dataset.clear === "flag" ? false : "";
       renderAll();
     });
     $("kpis").addEventListener("click", function (e) {
       var b = e.target.closest(".kpi"); if (!b) return;
       var a = b.dataset.act;
-      if (a === "reset") { S.q = S.kind = S.issue = S.aligns = S.stage = S.month = ""; renderAll(); }
+      if (a === "review") { S.flag = !S.flag; renderAll(); }
       else if (a === "active") { S.sort = "activity"; S.dir = -1; renderAll(); $("tbl").scrollIntoView({ behavior: "smooth" }); }
       else if (a === "deadlines") $("deadlines").scrollIntoView({ behavior: "smooth", block: "center" });
       else if (a === "passed") { S.kind = "legislation"; S.sort = "stage"; S.dir = -1; renderAll(); $("tbl").scrollIntoView({ behavior: "smooth" }); }
@@ -501,9 +558,9 @@
     $("rows").addEventListener("keydown", function (e) { var r = e.target.closest("[data-open]"); if (r && e.key === "Enter") openDrawer(r.dataset.open); });
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") closeDrawer();
-      if (e.key === "/" && document.activeElement.tagName !== "INPUT" && $("drawer").hidden) { e.preventDefault(); $("q").focus(); }
+      if (e.key === "/" && document.activeElement.tagName !== "INPUT" && $("drawer").hidden) { e.preventDefault(); $(VIEW === "watch" ? "wq" : "q").focus(); }
     });
-    window.addEventListener("hashchange", function () { var id = decodeURIComponent(location.hash.slice(1)); if (BY[id]) openDrawer(id); });
+    window.addEventListener("hashchange", route);
     var rt; window.addEventListener("resize", function () { clearTimeout(rt); rt = setTimeout(renderActivity, 120); });
     $("theme").addEventListener("click", function () {
       var dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
@@ -528,15 +585,32 @@
     return fetch("data.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
       if (!first && D && d.generated_at === D.generated_at) { setLive(); return; }
       D = d; ITEMS = d.items; BY = {}; ITEMS.forEach(function (i) { BY[i.id] = i; });
-      if (d.title) { $("title").textContent = d.title; }
+      if (d.title) document.title = d.title;
       var issues = {}; ITEMS.forEach(function (i) { i.issues.forEach(function (x) { issues[norm(x)] = 1; }); });
       $("issue").innerHTML = '<option value="">All issues</option>' + Object.keys(issues).sort().map(function (x) {
         return '<option value="' + esc(x) + '">' + esc(x) + "</option>";
       }).join("");
       renderAll(); setLive();
-      if (first) { bind(); var id = decodeURIComponent(location.hash.slice(1)); if (BY[id]) openDrawer(id); }
+      $("tab-n-matrix").textContent = ITEMS.length;
+      if (first) {
+        bind(); route(); if (window.Edit) window.Edit.init(d.editing);
+        if (!location.hash && matchMedia("(min-width: 1280px)").matches) {
+          var top = document.querySelector("#rows tr[data-open]");
+          if (top) { openDrawer(top.dataset.open); history.replaceState(null, "", location.pathname + location.search); var c = $("dr-close"); if (c) c.blur(); }
+        }
+      }
     });
   }
+  window.SM = { esc: esc, fmt: fmt, rel: rel, days: days, showTip: showTip, hideTip: hideTip, bindTips: bindTips,
+    showDrawer: showDrawer, closeDrawer: closeDrawer, ic: ic, nw: function (t) { return nw(t); },
+    getItem: function (id) { return BY[id]; }, openItem: function (id) { openDrawer(id); },
+    updateItem: function (id, fields, review) {
+      var it = BY[id]; if (!it) return;
+      Object.keys(fields).forEach(function (k) { it[k] = fields[k]; });
+      if (review && review.last_reviewed) it.last_reviewed = review.last_reviewed;
+      it._hay = null; renderAll(); openDrawer(id);
+    }, niceStep: niceStep, topPath: topPath, monthLabel: monthLabel,
+    inMatrix: function (id) { return BY[id]; } };
   try { var th = localStorage.getItem("theme"); if (th) document.documentElement.dataset.theme = th; } catch (err) { /* storage unavailable */ }
   load(true).catch(function () {
     $("rows").innerHTML = '<tr><td class="empty">Couldn’t load data.json. Run <code>python3 scripts/build.py &amp;&amp; python3 -m http.server -d site</code>.</td></tr>';

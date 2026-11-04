@@ -1,0 +1,1679 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T00:00:00Z",
+  "title": "Design System: Space Sustainability Tracker",
+  "extensions": {
+    "colorMeta": {
+      "cue-yellow": {
+        "role": "primary",
+        "displayName": "Cue Yellow",
+        "canonical": "#FFC72C",
+        "cssVar": "--cue",
+        "mode": "light",
+        "darkToken": null,
+        "note": "Same value in both modes.",
+        "tonalRamp": [
+          "#110A00",
+          "#302303",
+          "#543E02",
+          "#7A5C00",
+          "#A07D22",
+          "#C89F34",
+          "#E7C576",
+          "#FEEDC6"
+        ]
+      },
+      "cue-soft": {
+        "role": "primary",
+        "displayName": "Cue Wash",
+        "canonical": "#FFF4CC",
+        "cssVar": "--cue-soft",
+        "mode": "light",
+        "darkToken": "cue-soft-dark",
+        "tonalRamp": [
+          "#0F0B01",
+          "#2A2511",
+          "#494228",
+          "#6A6141",
+          "#8C8261",
+          "#ADA588",
+          "#D0C9B1",
+          "#F4EFDB"
+        ]
+      },
+      "record-link": {
+        "role": "secondary",
+        "displayName": "Record Blue",
+        "canonical": "#1C5CAB",
+        "cssVar": "--link",
+        "mode": "light",
+        "darkToken": "record-link-dark",
+        "tonalRamp": [
+          "#000A20",
+          "#00234F",
+          "#12417B",
+          "#2861AA",
+          "#4A83CF",
+          "#76A7EA",
+          "#A7CCFE",
+          "#E5EFFD"
+        ]
+      },
+      "card-stock": {
+        "role": "neutral",
+        "displayName": "Card Stock",
+        "canonical": "#F3F4EF",
+        "cssVar": "--ground",
+        "mode": "light",
+        "darkToken": "card-stock-dark",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252523",
+          "#42423F",
+          "#61625E",
+          "#82837F",
+          "#A5A5A2",
+          "#C9C9C6",
+          "#EEEFEC"
+        ]
+      },
+      "laminate": {
+        "role": "neutral",
+        "displayName": "Laminate",
+        "canonical": "#FFFFFF",
+        "cssVar": "--card",
+        "mode": "light",
+        "darkToken": "laminate-dark",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "well": {
+        "role": "neutral",
+        "displayName": "Well",
+        "canonical": "#E8EAE3",
+        "cssVar": "--well",
+        "mode": "light",
+        "darkToken": "well-dark",
+        "tonalRamp": [
+          "#0B0B09",
+          "#252522",
+          "#41433E",
+          "#60625C",
+          "#81837D",
+          "#A4A6A1",
+          "#C8CAC5",
+          "#EEEFEB"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#121416",
+        "cssVar": "--ink",
+        "mode": "light",
+        "darkToken": "ink-dark",
+        "tonalRamp": [
+          "#0A0B0C",
+          "#242527",
+          "#404244",
+          "#5F6164",
+          "#808385",
+          "#A3A5A7",
+          "#C7C9CB",
+          "#EDEFF0"
+        ]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "#3B3F43",
+        "cssVar": "--ink-2",
+        "mode": "light",
+        "darkToken": "graphite-dark",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232528",
+          "#3F4245",
+          "#5E6266",
+          "#7F8387",
+          "#A2A5A9",
+          "#C6C9CD",
+          "#ECEFF1"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Sage",
+        "canonical": "#5E625D",
+        "cssVar": "--muted",
+        "mode": "light",
+        "darkToken": "muted-dark",
+        "tonalRamp": [
+          "#0A0C0A",
+          "#242623",
+          "#40433F",
+          "#5F625E",
+          "#80847F",
+          "#A3A6A2",
+          "#C7CAC6",
+          "#EDEFEC"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#121416",
+        "cssVar": "--rule",
+        "mode": "light",
+        "darkToken": "rule-dark",
+        "tonalRamp": [
+          "#0A0B0C",
+          "#242527",
+          "#404244",
+          "#5F6164",
+          "#808385",
+          "#A3A5A7",
+          "#C7C9CB",
+          "#EDEFF0"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#D3D5CC",
+        "cssVar": "--hair",
+        "mode": "light",
+        "darkToken": "hairline-dark",
+        "tonalRamp": [
+          "#0B0B09",
+          "#252621",
+          "#41433D",
+          "#61625B",
+          "#82837C",
+          "#A4A69F",
+          "#C9CAC4",
+          "#EEEFEA"
+        ]
+      },
+      "shell": {
+        "role": "neutral",
+        "displayName": "Shell Black",
+        "canonical": "#121416",
+        "cssVar": "--shell",
+        "mode": "light",
+        "darkToken": "shell-dark",
+        "tonalRamp": [
+          "#0A0B0C",
+          "#242527",
+          "#404244",
+          "#5F6164",
+          "#808385",
+          "#A3A5A7",
+          "#C7C9CB",
+          "#EDEFF0"
+        ]
+      },
+      "shell-ink": {
+        "role": "neutral",
+        "displayName": "Shell Ink",
+        "canonical": "#F3F4EF",
+        "cssVar": "--shell-ink",
+        "mode": "light",
+        "darkToken": "shell-ink-dark",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252523",
+          "#42423F",
+          "#61625E",
+          "#82837F",
+          "#A5A5A2",
+          "#C9C9C6",
+          "#EEEFEC"
+        ]
+      },
+      "shell-muted": {
+        "role": "neutral",
+        "displayName": "Shell Muted",
+        "canonical": "#A9ADA6",
+        "cssVar": "--shell-muted",
+        "mode": "light",
+        "darkToken": "shell-muted-dark",
+        "tonalRamp": [
+          "#0A0C09",
+          "#242622",
+          "#40433E",
+          "#5F625D",
+          "#80847D",
+          "#A3A6A1",
+          "#C7CAC5",
+          "#EDEFEC"
+        ]
+      },
+      "hover-wash": {
+        "role": "neutral",
+        "displayName": "Hover Wash",
+        "canonical": "rgba(18, 20, 22, .045)",
+        "cssVar": "--hover",
+        "mode": "light",
+        "darkToken": "hover-wash-dark"
+      },
+      "type-legislation": {
+        "role": "data-categorical",
+        "displayName": "Legislation",
+        "canonical": "#2A78D6",
+        "cssVar": "--t-legislation",
+        "mode": "light",
+        "darkToken": "type-legislation-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000A20",
+          "#02244C",
+          "#004083",
+          "#1660B4",
+          "#3D83DA",
+          "#6DA7F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "type-regulatory": {
+        "role": "data-categorical",
+        "displayName": "Regulatory",
+        "canonical": "#1BAF7A",
+        "cssVar": "--t-regulatory",
+        "mode": "light",
+        "darkToken": "type-regulatory-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000F07",
+          "#052D1D",
+          "#054F35",
+          "#07734E",
+          "#0C9A6A",
+          "#5DBB90",
+          "#93DCB8",
+          "#C6FEE1"
+        ]
+      },
+      "type-executive": {
+        "role": "data-categorical",
+        "displayName": "Executive",
+        "canonical": "#EB6834",
+        "cssVar": "--t-executive",
+        "mode": "light",
+        "darkToken": "type-executive-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#1A0400",
+          "#441300",
+          "#702707",
+          "#A23B0C",
+          "#CF5929",
+          "#EC855F",
+          "#FDB69C",
+          "#FEEAE2"
+        ]
+      },
+      "align-yes": {
+        "role": "data-diverging",
+        "displayName": "Aligns",
+        "canonical": "#2A78D6",
+        "cssVar": "--al-yes",
+        "mode": "light",
+        "darkToken": "align-yes-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000A20",
+          "#02244C",
+          "#004083",
+          "#1660B4",
+          "#3D83DA",
+          "#6DA7F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "align-na": {
+        "role": "data-diverging",
+        "displayName": "N/A",
+        "canonical": "#B3B1A9",
+        "cssVar": "--al-na",
+        "mode": "light",
+        "darkToken": "align-na-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B09",
+          "#262521",
+          "#43423D",
+          "#63615B",
+          "#84827B",
+          "#A7A59F",
+          "#CAC9C4",
+          "#EFEEEA"
+        ]
+      },
+      "align-unassessed": {
+        "role": "data-diverging",
+        "displayName": "Unassessed",
+        "canonical": "#DAD8D0",
+        "cssVar": "--al-un",
+        "mode": "light",
+        "darkToken": "align-unassessed-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B09",
+          "#262521",
+          "#43423D",
+          "#63615B",
+          "#84827C",
+          "#A6A59F",
+          "#CAC9C4",
+          "#EFEEEA"
+        ]
+      },
+      "align-no": {
+        "role": "data-diverging",
+        "displayName": "Doesn't align",
+        "canonical": "#E34948",
+        "cssVar": "--al-no",
+        "mode": "light",
+        "darkToken": "align-no-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#1F0001",
+          "#4A0609",
+          "#7F0613",
+          "#B02228",
+          "#D84B49",
+          "#F47C75",
+          "#FEB3AC",
+          "#FEE9E6"
+        ]
+      },
+      "tier-high": {
+        "role": "data-ordinal",
+        "displayName": "Tier High (70+)",
+        "canonical": "#184F95",
+        "cssVar": "--tier-High",
+        "mode": "light",
+        "darkToken": "tier-high-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000A20",
+          "#05244B",
+          "#1A4176",
+          "#3061A3",
+          "#5183C8",
+          "#7CA7E3",
+          "#A7CCFE",
+          "#E5EFFE"
+        ]
+      },
+      "tier-medium": {
+        "role": "data-ordinal",
+        "displayName": "Tier Medium (45+)",
+        "canonical": "#3987E5",
+        "cssVar": "--tier-Medium",
+        "mode": "light",
+        "darkToken": "tier-medium-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#02244C",
+          "#0C417C",
+          "#1560B3",
+          "#3C83D9",
+          "#6DA8F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "tier-low": {
+        "role": "data-ordinal",
+        "displayName": "Tier Low (25+)",
+        "canonical": "#86B6EF",
+        "cssVar": "--tier-Low",
+        "mode": "light",
+        "darkToken": "tier-low-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#0C2642",
+          "#224369",
+          "#3A6393",
+          "#5B85B7",
+          "#83A8D4",
+          "#ADCCF1",
+          "#E4F0FE"
+        ]
+      },
+      "tier-noise": {
+        "role": "data-ordinal",
+        "displayName": "Likely noise",
+        "canonical": "#CFCDC5",
+        "cssVar": "--tier-noise",
+        "mode": "light",
+        "darkToken": "tier-noise-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B09",
+          "#262521",
+          "#43423D",
+          "#63615B",
+          "#84827B",
+          "#A7A59F",
+          "#CAC9C4",
+          "#EFEEEA"
+        ]
+      },
+      "bar": {
+        "role": "data-chrome",
+        "displayName": "Bar",
+        "canonical": "#2A78D6",
+        "cssVar": "--bar",
+        "mode": "light",
+        "darkToken": "bar-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000A20",
+          "#02244C",
+          "#004083",
+          "#1660B4",
+          "#3D83DA",
+          "#6DA7F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "bar-muted": {
+        "role": "data-chrome",
+        "displayName": "Bar Muted",
+        "canonical": "#C3C2BA",
+        "cssVar": "--bar-muted",
+        "mode": "light",
+        "darkToken": "bar-muted-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B09",
+          "#262521",
+          "#43423D",
+          "#62615B",
+          "#83837C",
+          "#A6A59F",
+          "#CAC9C4",
+          "#EFEFEA"
+        ]
+      },
+      "chart-grid": {
+        "role": "data-chrome",
+        "displayName": "Chart Grid",
+        "canonical": "#E1E0D9",
+        "cssVar": "--grid",
+        "mode": "light",
+        "darkToken": "chart-grid-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B09",
+          "#262522",
+          "#43423E",
+          "#62615C",
+          "#83827D",
+          "#A6A5A0",
+          "#CAC9C5",
+          "#EFEEEB"
+        ]
+      },
+      "chart-axis": {
+        "role": "data-chrome",
+        "displayName": "Chart Axis",
+        "canonical": "#A9A79F",
+        "cssVar": "--axis",
+        "mode": "light",
+        "darkToken": "chart-axis-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B09",
+          "#262521",
+          "#43423D",
+          "#63615A",
+          "#84827B",
+          "#A7A59F",
+          "#CAC9C4",
+          "#EFEEEA"
+        ]
+      },
+      "critical": {
+        "role": "status-reserved",
+        "displayName": "Critical (deadlines only)",
+        "canonical": "#D03B3B",
+        "cssVar": "--critical",
+        "mode": "light",
+        "darkToken": "critical-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#1E0001",
+          "#4D0006",
+          "#7E0B14",
+          "#AE2529",
+          "#D64E4A",
+          "#F37D75",
+          "#FDB4AD",
+          "#FEE9E7"
+        ],
+        "note": "Deadlines only. Inside the cue band the red is fixed #D03B3B in both modes."
+      },
+      "good": {
+        "role": "status-reserved",
+        "displayName": "Good",
+        "canonical": "#127A12",
+        "cssVar": "--good",
+        "mode": "light",
+        "darkToken": "good-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#001000",
+          "#042E04",
+          "#025103",
+          "#1B751A",
+          "#43983F",
+          "#74B96F",
+          "#A2DB9D",
+          "#D0FDCC"
+        ]
+      },
+      "warning": {
+        "role": "status-reserved",
+        "displayName": "Warning",
+        "canonical": "#8A5A00",
+        "cssVar": "--warning",
+        "mode": "light",
+        "darkToken": "warning-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#130900",
+          "#352000",
+          "#5A3B07",
+          "#83570C",
+          "#A67837",
+          "#C59D68",
+          "#E5C398",
+          "#FFEBD3"
+        ]
+      },
+      "alert-ink": {
+        "role": "neutral",
+        "displayName": "Alert Ink",
+        "canonical": "#FFFFFF",
+        "cssVar": "--alert-ink",
+        "mode": "light",
+        "darkToken": "alert-ink-dark",
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "focus-ring": {
+        "role": "neutral",
+        "displayName": "Focus Ring",
+        "canonical": "#121416",
+        "cssVar": "--focus",
+        "mode": "light",
+        "darkToken": "focus-ring-dark",
+        "tonalRamp": [
+          "#0A0B0C",
+          "#242527",
+          "#404244",
+          "#5F6164",
+          "#808385",
+          "#A3A5A7",
+          "#C7C9CB",
+          "#EDEFF0"
+        ]
+      },
+      "live": {
+        "role": "status-reserved",
+        "displayName": "Live Signal",
+        "canonical": "#3CC25A",
+        "cssVar": "--live",
+        "mode": "light",
+        "darkToken": null,
+        "note": "Same value in both modes.",
+        "fixed": true,
+        "tonalRamp": [
+          "#001002",
+          "#012E0C",
+          "#0A501D",
+          "#10752D",
+          "#189C3E",
+          "#5FBD6E",
+          "#94DE9C",
+          "#CBFECF"
+        ]
+      },
+      "tab-legislation": {
+        "role": "data-categorical",
+        "displayName": "Legislation Card Tab",
+        "canonical": "#1C5CAB",
+        "cssVar": "--tab-legislation",
+        "mode": "light",
+        "darkToken": "tab-legislation-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#000A20",
+          "#00234F",
+          "#12417B",
+          "#2861AA",
+          "#4A83CF",
+          "#76A7EA",
+          "#A7CCFE",
+          "#E5EFFD"
+        ],
+        "note": "Deeper step of the legislation hue, used only for the solid card-tab block so its 13px label holds 4.5:1; charts and dots keep type-legislation."
+      },
+      "tab-legislation-ink": {
+        "role": "data-categorical",
+        "displayName": "Legislation Card Tab Ink",
+        "canonical": "#FFFFFF",
+        "cssVar": "--tab-legislation-ink",
+        "mode": "light",
+        "darkToken": "tab-legislation-ink-dark",
+        "fixed": true,
+        "tonalRamp": [
+          "#0B0B0B",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#A5A5A5",
+          "#C9C9C9",
+          "#EEEEEE"
+        ]
+      },
+      "cue-soft-dark": {
+        "role": "primary",
+        "displayName": "Cue Wash (dark)",
+        "canonical": "#3A3218",
+        "cssVar": "--cue-soft",
+        "mode": "dark",
+        "lightToken": "cue-soft",
+        "tonalRamp": [
+          "#0E0B03",
+          "#2A2516",
+          "#48422E",
+          "#696148",
+          "#8A8268",
+          "#ACA58E",
+          "#CFC9B6",
+          "#F3EEDF"
+        ]
+      },
+      "record-link-dark": {
+        "role": "secondary",
+        "displayName": "Record Blue (dark)",
+        "canonical": "#8EB8F0",
+        "cssVar": "--link",
+        "mode": "dark",
+        "lightToken": "record-link",
+        "tonalRamp": [
+          "#010B1E",
+          "#102541",
+          "#274368",
+          "#3F6391",
+          "#5F84B5",
+          "#87A7D2",
+          "#B0CBF0",
+          "#E5EFFD"
+        ]
+      },
+      "card-stock-dark": {
+        "role": "neutral",
+        "displayName": "Card Stock (dark)",
+        "canonical": "#15171A",
+        "cssVar": "--ground",
+        "mode": "dark",
+        "lightToken": "card-stock",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#242527",
+          "#404245",
+          "#5F6165",
+          "#808286",
+          "#A3A5A8",
+          "#C7C9CC",
+          "#EDEEF1"
+        ]
+      },
+      "laminate-dark": {
+        "role": "neutral",
+        "displayName": "Laminate (dark)",
+        "canonical": "#1D2024",
+        "cssVar": "--card",
+        "mode": "dark",
+        "lightToken": "laminate",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232528",
+          "#404246",
+          "#5E6166",
+          "#7F8387",
+          "#A2A5A9",
+          "#C7C9CD",
+          "#ECEFF1"
+        ]
+      },
+      "well-dark": {
+        "role": "neutral",
+        "displayName": "Well (dark)",
+        "canonical": "#262A2F",
+        "cssVar": "--well",
+        "mode": "dark",
+        "lightToken": "well",
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232528",
+          "#3F4246",
+          "#5D6267",
+          "#7E8388",
+          "#A1A5AA",
+          "#C6C9CE",
+          "#ECEFF2"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Ink (dark)",
+        "canonical": "#ECEDE8",
+        "cssVar": "--ink",
+        "mode": "dark",
+        "lightToken": "ink",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252523",
+          "#42423F",
+          "#61625E",
+          "#82837F",
+          "#A5A5A2",
+          "#C9C9C6",
+          "#EEEFEC"
+        ]
+      },
+      "graphite-dark": {
+        "role": "neutral",
+        "displayName": "Graphite (dark)",
+        "canonical": "#C9CBC4",
+        "cssVar": "--ink-2",
+        "mode": "dark",
+        "lightToken": "graphite",
+        "tonalRamp": [
+          "#0B0B09",
+          "#252522",
+          "#41433E",
+          "#60625C",
+          "#81837D",
+          "#A4A6A0",
+          "#C8CAC5",
+          "#EEEFEB"
+        ]
+      },
+      "muted-dark": {
+        "role": "neutral",
+        "displayName": "Muted Sage (dark)",
+        "canonical": "#9DA19A",
+        "cssVar": "--muted",
+        "mode": "dark",
+        "lightToken": "muted",
+        "tonalRamp": [
+          "#0A0C09",
+          "#242622",
+          "#40433E",
+          "#5F625D",
+          "#80847D",
+          "#A3A6A1",
+          "#C7CAC5",
+          "#EDEFEB"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Rule (dark)",
+        "canonical": "#5A5F66",
+        "cssVar": "--rule",
+        "mode": "dark",
+        "lightToken": "rule",
+        "tonalRamp": [
+          "#090B0E",
+          "#232529",
+          "#3F4247",
+          "#5D6268",
+          "#7E838A",
+          "#A1A5AB",
+          "#C6C9CE",
+          "#ECEFF3"
+        ]
+      },
+      "hairline-dark": {
+        "role": "neutral",
+        "displayName": "Hairline (dark)",
+        "canonical": "#30343A",
+        "cssVar": "--hair",
+        "mode": "dark",
+        "lightToken": "hairline",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#232529",
+          "#3F4247",
+          "#5D6168",
+          "#7E8389",
+          "#A1A5AB",
+          "#C6C9CE",
+          "#ECEFF2"
+        ]
+      },
+      "shell-dark": {
+        "role": "neutral",
+        "displayName": "Shell Black (dark)",
+        "canonical": "#08090A",
+        "cssVar": "--shell",
+        "mode": "dark",
+        "lightToken": "shell",
+        "tonalRamp": [
+          "#0B0B0C",
+          "#242526",
+          "#414243",
+          "#606163",
+          "#818284",
+          "#A4A5A6",
+          "#C8C9CA",
+          "#EEEEEF"
+        ]
+      },
+      "shell-ink-dark": {
+        "role": "neutral",
+        "displayName": "Shell Ink (dark)",
+        "canonical": "#ECEDE8",
+        "cssVar": "--shell-ink",
+        "mode": "dark",
+        "lightToken": "shell-ink",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252523",
+          "#42423F",
+          "#61625E",
+          "#82837F",
+          "#A5A5A2",
+          "#C9C9C6",
+          "#EEEFEC"
+        ]
+      },
+      "shell-muted-dark": {
+        "role": "neutral",
+        "displayName": "Shell Muted (dark)",
+        "canonical": "#9DA19A",
+        "cssVar": "--shell-muted",
+        "mode": "dark",
+        "lightToken": "shell-muted",
+        "tonalRamp": [
+          "#0A0C09",
+          "#242622",
+          "#40433E",
+          "#5F625D",
+          "#80847D",
+          "#A3A6A1",
+          "#C7CAC5",
+          "#EDEFEB"
+        ]
+      },
+      "shell-edge-dark": {
+        "role": "neutral",
+        "displayName": "Shell Edge (dark)",
+        "canonical": "#5A5F66",
+        "cssVar": "--shell-edge",
+        "mode": "dark",
+        "lightToken": null,
+        "tonalRamp": [
+          "#090B0E",
+          "#232529",
+          "#3F4247",
+          "#5D6268",
+          "#7E838A",
+          "#A1A5AB",
+          "#C6C9CE",
+          "#ECEFF3"
+        ]
+      },
+      "hover-wash-dark": {
+        "role": "neutral",
+        "displayName": "Hover Wash (dark)",
+        "canonical": "rgba(255, 255, 255, .05)",
+        "cssVar": "--hover",
+        "mode": "dark",
+        "lightToken": "hover-wash"
+      },
+      "focus-ring-dark": {
+        "role": "neutral",
+        "displayName": "Focus Ring (dark)",
+        "canonical": "#FFC72C",
+        "cssVar": "--focus",
+        "mode": "dark",
+        "lightToken": "focus-ring",
+        "tonalRamp": [
+          "#110A00",
+          "#302303",
+          "#543E02",
+          "#7A5C00",
+          "#A07D22",
+          "#C89F34",
+          "#E7C576",
+          "#FEEDC6"
+        ]
+      },
+      "type-legislation-dark": {
+        "role": "data-categorical",
+        "displayName": "Legislation (dark)",
+        "canonical": "#3987E5",
+        "cssVar": "--t-legislation",
+        "mode": "dark",
+        "lightToken": "type-legislation",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#02244C",
+          "#0C417C",
+          "#1560B3",
+          "#3C83D9",
+          "#6DA8F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "type-regulatory-dark": {
+        "role": "data-categorical",
+        "displayName": "Regulatory (dark)",
+        "canonical": "#199E70",
+        "cssVar": "--t-regulatory",
+        "mode": "dark",
+        "lightToken": "type-regulatory",
+        "fixed": true,
+        "tonalRamp": [
+          "#010F08",
+          "#032D1D",
+          "#014F35",
+          "#1B7251",
+          "#26986E",
+          "#65B993",
+          "#97DABA",
+          "#C9FDE3"
+        ]
+      },
+      "type-executive-dark": {
+        "role": "data-categorical",
+        "displayName": "Executive (dark)",
+        "canonical": "#D95926",
+        "cssVar": "--t-executive",
+        "mode": "dark",
+        "lightToken": "type-executive",
+        "fixed": true,
+        "tonalRamp": [
+          "#1A0400",
+          "#431301",
+          "#70280A",
+          "#A13C11",
+          "#CF592C",
+          "#EB8561",
+          "#FCB69D",
+          "#FEEAE3"
+        ]
+      },
+      "align-yes-dark": {
+        "role": "data-diverging",
+        "displayName": "Aligns (dark)",
+        "canonical": "#3987E5",
+        "cssVar": "--al-yes",
+        "mode": "dark",
+        "lightToken": "align-yes",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#02244C",
+          "#0C417C",
+          "#1560B3",
+          "#3C83D9",
+          "#6DA8F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "align-na-dark": {
+        "role": "data-diverging",
+        "displayName": "N/A (dark)",
+        "canonical": "#5F5E5A",
+        "cssVar": "--al-na",
+        "mode": "dark",
+        "lightToken": "align-na",
+        "fixed": true,
+        "tonalRamp": [
+          "#0B0B0A",
+          "#262523",
+          "#43423F",
+          "#62615D",
+          "#83827E",
+          "#A6A5A1",
+          "#CAC9C6",
+          "#EFEEEC"
+        ]
+      },
+      "align-unassessed-dark": {
+        "role": "data-diverging",
+        "displayName": "Unassessed (dark)",
+        "canonical": "#3A3A37",
+        "cssVar": "--al-un",
+        "mode": "dark",
+        "lightToken": "align-unassessed",
+        "fixed": true,
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252523",
+          "#424240",
+          "#61615E",
+          "#82827F",
+          "#A5A5A2",
+          "#C9C9C7",
+          "#EEEEED"
+        ]
+      },
+      "align-no-dark": {
+        "role": "data-diverging",
+        "displayName": "Doesn't align (dark)",
+        "canonical": "#E66767",
+        "cssVar": "--al-no",
+        "mode": "dark",
+        "lightToken": "align-no",
+        "fixed": true,
+        "tonalRamp": [
+          "#1E0102",
+          "#4B040C",
+          "#761C21",
+          "#A43439",
+          "#CB5859",
+          "#E88481",
+          "#FAB5B1",
+          "#FFE9E7"
+        ]
+      },
+      "tier-high-dark": {
+        "role": "data-ordinal",
+        "displayName": "Tier High (70+) (dark)",
+        "canonical": "#9EC5F4",
+        "cssVar": "--tier-High",
+        "mode": "dark",
+        "lightToken": "tier-high",
+        "fixed": true,
+        "tonalRamp": [
+          "#020B1B",
+          "#12263D",
+          "#2A4362",
+          "#43638A",
+          "#6385AE",
+          "#8AA8CB",
+          "#B3CCEA",
+          "#E4F0FE"
+        ]
+      },
+      "tier-medium-dark": {
+        "role": "data-ordinal",
+        "displayName": "Tier Medium (45+) (dark)",
+        "canonical": "#3987E5",
+        "cssVar": "--tier-Medium",
+        "mode": "dark",
+        "lightToken": "tier-medium",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#02244C",
+          "#0C417C",
+          "#1560B3",
+          "#3C83D9",
+          "#6DA8F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "tier-low-dark": {
+        "role": "data-ordinal",
+        "displayName": "Tier Low (25+) (dark)",
+        "canonical": "#184F95",
+        "cssVar": "--tier-Low",
+        "mode": "dark",
+        "lightToken": "tier-low",
+        "fixed": true,
+        "tonalRamp": [
+          "#000A20",
+          "#05244B",
+          "#1A4176",
+          "#3061A3",
+          "#5183C8",
+          "#7CA7E3",
+          "#A7CCFE",
+          "#E5EFFE"
+        ]
+      },
+      "tier-noise-dark": {
+        "role": "data-ordinal",
+        "displayName": "Likely noise (dark)",
+        "canonical": "#4A4945",
+        "cssVar": "--tier-noise",
+        "mode": "dark",
+        "lightToken": "tier-noise",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B0A",
+          "#262523",
+          "#43423F",
+          "#62615D",
+          "#83827E",
+          "#A6A5A1",
+          "#CAC9C6",
+          "#EFEEEC"
+        ]
+      },
+      "bar-dark": {
+        "role": "data-chrome",
+        "displayName": "Bar (dark)",
+        "canonical": "#3987E5",
+        "cssVar": "--bar",
+        "mode": "dark",
+        "lightToken": "bar",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#02244C",
+          "#0C417C",
+          "#1560B3",
+          "#3C83D9",
+          "#6DA8F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "bar-muted-dark": {
+        "role": "data-chrome",
+        "displayName": "Bar Muted (dark)",
+        "canonical": "#4A4945",
+        "cssVar": "--bar-muted",
+        "mode": "dark",
+        "lightToken": "bar-muted",
+        "fixed": true,
+        "tonalRamp": [
+          "#0C0B0A",
+          "#262523",
+          "#43423F",
+          "#62615D",
+          "#83827E",
+          "#A6A5A1",
+          "#CAC9C6",
+          "#EFEEEC"
+        ]
+      },
+      "chart-grid-dark": {
+        "role": "data-chrome",
+        "displayName": "Chart Grid (dark)",
+        "canonical": "#2C2C2A",
+        "cssVar": "--grid",
+        "mode": "dark",
+        "lightToken": "chart-grid",
+        "fixed": true,
+        "tonalRamp": [
+          "#0B0B0A",
+          "#252524",
+          "#424240",
+          "#61615F",
+          "#828280",
+          "#A5A5A3",
+          "#C9C9C7",
+          "#EEEEED"
+        ]
+      },
+      "chart-axis-dark": {
+        "role": "data-chrome",
+        "displayName": "Chart Axis (dark)",
+        "canonical": "#4E5257",
+        "cssVar": "--axis",
+        "mode": "dark",
+        "lightToken": "chart-axis",
+        "fixed": true,
+        "tonalRamp": [
+          "#0A0B0D",
+          "#232528",
+          "#3F4246",
+          "#5E6266",
+          "#7F8388",
+          "#A2A5AA",
+          "#C6C9CD",
+          "#ECEFF2"
+        ]
+      },
+      "critical-dark": {
+        "role": "status-reserved",
+        "displayName": "Critical (deadlines only) (dark)",
+        "canonical": "#F07A72",
+        "cssVar": "--critical",
+        "mode": "dark",
+        "lightToken": "critical",
+        "fixed": true,
+        "tonalRamp": [
+          "#1E0101",
+          "#49090B",
+          "#732220",
+          "#A03A37",
+          "#C75D57",
+          "#E48880",
+          "#FBB4AD",
+          "#FEE9E7"
+        ]
+      },
+      "good-dark": {
+        "role": "status-reserved",
+        "displayName": "Good (dark)",
+        "canonical": "#3CC25A",
+        "cssVar": "--good",
+        "mode": "dark",
+        "lightToken": "good",
+        "fixed": true,
+        "tonalRamp": [
+          "#001002",
+          "#012E0C",
+          "#0A501D",
+          "#10752D",
+          "#189C3E",
+          "#5FBD6E",
+          "#94DE9C",
+          "#CBFECF"
+        ]
+      },
+      "warning-dark": {
+        "role": "status-reserved",
+        "displayName": "Warning (dark)",
+        "canonical": "#FAB219",
+        "cssVar": "--warning",
+        "mode": "dark",
+        "lightToken": "warning",
+        "fixed": true,
+        "tonalRamp": [
+          "#120900",
+          "#322204",
+          "#583C05",
+          "#805907",
+          "#AA780C",
+          "#D09A38",
+          "#EEC178",
+          "#FFECCF"
+        ]
+      },
+      "alert-ink-dark": {
+        "role": "neutral",
+        "displayName": "Alert Ink (dark)",
+        "canonical": "#121416",
+        "cssVar": "--alert-ink",
+        "mode": "dark",
+        "lightToken": "alert-ink",
+        "tonalRamp": [
+          "#0A0B0C",
+          "#242527",
+          "#404244",
+          "#5F6164",
+          "#808385",
+          "#A3A5A7",
+          "#C7C9CB",
+          "#EDEFF0"
+        ]
+      },
+      "tab-legislation-dark": {
+        "role": "data-categorical",
+        "displayName": "Legislation Card Tab (dark)",
+        "canonical": "#3987E5",
+        "cssVar": "--tab-legislation",
+        "mode": "dark",
+        "lightToken": "tab-legislation",
+        "fixed": true,
+        "tonalRamp": [
+          "#000B1E",
+          "#02244C",
+          "#0C417C",
+          "#1560B3",
+          "#3C83D9",
+          "#6DA8F3",
+          "#A9CCFA",
+          "#E5F0FE"
+        ]
+      },
+      "tab-legislation-ink-dark": {
+        "role": "data-categorical",
+        "displayName": "Legislation Card Tab Ink (dark)",
+        "canonical": "#121416",
+        "cssVar": "--tab-legislation-ink",
+        "mode": "dark",
+        "lightToken": "tab-legislation-ink",
+        "fixed": true,
+        "tonalRamp": [
+          "#0A0B0C",
+          "#242527",
+          "#404244",
+          "#5F6164",
+          "#808385",
+          "#A3A5A7",
+          "#C7C9CB",
+          "#EDEFF0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Procedure card (drawer) title; caps, balanced wrap."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Big relevance score in a watchlist card."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Figure-strip values; cue counts at 30px, deadline and score cells at 22px. Tabular."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Product name in the shell bar; cue band header at 800 20px."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel headings, caps."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Drawer section heads over a 2px rule; button face."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Tabs, segments, selects, stage labels, pills, legends, fact terms; caps."
+      },
+      "column-head": {
+        "displayName": "Column head",
+        "purpose": "Table headers; caps."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Interface text; 14px in table cells, 13.5px in the feed."
+      },
+      "prose": {
+        "displayName": "Prose",
+        "purpose": "Team analysis; sentence case, max 68ch, paragraphs preserved. Never condensed caps."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Dates, sources, hints; muted."
+      }
+    },
+    "shadows": [
+      {
+        "name": "drawer",
+        "value": "-18px 0 48px rgba(0, 0, 0, .18)",
+        "purpose": "Undocked procedure card; removed when docked."
+      },
+      {
+        "name": "modal",
+        "value": "0 24px 64px rgba(0, 0, 0, .28)",
+        "purpose": "Editing dialog over a 45% scrim."
+      },
+      {
+        "name": "toast",
+        "value": "0 12px 32px rgba(0, 0, 0, .28)",
+        "purpose": "Save confirmations."
+      },
+      {
+        "name": "tooltip",
+        "value": "0 10px 28px rgba(0, 0, 0, .16)",
+        "purpose": "Chart and score tooltips."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px var(--cue)",
+        "purpose": "Input and field focus."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Drawer slide-in (.32s, 28px), bar width growth (.4s), live pulse (2.6s)."
+      },
+      {
+        "name": "state",
+        "value": ".15s to .25s",
+        "purpose": "Color, background and row-dim opacity transitions."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Drawer and pulse animations off; all transitions off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "560px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      },
+      {
+        "name": "stack",
+        "value": "760px"
+      },
+      {
+        "name": "single",
+        "value": "860px"
+      },
+      {
+        "name": "shell-wrap",
+        "value": "900px"
+      },
+      {
+        "name": "strip",
+        "value": "1000px"
+      },
+      {
+        "name": "wide",
+        "value": "1180px"
+      },
+      {
+        "name": "container",
+        "value": "1400px"
+      }
+    ],
+    "layout": {
+      "shellHeight": "56px",
+      "dockWidth": "440px",
+      "feedWidth": "340px",
+      "container": "1400px",
+      "gutter": "24px / 16px under 640px",
+      "gridGap": "18px"
+    },
+    "borders": [
+      {
+        "name": "structure",
+        "value": "2px solid var(--rule)"
+      },
+      {
+        "name": "outline",
+        "value": "1.5px solid var(--hair)"
+      },
+      {
+        "name": "row",
+        "value": "1px solid var(--hair)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default ruled button for editing and secondary actions.",
+      "html": "<button class=\"ds-btn\">Edit analysis</button>",
+      "css": ".ds-btn { font: 700 14px var(--c); letter-spacing: .08em; text-transform: uppercase; border: 2px solid var(--rule); background: var(--card); color: var(--ink); padding: 7px 14px; border-radius: 0; cursor: pointer; } .ds-btn:hover { background: var(--well); } .ds-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ink-filled commit action (save, sign in).",
+      "html": "<button class=\"ds-btn-primary\">Save to main</button>",
+      "css": ".ds-btn-primary { font: 700 14px var(--c); letter-spacing: .08em; text-transform: uppercase; border: 2px solid var(--ink); background: var(--ink); color: var(--ground); padding: 7px 14px; border-radius: 0; cursor: pointer; } .ds-btn-primary:hover { background: var(--ink-2); } .ds-btn-primary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Filter-row search: ruled, square, cue-yellow focus halo.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 16 16\" width=\"14\" height=\"14\" aria-hidden=\"true\"><circle cx=\"7\" cy=\"7\" r=\"4.6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><path d=\"m10.5 10.5 3.5 3.5\" stroke=\"currentColor\" stroke-width=\"2\"/></svg><input type=\"search\" placeholder=\"Search bills, sponsors, issues, actions\"></label>",
+      "css": ".ds-search { position: relative; display: block; max-width: 420px; } .ds-search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--muted); } .ds-search input { width: 100%; height: 36px; padding: 0 12px 0 32px; font: 400 14.5px var(--b); color: var(--ink); background: var(--card); border: 2px solid var(--rule); border-radius: 0; } .ds-search input::placeholder { color: var(--muted); } .ds-search input:focus { outline: none; box-shadow: 0 0 0 3px var(--cue); }"
+    },
+    {
+      "name": "Segmented Type Filter",
+      "kind": "chip",
+      "refersTo": "segment-option",
+      "description": "Ruled tray of condensed-caps options with type dots; pressed fills ink.",
+      "html": "<div class=\"ds-seg\" role=\"group\"><button aria-pressed=\"true\">All</button><button aria-pressed=\"false\"><i style=\"background:var(--t-legislation)\"></i>Legislation</button><button aria-pressed=\"false\"><i style=\"background:var(--t-regulatory)\"></i>Regulatory</button><button aria-pressed=\"false\"><i style=\"background:var(--t-executive)\"></i>Executive</button></div>",
+      "css": ".ds-seg { display: inline-flex; border: 2px solid var(--rule); background: var(--card); padding: 3px; gap: 3px; } .ds-seg button { border: 0; background: none; padding: 0 11px; height: 26px; cursor: pointer; color: var(--ink-2); font: 600 13.5px var(--c); letter-spacing: .07em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 6px; } .ds-seg button i { width: 9px; height: 9px; display: inline-block; } .ds-seg button:hover { background: var(--hover); } .ds-seg button[aria-pressed=\"true\"] { background: var(--ink); color: var(--ground); } .ds-seg button:focus-visible { outline: 2px solid var(--focus); outline-offset: -4px; }"
+    },
+    {
+      "name": "Shell Bar",
+      "kind": "nav",
+      "refersTo": "shell-bar",
+      "description": "Black top bar with condensed-caps name and cue-underlined tabs.",
+      "html": "<header class=\"ds-shell\"><span class=\"ds-name\">Space Sustainability <em>Tracker</em></span><nav><a href=\"#\" aria-current=\"page\">Matrix <span>39</span></a><a href=\"#\">Watchlist</a></nav></header>",
+      "css": ".ds-shell { background: var(--shell); color: var(--shell-ink); height: 56px; display: flex; align-items: center; gap: 28px; padding: 0 24px; } .ds-name { font: 700 19px/1 var(--c); letter-spacing: .06em; text-transform: uppercase; } .ds-name em { font-style: normal; color: var(--cue); } .ds-shell nav { display: flex; align-self: stretch; gap: 22px; } .ds-shell a { display: flex; align-items: center; gap: 7px; font: 600 15px var(--c); letter-spacing: .08em; text-transform: uppercase; color: var(--shell-muted); text-decoration: none; box-shadow: inset 0 -3px transparent; transition: color .15s, box-shadow .2s; } .ds-shell a:hover { color: var(--shell-ink); } .ds-shell a[aria-current=\"page\"] { color: var(--shell-ink); box-shadow: inset 0 -3px var(--cue); } .ds-shell a span { font: 600 12px var(--c); border: 1.5px solid var(--shell-muted); padding: 0 6px; } .ds-shell a:focus-visible { outline: 2px solid var(--cue); outline-offset: 2px; }"
+    },
+    {
+      "name": "Cue Band",
+      "kind": "custom",
+      "refersTo": "cue-band",
+      "description": "Signature strip: what needs attention now, with a fixed-red deadline count.",
+      "html": "<div class=\"ds-cue\"><div class=\"ds-cue-h\">Cue<span>now</span></div><button class=\"ds-cue-i crit\"><span><b>2</b> comment periods closing</span><small>Next closes in 4 days</small></button><button class=\"ds-cue-i\"><span><b>5</b> need review</span><small>Flagged by checks</small></button><button class=\"ds-cue-i on\"><span><b>7</b> moved in 30 days</span><small>Official changes</small></button></div>",
+      "css": ".ds-cue { display: grid; grid-template-columns: auto repeat(3, minmax(0, 1fr)); background: var(--cue); color: var(--cue-ink); border-bottom: 2px solid var(--shell); } .ds-cue-h { background: var(--shell); color: var(--cue); font: 800 20px/1 var(--c); letter-spacing: .08em; text-transform: uppercase; display: flex; flex-direction: column; justify-content: center; padding: 0 20px; } .ds-cue-h span { font-size: 13px; color: var(--shell-ink); letter-spacing: .14em; margin-top: 3px; } .ds-cue-i { text-align: left; background: none; border: 0; border-left: 2px solid rgba(18, 20, 22, .22); padding: 11px 18px 12px; cursor: pointer; color: inherit; display: grid; gap: 2px; transition: background .15s; } .ds-cue-i span { font: 600 15px/1.25 var(--b); } .ds-cue-i b { font: 800 30px/1 var(--c); margin-right: 6px; } .ds-cue-i small { font: 400 12.5px var(--b); color: rgba(18, 20, 22, .78); } .ds-cue-i:hover { background: rgba(255, 255, 255, .28); } .ds-cue-i.on { background: var(--shell); color: var(--cue); } .ds-cue-i.on small { color: var(--shell-ink); } .ds-cue-i.crit b { color: #D03B3B; } .ds-cue-i:focus-visible { outline: 2px solid var(--shell); outline-offset: -4px; }"
+    },
+    {
+      "name": "Procedure Checklist",
+      "kind": "custom",
+      "refersTo": "step-box",
+      "description": "The stage at one fixed scale: ink done, cue current, empty later.",
+      "html": "<div class=\"ds-steps\" role=\"img\" aria-label=\"Passed House, step 3 of 6\"><i class=\"done\"><svg viewBox=\"0 0 16 16\" width=\"11\" height=\"11\"><path d=\"M3 8.5 6.5 12 13 4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"square\"/></svg></i><i class=\"done\"><svg viewBox=\"0 0 16 16\" width=\"11\" height=\"11\"><path d=\"M3 8.5 6.5 12 13 4.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"square\"/></svg></i><i class=\"cur\">3</i><i>4</i><i>5</i><i>6</i></div><div class=\"ds-stage\">Passed House</div>",
+      "css": ".ds-steps { display: flex; gap: 3px; margin-bottom: 5px; } .ds-steps i { width: 17px; height: 17px; border: 2px solid var(--ink); display: grid; place-items: center; font: 700 10.5px/1 var(--c); font-style: normal; color: var(--muted); background: var(--card); } .ds-steps i.done { background: var(--ink); color: var(--card); } .ds-steps i.cur { background: var(--cue); color: var(--cue-ink); border-color: var(--shell); } .ds-stage { font: 600 13px var(--c); letter-spacing: .05em; text-transform: uppercase; color: var(--ink-2); }"
+    },
+    {
+      "name": "Ruled Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "In-page container: laminate, 2px rule, well header strip, no shadow.",
+      "html": "<article class=\"ds-panel\"><header><h2>Pipeline</h2><p>Legislation by stage</p></header><p class=\"ds-body\">Bills reach the floor rarely; most stop at committee.</p></article>",
+      "css": ".ds-panel { background: var(--card); border: 2px solid var(--rule); padding: 0 16px 16px; border-radius: 0; } .ds-panel header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 0 -16px 14px; padding: 9px 16px; background: var(--well); border-bottom: 2px solid var(--rule); } .ds-panel h2 { font: 700 16px/1.2 var(--c); letter-spacing: .08em; text-transform: uppercase; margin: 0; color: var(--ink); } .ds-panel header p { margin: 0; font: 400 12.5px var(--b); color: var(--muted); } .ds-body { margin: 0; font: 400 15px/1.5 var(--b); color: var(--ink-2); }"
+    },
+    {
+      "name": "Caution Block",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Hazard-striped notice for review flags and comment deadlines; WARNING turns red.",
+      "html": "<div class=\"ds-caution\"><div class=\"ds-cz\"></div><p><b>Caution</b> Official status changed since the analysis was last reviewed.</p></div><div class=\"ds-caution warn\"><div class=\"ds-cz\"></div><p><b>Warning</b> Comment period closes in 4 days.</p></div>",
+      "css": ".ds-caution { border: 2px solid var(--shell); margin-top: 14px; background: var(--card); } .ds-cz { height: 10px; background: repeating-linear-gradient(-45deg, var(--cue) 0 9px, var(--shell) 9px 18px); border-bottom: 2px solid var(--shell); } .ds-caution.warn .ds-cz { background: repeating-linear-gradient(-45deg, var(--critical) 0 9px, var(--card) 9px 18px); } .ds-caution p { margin: 0; padding: 9px 12px 11px; font: 400 14px/1.5 var(--b); color: var(--ink); } .ds-caution b { font: 800 14px var(--c); letter-spacing: .12em; text-transform: uppercase; margin-right: 6px; } .ds-caution.warn b { color: var(--critical); }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field-input",
+      "description": "Editing-modal field: condensed caps label, sentence-case input and helper.",
+      "html": "<label class=\"ds-field\">Substantive effect <em>Plain-language summary of what it would do.</em><textarea rows=\"3\">Requires FCC licensees to file a deorbit plan.</textarea></label>",
+      "css": ".ds-field { display: grid; gap: 4px; font: 700 12.5px var(--c); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); max-width: 520px; } .ds-field em { font: 400 12.5px var(--b); letter-spacing: 0; text-transform: none; font-style: normal; color: var(--muted); } .ds-field textarea { font: 400 15px/1.5 var(--b); letter-spacing: 0; text-transform: none; color: var(--ink); background: var(--card); border: 2px solid var(--rule); border-radius: 0; padding: 8px 10px; resize: vertical; } .ds-field textarea:focus { outline: none; box-shadow: 0 0 0 3px var(--cue); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Flight Data File",
+    "overview": "Every bill, order and rule is a procedure card, and where it stands is the step you are on. The system borrows the material of crew cue cards: laminated card stock, near-black ink, heavy 2px rules, square corners, and a single cue-yellow that means \"now\". It is a working document for people who read closely, so it runs dense and quiet: tables, checklists and ruled panels rather than tiles and pills, with color held back for meaning.\n\nStructure is drawn, not floated. Panels are ruled boxes with a well-toned header strip; rows are separated by hairlines; the only resting depth is the 2px ink border. One typeface family carries everything: Barlow Condensed in caps for labels, numerals and headers, and regular Barlow in sentence case for every sentence a person has to read. The official record and the team's analysis sit in the same card but in visibly different registers: dated, sourced, tabular figures for the record, long-measure prose for the judgment.\n\nDark mode is the same card under cabin lighting, not an inversion: the ground drops to a blue-black graphite, rules soften to steel, the cue stays the same yellow, and the data palette shifts to its validated dark counterparts.",
+    "keyCharacteristics": [
+      "Laminated card stock ground with near-black ink and 2px structural rules.",
+      "Cue yellow reserved for the present: the current step, the cue band, selected rows, fresh and flagged items.",
+      "Square corners everywhere; the only curve is the 4px rounded end of a chart bar.",
+      "One family, two registers: condensed caps for labels and numerals, regular sentence case for prose.",
+      "The stage drawn as a procedure checklist at one fixed scale on every row.",
+      "A fixed, validated data-viz palette that UI chrome never borrows and themes never touch."
+    ],
+    "rules": [
+      {
+        "name": "The Cue Is Now Rule",
+        "body": "Yellow marks the present and nothing else: the current step, what needs attention now, what is selected, what is new. It is never decoration, never a section color, never a background for prose.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Palette Rule",
+        "body": "The data colors are validated as sets (categorical, diverging, ordinal, reserved status) and are fixed per mode. Do not re-theme them, re-order them, or borrow them for chrome; meaning is never carried by color alone, so every mark also has a label.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Means Deadline Rule",
+        "body": "Critical red is reserved for deadlines: closing comment periods, the WARNING caution stripe, future-dated timeline entries, and the critical count in the cue band. Inside the cue band the red is a fixed #D03B3B in both modes, because the band is yellow in both modes.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Registers Rule",
+        "body": "Labels, numerals and headers are Barlow Condensed caps; analysis prose and any sentence a reader must parse is regular Barlow in sentence case. Never set analysis in condensed caps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Every count, score, date and day counter uses tabular lining figures, right-aligned in numeric columns.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Not Raised Rule",
+        "body": "If it sits in the page, it is a ruled box with no shadow. Only the drawer, modal, toast and tooltip float.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Two-Pixel Rule",
+        "body": "Structure is drawn in 2px ink. If a container needs separating, rule it; do not round it, tint it, or shadow it.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** rule every in-page container in 2px ink and keep every corner square.",
+      "**Do** reserve cue yellow for the present: current step, cue band, selection, fresh and flagged items, input focus.",
+      "**Do** set labels, numerals and headers in Barlow Condensed caps and all analysis in regular Barlow sentence case at 15.5px/1.65 within 68ch.",
+      "**Do** use tabular figures for every count, score and date.",
+      "**Do** draw any stage as the fixed-scale procedure checklist: ink for done, cue yellow for current, empty boxes for later.",
+      "**Do** take chart and type colors only from the fixed data palette, in their validated roles and per-mode values, with a text label beside every color mark.",
+      "**Do** give every status a date and a source line in muted meta type."
+    ],
+    "donts": [
+      "**Don't** re-theme, re-order or repurpose the data palette, or use legislation blue for links.",
+      "**Don't** use critical red for anything but deadlines; inside the cue band it stays #D03B3B in both modes.",
+      "**Don't** round corners, add pastel status pills, or build KPI tiles; counts live in the ruled figure strip or the cue band.",
+      "**Don't** add shadows to resting panels; only the drawer, modal, toast and tooltip float.",
+      "**Don't** use the hazard stripe outside a caution block.",
+      "**Don't** set analysis prose in condensed caps.",
+      "**Don't** invert dark mode; keep the cue yellow and the card structure, and switch every token to its `-dark` sibling."
+    ]
+  }
+}

@@ -1,60 +1,82 @@
-"""Promote or dismiss bills found by discover.py, and mark items as reviewed.
+"""Work the watchlist: list, promote into the matrix, dismiss, and mark items reviewed.
 
 Usage:
-  python scripts/triage.py list
+  python scripts/triage.py list [--min 45]                      # new watchlist entries, highest score first
   python scripts/triage.py promote 119-hr-1234 [--issue "Orbital Debris"]
-  python scripts/triage.py dismiss 119-hr-1234 [119-s-55 ...]
-  python scripts/triage.py reviewed <item-id> [<item-id> ...]   # bump last_reviewed to today
+  python scripts/triage.py promote fr-2026-12345 [--issue "Licensing"]
+  python scripts/triage.py dismiss 119-hr-1234 [fr-2026-1 ...]  # hide from "new" (stays on the watchlist)
+  python scripts/triage.py reviewed <item-id> [<item-id> ...]     # bump a matrix item's last_reviewed
 """
 import os
 import sys
 
-from common import CANDIDATES, ITEMS_DIR, load_items, read_json, save_item, slugify, today, write_json
+from common import DATA, ITEMS_DIR, load_items, read_json, save_item, slugify, today, write_json
+
+WATCHLIST = os.path.join(DATA, "watchlist.json")
+
+
+def arg(name, default=""):
+    return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
 
 
 def main():
     if len(sys.argv) < 2:
         print(__doc__)
         return
-    cmd, args = sys.argv[1], [a for a in sys.argv[2:]]
-    state = read_json(CANDIDATES, {"seen": [], "candidates": []})
-    by_key = {c["key"]: c for c in state["candidates"]}
+    cmd = sys.argv[1]
+    opts = {"--issue", "--min"}
+    keys = [a for i, a in enumerate(sys.argv[2:], 2) if not a.startswith("--") and sys.argv[i - 1] not in opts]
+    wl = read_json(WATCHLIST, {"entries": {}})
+    E = wl["entries"]
 
     if cmd == "list":
-        for c in state["candidates"]:
-            print("%-16s %s\n%16s  latest: %s %s" % (c["key"], c["title"], "", c["latest_action_date"], c["latest_action_text"][:90]))
-        print("%d candidate(s)." % len(state["candidates"]))
+        floor = int(arg("--min", "45"))
+        rows = sorted((e for e in E.values() if e.get("status") == "new" and not e.get("in_matrix") and e["score"] >= floor),
+                      key=lambda e: -e["score"])
+        for e in rows:
+            print("%3d  %-18s %-14s %s\n%25s latest: %s %s" % (e["score"], e["key"], e["label"][:14], e["title"][:80], "",
+                                                               e.get("latest_date", ""), (e.get("latest_text") or "")[:80]))
+        print("%d new entr%s scoring >= %d." % (len(rows), "y" if len(rows) == 1 else "ies", floor))
+        return
 
-    elif cmd == "promote":
-        issue = args[args.index("--issue") + 1] if "--issue" in args else ""
-        keys = [a for a in args if a in by_key]
+    if cmd == "promote":
+        issue = arg("--issue")
         for key in keys:
-            c = by_key.pop(key)
-            slug = slugify(c["title"])
+            e = E.get(key)
+            if not e:
+                print("Not on the watchlist: " + key)
+                continue
+            slug = slugify(e["title"])
             if os.path.exists(os.path.join(ITEMS_DIR, slug + ".json")):
-                slug = slugify(c["title"] + "-" + key)
-            label = {"hr": "H.R.", "s": "S.", "hres": "H.Res.", "sres": "S.Res.", "hjres": "H.J.Res.",
-                     "sjres": "S.J.Res.", "hconres": "H.Con.Res.", "sconres": "S.Con.Res."}.get(c["bill_type"], c["bill_type"].upper())
+                slug = slugify(e["title"] + "-" + key)
+            if e["source"] == "congress":
+                tracking = [{"type": "congress", "congress": e["congress"], "bill_type": e["bill_type"], "number": e["number"]}]
+                kind, entity, number = "legislation", "Congress", e["label"]
+            else:
+                tracking = [{"type": "fr_document", "document": e["document"]}] + [
+                    {"type": "fr_docket", "docket": d.split(":")[-1].strip()} for d in e.get("dockets", []) if "-" in d and "Notice" not in d]
+                kind, entity, number = "regulatory", ", ".join(e.get("agencies", [])[:2]), "; ".join(e.get("dockets", []))
             save_item({
-                "id": slug, "name": c["title"], "number": "%s %s" % (label, c["number"]), "kind": "legislation",
-                "entity": "Congress", "issues": [issue] if issue else [], "status": c["latest_action_text"],
-                "status_date": c["latest_action_date"], "aligns": "Unassessed", "effect": "", "alignment_notes": "",
-                "gridlock": "", "sponsors": "", "links": [c["url"]],
-                "tracking": [{"type": "congress", "congress": c["congress"], "bill_type": c["bill_type"], "number": c["number"]}],
-                "auto": {}, "review": {"last_reviewed": today(), "notes": "Promoted from discovery; analysis pending."},
+                "id": slug, "name": e["title"], "number": number, "kind": kind, "entity": entity,
+                "issues": [issue] if issue else [], "status": e.get("latest_text", ""), "status_date": e.get("latest_date", ""),
+                "aligns": "Unassessed", "effect": e.get("summary", ""), "alignment_notes": "", "gridlock": "",
+                "sponsors": e.get("sponsor", ""), "links": [e["url"]], "tracking": tracking, "auto": {},
+                "review": {"last_reviewed": today(), "notes": "Promoted from watchlist (score %d); analysis pending." % e["score"]},
             })
+            e["status"], e["in_matrix"] = "promoted", slug
             print("Promoted %s -> data/items/%s.json (fill in effect/alignment before merging)" % (key, slug))
-        missing = [a for a in args if a not in keys and not a.startswith("--") and a != issue]
-        if missing:
-            print("Not in candidates: " + ", ".join(missing))
 
     elif cmd == "dismiss":
-        for key in args:
-            print(("Dismissed " if by_key.pop(key, None) else "Not found: ") + key)
+        for key in keys:
+            if key in E:
+                E[key]["status"] = "dismissed"
+                print("Dismissed " + key)
+            else:
+                print("Not found: " + key)
 
     elif cmd == "reviewed":
         items = {i["id"]: i for i in load_items()}
-        for iid in args:
+        for iid in keys:
             if iid in items:
                 items[iid].setdefault("review", {})["last_reviewed"] = today()
                 save_item(items[iid])
@@ -65,9 +87,7 @@ def main():
     else:
         print(__doc__)
         return
-
-    state["candidates"] = list(by_key.values()) if cmd != "list" else state["candidates"]
-    write_json(CANDIDATES, state)
+    write_json(WATCHLIST, wl)
 
 
 if __name__ == "__main__":

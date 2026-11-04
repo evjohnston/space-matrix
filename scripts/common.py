@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 ITEMS_DIR = os.path.join(DATA, "items")
 CHANGELOG = os.path.join(DATA, "changelog.json")
-CANDIDATES = os.path.join(DATA, "candidates.json")
+WATCHLIST = os.path.join(DATA, "watchlist.json")
 STATE = os.path.join(DATA, "state.json")
 CONFIG = os.path.join(DATA, "config.json")
 
@@ -81,11 +81,28 @@ def load_config():
     return read_json(CONFIG, {})
 
 
-def http_json(url, params=None, retries=3):
+import threading
+_throttle_lock = threading.Lock()
+_last_call = [0.0]
+CONGRESS_MIN_INTERVAL = float(os.environ.get("CONGRESS_MIN_INTERVAL", "0.74"))  # ~4,800/hr, under the 5,000/hr key limit
+
+
+def _throttle(url):
+    if "api.congress.gov" not in url:
+        return
+    with _throttle_lock:
+        wait = _last_call[0] + CONGRESS_MIN_INTERVAL - time.time()
+        if wait > 0:
+            time.sleep(wait)
+        _last_call[0] = time.time()
+
+
+def http_json(url, params=None, retries=4):
     if params:
         url = url + ("&" if "?" in url else "?") + urllib.parse.urlencode(params, doseq=True)
     last = None
     for attempt in range(retries):
+        _throttle(url)
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -94,7 +111,10 @@ def http_json(url, params=None, retries=3):
             last = e
             if e.code == 404:
                 raise
-            if e.code in (429, 500, 502, 503, 504):
+            if e.code == 429:  # hourly key limit: back off hard
+                time.sleep(60 * (attempt + 1))
+                continue
+            if e.code in (500, 502, 503, 504):
                 time.sleep(2 ** attempt * 3)
                 continue
             raise

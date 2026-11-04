@@ -1,10 +1,15 @@
 {
   "site_title": "Space Sustainability Legislation Matrix",
   "stale_after_days": 90,
+  "report_min_score": 45,
+  "editing": {
+    "repo": "evjohnston/space-matrix",
+    "branch": "main",
+    "oauth_proxy": ""
+  },
   "discovery": {
-    "lookback_days": 3,
-    "max_pages": 40,
-    "include_pattern": "\\b(outer space|space|spacecraft|spaceport|satellites?|NASA|lunar|cislunar|orbit(al|s)?|astronauts?|launch vehicles?|planetary|geostationary|reentry|space ?force|aerospace)\\b",
-    "exclude_pattern": "\\b(open|green|office|parking|work|living|public|outdoor|air|retail|storage|commercial office) ?space"
+    "congress": 119,
+    "first_congress": 106,
+    "lookback_days": 3
   }
 }
