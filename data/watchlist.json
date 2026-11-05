@@ -112574,6 +112574,71 @@
       "first_seen": "2026-11-03",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-22598": {
+      "key": "fr-2026-22598",
+      "source": "federal_register",
+      "document": "2026-22598",
+      "label": "Notice",
+      "title": "Bureau of Industry and Security",
+      "agencies": [
+        "Commerce Department"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-05",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22598/bureau-of-industry-and-security",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-05",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22600": {
+      "key": "fr-2026-22600",
+      "source": "federal_register",
+      "document": "2026-22600",
+      "label": "Rule",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Space Bureau (Bureau or we) within the Federal Communications Commission (Commission) updates the initial set of geostationary (GSO) satellite network reference links adopted in the Modernizing Spectrum Sharing for Satellite Broadband Report and Order (Order). Ensuring the GSO reference links appropriately reflect typical and widespread GSO satellite operations in the United States will promote efficient spectrum sharing among today's broadband satellite systems.",
+      "latest_date": "2026-11-05",
+      "latest_text": "Final action.",
+      "comments_close": "",
+      "dockets": [
+        "SB Docket No. 25-157",
+        "DA 26-973",
+        "FR ID 375524"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22600/modernizing-spectrum-sharing-for-satellite-broadband",
+      "score": 83,
+      "tier": "High",
+      "reasons": [
+        [
+          35,
+          "Title mentions “satellite”"
+        ],
+        [
+          30,
+          "Abstract repeatedly discusses space (6 mentions)"
+        ],
+        [
+          10,
+          "Sustainability/safety terms: spectrum"
+        ],
+        [
+          8,
+          "Binding rulemaking (rule)"
+        ]
+      ],
+      "first_seen": "2026-11-05",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
