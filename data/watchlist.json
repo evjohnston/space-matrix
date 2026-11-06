@@ -112574,6 +112574,127 @@
       "first_seen": "2026-11-03",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-22598": {
+      "key": "fr-2026-22598",
+      "source": "federal_register",
+      "document": "2026-22598",
+      "label": "Notice",
+      "title": "Bureau of Industry and Security",
+      "agencies": [
+        "Commerce Department"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-05",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22598/bureau-of-industry-and-security",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-05",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22600": {
+      "key": "fr-2026-22600",
+      "source": "federal_register",
+      "document": "2026-22600",
+      "label": "Rule",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Space Bureau (Bureau or we) within the Federal Communications Commission (Commission) updates the initial set of geostationary (GSO) satellite network reference links adopted in the Modernizing Spectrum Sharing for Satellite Broadband Report and Order (Order). Ensuring the GSO reference links appropriately reflect typical and widespread GSO satellite operations in the United States will promote efficient spectrum sharing among today's broadband satellite systems.",
+      "latest_date": "2026-11-05",
+      "latest_text": "Final action.",
+      "comments_close": "",
+      "dockets": [
+        "SB Docket No. 25-157",
+        "DA 26-973",
+        "FR ID 375524"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22600/modernizing-spectrum-sharing-for-satellite-broadband",
+      "score": 83,
+      "tier": "High",
+      "reasons": [
+        [
+          35,
+          "Title mentions “satellite”"
+        ],
+        [
+          30,
+          "Abstract repeatedly discusses space (6 mentions)"
+        ],
+        [
+          10,
+          "Sustainability/safety terms: spectrum"
+        ],
+        [
+          8,
+          "Binding rulemaking (rule)"
+        ]
+      ],
+      "first_seen": "2026-11-05",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22739": {
+      "key": "fr-2026-22739",
+      "source": "federal_register",
+      "document": "2026-22739",
+      "label": "Rule",
+      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+      "agencies": [
+        "Health and Human Services Department",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period updates and refines the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We finalized the expansion of the prior authorization requirement to include additional Botulinum Toxin Injection services. We also finalized implementation of certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this final rule with comment period announces notices of closure of teaching hospitals and opportunities to apply for available slots. Additionally, we finalized the policy that hospital accrediting organizations (AOs) with deeming authority may assess compliance with certain Emergency Medical Treatment and Labor Act (EMTALA) administrative requirements under 42 CFR 489.20 during accreditation and reaccreditation surveys.",
+      "latest_date": "2026-11-06",
+      "latest_text": "Final rule with comment period.",
+      "comments_close": "",
+      "dockets": [
+        "CMS-1850-FC"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-06",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22789": {
+      "key": "fr-2026-22789",
+      "source": "federal_register",
+      "document": "2026-22789",
+      "label": "Presidential Document",
+      "title": "The American Declaration of Freedom in Space",
+      "agencies": [
+        "Executive Office of the President"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-06",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22789/the-american-declaration-of-freedom-in-space",
+      "score": 27,
+      "tier": "Low",
+      "reasons": [
+        [
+          12,
+          "Title says “space” (ambiguous on its own)"
+        ],
+        [
+          15,
+          "Title term confirmed as space-related by the summary, subjects or committee"
+        ]
+      ],
+      "first_seen": "2026-11-06",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
