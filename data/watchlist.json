@@ -112665,6 +112665,247 @@
       "status": "new",
       "in_matrix": ""
     },
+    "fr-2026-22750": {
+      "key": "fr-2026-22750",
+      "source": "federal_register",
+      "document": "2026-22750",
+      "label": "Rule",
+      "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update; Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model; Medicare Provider Enrollment, Durable Medical Equipment (DME), and DME, Prosthetics, Orthotics, and Supplies (DMEPOS) Policies",
+      "agencies": [
+        "Health and Human Services Department",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "summary": "This final rule sets forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this final rule discusses the behavior adjustments and finalizes a temporary behavior adjustment. It also finalizes the recalibrated case-mix weights and updated functional impairment levels; comorbidity subgroups; and low-utilization payment adjustment (LUPA) thresholds for CY 2027. Additionally, this final rule discusses and responds to comments on the provision of home health palliative care services and includes a summary of comments received on the request for information (RFI) on a home health specific wage index included in the proposed rule. This rule also finalizes changes to the Home Health Quality Reporting Program (HH QRP) and summarizes potential initiatives to improve alignment between the HH QRP and expanded Home Health Value- Based Purchasing (HHVBP) Model. Lastly, the rule clarifies the application of the DMEPOS face-to- face encounter requirements for the replacement of DMEPOS items; makes changes to the provider and supplier enrollment requirements; makes changes to implement a DME benefit expansion for infusion pumps and drugs; and discusses collection of information requirement changes regarding the DMEPOS Competitive Bidding Program (CBP) country of origin.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "CMS-1844-F"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22750/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22777": {
+      "key": "fr-2026-22777",
+      "source": "federal_register",
+      "document": "2026-22777",
+      "label": "Notice",
+      "title": "Hazardous Materials: Notice of Applications for New Special Permits",
+      "agencies": [
+        "Transportation Department",
+        "Pipeline and Hazardous Materials Safety Administration"
+      ],
+      "summary": "In accordance with the procedures governing the application for, and the processing of, special permits from the Department of Transportation's Hazardous Material Regulations, notice is hereby given that the Office of Hazardous Materials Safety has received the application described herein.",
+      "latest_date": "2026-11-09",
+      "latest_text": "List of applications for special permits.",
+      "comments_close": "2026-12-09",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22777/hazardous-materials-notice-of-applications-for-new-special-permits",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “hazardous materials”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22779": {
+      "key": "fr-2026-22779",
+      "source": "federal_register",
+      "document": "2026-22779",
+      "label": "Notice",
+      "title": "Hazardous Materials: Notice of Actions on Special Permits",
+      "agencies": [
+        "Transportation Department",
+        "Pipeline and Hazardous Materials Safety Administration"
+      ],
+      "summary": "In accordance with the procedures governing the application for, and the processing of, special permits from the Department of Transportation's Hazardous Material Regulations, notice is hereby given that the Office of Hazardous Materials Safety has granted or denied the application described herein.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of actions on special permit applications.",
+      "comments_close": "2026-12-09",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22779/hazardous-materials-notice-of-actions-on-special-permits",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “hazardous materials”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22781": {
+      "key": "fr-2026-22781",
+      "source": "federal_register",
+      "document": "2026-22781",
+      "label": "Rule",
+      "title": "Technical Corrections of Commercial Space Transportation Regulations",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "This final rule contains technical corrections in FAA regulations.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Final rule; technical amendment.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No.: FAA-2026-7035",
+        "Amdt. Nos. 413-15, 414-5, 450-4, 460-5"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22781/technical-corrections-of-commercial-space-transportation-regulations",
+      "score": 43,
+      "tier": "Low",
+      "reasons": [
+        [
+          35,
+          "Title mentions “commercial space”"
+        ],
+        [
+          8,
+          "Binding rulemaking (rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22782": {
+      "key": "fr-2026-22782",
+      "source": "federal_register",
+      "document": "2026-22782",
+      "label": "Proposed Rule",
+      "title": "Flight Abort Burden Reducing Clarification on End of Flight Safety Limits",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to clarify the conditions under which a vehicle operator is not required to abort a flight.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2026-12-09",
+      "dockets": [
+        "Docket No.: FAA-2026-9943",
+        "Notice No. 26-21"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22782/flight-abort-burden-reducing-clarification-on-end-of-flight-safety-limits",
+      "score": 43,
+      "tier": "Low",
+      "reasons": [
+        [
+          20,
+          "Abstract mentions “commercial space”, “launch and reentry”"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: licensing, license"
+        ],
+        [
+          8,
+          "Binding rulemaking (proposed rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22783": {
+      "key": "fr-2026-22783",
+      "source": "federal_register",
+      "document": "2026-22783",
+      "label": "Proposed Rule",
+      "title": "Flight Safety Limits Objectives Burden Reducing Clarification",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to clarify the requirements for establishing flight safety limits that define when a vehicle operator must initiate flight abort.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2026-12-09",
+      "dockets": [
+        "Docket No.: FAA-2026- 9937",
+        "Notice No. 26-24"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22783/flight-safety-limits-objectives-burden-reducing-clarification",
+      "score": 43,
+      "tier": "Low",
+      "reasons": [
+        [
+          20,
+          "Abstract mentions “commercial space”, “launch and reentry”"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: licensing, license"
+        ],
+        [
+          8,
+          "Binding rulemaking (proposed rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22784": {
+      "key": "fr-2026-22784",
+      "source": "federal_register",
+      "document": "2026-22784",
+      "label": "Proposed Rule",
+      "title": "Conditional Expected Casualty Exception for Failures Resulting in an Uncontrolled Atmospheric Return",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to allow a launch and reentry vehicle operator to protect against high consequence events during an uncontrolled atmospheric return by showing that there would be sufficient breakup of the vehicle to ensure protection against a single event expected to produce multiple casualties.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2026-12-09",
+      "dockets": [
+        "Docket No.: FAA-2026-9942",
+        "Notice No. 26-20"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22784/conditional-expected-casualty-exception-for-failures-resulting-in-an-uncontrolled-atmospheric-return",
+      "score": 53,
+      "tier": "Medium",
+      "reasons": [
+        [
+          30,
+          "Abstract repeatedly discusses space (3 mentions)"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: licensing, license"
+        ],
+        [
+          8,
+          "Binding rulemaking (proposed rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
     "fr-2026-22789": {
       "key": "fr-2026-22789",
       "source": "federal_register",
@@ -112693,6 +112934,31 @@
         ]
       ],
       "first_seen": "2026-11-06",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22792": {
+      "key": "fr-2026-22792",
+      "source": "federal_register",
+      "document": "2026-22792",
+      "label": "Rule",
+      "title": "Medicare Drug Price Negotiation Program and Medicare Prescription Drug Benefit Program",
+      "agencies": [
+        "Health and Human Services Department",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "summary": "This rule finalizes and codifies the Medicare Drug Price Negotiation Program (\"Negotiation Program\") and establishes certain new policies for the Negotiation Program and the Medicare Prescription Drug Benefit Program (\"Part D Program\") as required by the Inflation Reduction Act of 2022. This final rule also finalizes a proposed policy for specific fixed combination drugs that are new formulations.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "CMS-4215-F"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-08",
       "status": "new",
       "in_matrix": ""
     }
