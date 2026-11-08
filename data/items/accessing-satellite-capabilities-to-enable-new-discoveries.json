@@ -94,7 +94,9 @@
       "sponsor": "Rep. Hurd, Jeff [R-CO-3]",
       "law": "",
       "policy_area": "Science, Technology, Communications",
-      "committees": [],
+      "committees": [
+        "Science, Space, and Technology Committee"
+      ],
       "milestones": [
         "1000",
         "5000",
