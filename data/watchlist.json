@@ -113028,6 +113028,66 @@
       "first_seen": "2026-11-10",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23040": {
+      "key": "fr-2026-23040",
+      "source": "federal_register",
+      "document": "2026-23040",
+      "label": "Rule",
+      "title": "National Television Multiple Ownership Rule",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Federal Communications Commission (Commission) repeals the national television multiple ownership rule (national cap), which prohibits a commercial television licensee from having a cognizable interest in television stations that have an aggregate national audience reach above 39%. The Commission finds, given seismic changes in the modern media marketplace, that the rule's repeal will help empower local broadcast television stations to operate in the public interest and to better serve the needs and interests of their local communities. The Commission will review on a case-by-case basis proposed transactions that would have been prohibited under the national cap to determine whether a proposed transaction would serve the Commission's media ownership goals of localism, competition, and viewpoint diversity.",
+      "latest_date": "2026-11-12",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "MB Docket No. 17-318",
+        "FCC 26-53",
+        "FR ID 376834"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23040/national-television-multiple-ownership-rule",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-11",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23042": {
+      "key": "fr-2026-23042",
+      "source": "federal_register",
+      "document": "2026-23042",
+      "label": "Notice",
+      "title": "Information Collection Being Submitted for Review and Approval to Office of Management and Budget",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal Agencies to take this opportunity to comment on the following information collection. Pursuant to the Small Business Paperwork Relief Act of 2002, the FCC seeks specific comment on how it can further reduce the information collection burden for small business concerns with fewer than 25 employees.",
+      "latest_date": "2026-11-12",
+      "latest_text": "Notice; request for comments.",
+      "comments_close": "2026-12-14",
+      "dockets": [
+        "OMB 3060-0678",
+        "FR ID 376960"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23042/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-11",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
