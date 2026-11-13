@@ -1,5 +1,18 @@
 [
   {
+    "id": "e541efea254a",
+    "item_id": "accessing-satellite-capabilities-to-enable-new-discoveries",
+    "item_name": "Accessing Satellite Capabilities to Enable New Discoveries (ASCEND) Act",
+    "source": "congress:119-s-3923",
+    "field": "latest_action_text",
+    "old": "Passed Senate with an amendment by Unanimous Consent. (text: CR S5525-5562)",
+    "new": "Held at the desk.",
+    "summary": "S 3923 (119th Congress): Held at the desk.",
+    "event_date": "2026-11-12",
+    "detected": "2026-11-13T19:37:34Z",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3923"
+  },
+  {
     "id": "44c88acda32c",
     "item_id": "accessing-satellite-capabilities-to-enable-new-discoveries",
     "item_name": "Accessing Satellite Capabilities to Enable New Discoveries (ASCEND) Act",
