@@ -44,7 +44,7 @@
       "title": "Weather Research and Forecasting Innovation Reauthorization Act of 2026",
       "introduced": "2026-02-25",
       "latest_action_date": "2026-11-10",
-      "latest_action_text": "Passed Senate with an amendment by Unanimous Consent.",
+      "latest_action_text": "Passed Senate with an amendment by Unanimous Consent. (text: CR S5525-5562)",
       "cosponsors": 11,
       "sponsor": "Sen. Cruz, Ted [R-TX]",
       "law": "",
@@ -62,7 +62,7 @@
           "date": "2026-11-10",
           "type": "Floor",
           "chamber": "Senate",
-          "text": "Passed Senate with an amendment by Unanimous Consent."
+          "text": "Passed Senate with an amendment by Unanimous Consent. (text: CR S5525-5562)"
         },
         {
           "date": "2026-11-10",
@@ -74,7 +74,7 @@
           "date": "2026-11-10",
           "type": "Floor",
           "chamber": "Senate",
-          "text": "Measure laid before Senate by unanimous consent."
+          "text": "Measure laid before Senate by unanimous consent. (consideration: CR S5525-5562)"
         },
         {
           "date": "2026-09-28",
