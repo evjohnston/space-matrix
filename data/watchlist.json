@@ -113123,6 +113123,72 @@
       "first_seen": "2026-11-13",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23216": {
+      "key": "fr-2026-23216",
+      "source": "federal_register",
+      "document": "2026-23216",
+      "label": "Notice",
+      "title": "Information Collections Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collection. Comments are requested concerning: whether the collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection techniques or other forms of information technology; and ways to further reduce the information collection burden on small business concerns with fewer than 25 employees.",
+      "latest_date": "2026-11-16",
+      "latest_text": "Notice; request for comments.",
+      "comments_close": "2027-01-15",
+      "dockets": [
+        "OMB 3060-0546, OMB 3060-1326",
+        "FR ID 377154"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23216/information-collections-being-reviewed-by-the-federal-communications-commission-under-delegated",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collections”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-14",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23292": {
+      "key": "fr-2026-23292",
+      "source": "federal_register",
+      "document": "2026-23292",
+      "label": "Notice",
+      "title": "Agency Information Collection Activities; Comment Request; Workforce Innovation and Opportunity Act Joint Quarterly Narrative Report",
+      "agencies": [
+        "Labor Department",
+        "Employment and Training Administration"
+      ],
+      "summary": "The Department of Labor's (DOL) Employment and Training Administration (ETA) is soliciting comments concerning a proposed revision for the authority to conduct the information collection request (ICR) titled, \"Workforce Innovation and Opportunity Act Joint Quarterly Narrative Report.\" This comment request is part of continuing Departmental efforts to reduce paperwork and respondent burden in accordance with the Paperwork Reduction Act of 1995 (PRA).",
+      "latest_date": "2026-11-16",
+      "latest_text": "Notice.",
+      "comments_close": "2027-01-15",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23292/agency-information-collection-activities-comment-request-workforce-innovation-and-opportunity-act",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-14",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
