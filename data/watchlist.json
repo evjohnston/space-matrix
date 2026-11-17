@@ -113189,6 +113189,92 @@
       "first_seen": "2026-11-14",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23369": {
+      "key": "fr-2026-23369",
+      "source": "federal_register",
+      "document": "2026-23369",
+      "label": "Notice",
+      "title": "Proposed Information Collection Activity; Community Services Block Grant Model State Plan Applications",
+      "agencies": [
+        "Health and Human Services Department",
+        "Children and Families Administration"
+      ],
+      "summary": "The Office of Community Services (OCS), Administration for Children and Families (ACF) requests a 3-year extension of the Community Services Block Grant (CSBG) State Plan, CSBG Eligible Entity Master List, and the American Customer Survey Index (ACSI) forms (Office of Management and Budget (OMB) #: 0970-0382, expiration August 31, 2027). There are changes requested to these information collections to reduce burden.",
+      "latest_date": "2026-11-17",
+      "latest_text": "Request for public comments.",
+      "comments_close": "2027-01-19",
+      "dockets": [
+        "Office of Management and Budget #: 0970-0382"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23369/proposed-information-collection-activity-community-services-block-grant-model-state-plan",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-17",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23385": {
+      "key": "fr-2026-23385",
+      "source": "federal_register",
+      "document": "2026-23385",
+      "label": "Rule",
+      "title": "Modernizing the Commission's National Environmental Policy Act Rules",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document (Order), the Federal Communications Commission (\"Commission\" or \"FCC\") takes action to cut through outdated and unnecessary burdens that have slowed deployment of critical communications networks. These reforms restore balance to the Commission's National Environmental Policy Act (NEPA) implementation by providing clear and predictable rules to ensure NEPA serves as a tool for informed decision-making rather than a barrier to investment, innovation, and connectivity.",
+      "latest_date": "2026-11-17",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "WT Docket No. 25-217",
+        "FCC 26-64",
+        "FR ID 374712"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23385/modernizing-the-commissions-national-environmental-policy-act-rules",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-17",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23397": {
+      "key": "fr-2026-23397",
+      "source": "federal_register",
+      "document": "2026-23397",
+      "label": "Proposed Rule",
+      "title": "Modernizing to Electronic Payments",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to modernize its payment systems to require electronic payments and eliminate the option to pay by paper payment methods such as cash, money orders, and paper checks. This proposal complies with Executive Order 14247 titled \"Modernizing Payments To and From America's Bank Account,\" which seeks to increase the efficiency of the Federal Government by phasing out paper receipts and mandating electronic payments to and from agencies.",
+      "latest_date": "2026-11-17",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2027-01-04",
+      "dockets": [
+        "Docket No. FAA-2026-3538",
+        "Notice No. 27-01"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23397/modernizing-to-electronic-payments",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-17",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
