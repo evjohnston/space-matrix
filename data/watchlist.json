@@ -113275,6 +113275,121 @@
       "first_seen": "2026-11-17",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23415": {
+      "key": "fr-2026-23415",
+      "source": "federal_register",
+      "document": "2026-23415",
+      "label": "Rule",
+      "title": "Copyright Office Fees",
+      "agencies": [
+        "Library of Congress",
+        "Copyright Office, Library of Congress"
+      ],
+      "summary": "The Copyright Office is publishing a final rule establishing adjusted fees for registration, recordation, record retrieval, search and certification, the Licensing Section services, and other services. The Office last adjusted fees in 2020, based on a study of our fiscal 2016 and 2017 costs. Since that time, the costs of providing Office services have risen substantially due to inflation and other increases. The adjusted fees are intended to enable recovery of a percentage of the Office's costs, closer to historical levels, without imposing undue barriers to access its services. This rule will take effect January 5, 2027.",
+      "latest_date": "2026-11-18",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No. 2026-2"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23415/copyright-office-fees",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23434": {
+      "key": "fr-2026-23434",
+      "source": "federal_register",
+      "document": "2026-23434",
+      "label": "Notice",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Type-Approval Requirements for Vessel Monitoring Systems (VMS)",
+      "agencies": [
+        "Commerce Department",
+        "National Oceanic and Atmospheric Administration"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-18",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23434/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ]
+      ],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23450": {
+      "key": "fr-2026-23450",
+      "source": "federal_register",
+      "document": "2026-23450",
+      "label": "Proposed Rule",
+      "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Military Readiness Activities in the Mariana Islands Training and Testing Study Area",
+      "agencies": [
+        "Commerce Department",
+        "National Oceanic and Atmospheric Administration"
+      ],
+      "summary": "NMFS has received a request from the U.S. Department of the Navy (including the U.S. Navy and the U.S. Marine Corps; Navy) and on behalf of the U.S. Coast Guard (Coast Guard), U.S. Army (Army), and U.S. Air Force (Air Force) (hereafter, Navy, Coast Guard, Army, and Air Force are collectively referred to as the Action Proponents) for Incidental Take Regulations (ITR) and an associated Letter of Authorization (LOA) pursuant to the Marine Mammal Protection Act (MMPA). The requested regulations would govern the authorization of take of marine mammals incidental to training and testing activities and modernization and sustainment of ranges conducted in the Mariana Islands Training and Testing (MITT) Study Area over the course of 7 years from July 2027 through July 2034. NMFS requests comments on this proposed rule. NMFS will consider public comments prior to making any final decision on the promulgation of the requested ITR and issuance of the LOA; agency responses to public comments will be summarized in the final rule, if issued. The Action Proponents' activities are considered military readiness activities pursuant to the MMPA, as amended by the National Defense Authorization Act for Fiscal Year 2004 (2004 NDAA) and the NDAA for Fiscal Year 2019 (2019 NDAA).",
+      "latest_date": "2026-11-18",
+      "latest_text": "Proposed rule; proposed letter of authorization; request for comments.",
+      "comments_close": "2026-12-18",
+      "dockets": [
+        "Docket No. 261113-0006"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23450/takes-of-marine-mammals-incidental-to-specified-activities-taking-marine-mammals-incidental-to",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23467": {
+      "key": "fr-2026-23467",
+      "source": "federal_register",
+      "document": "2026-23467",
+      "label": "Notice",
+      "title": "Sunshine Act; Open Commission Meeting Thursday, November 19, 2026",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "The Commission will consider a Report and Order that would authorize non- federal operation of radio frequency jamming solutions in the limited context of correctional facilities, in compliance with applicable congressional statutes. It will also consider a Further Notice that would seek comment on a proposed framework to authorize jamming solutions on unlicensed spectrum, the application of jamming solutions to satellite communications, and potential additional safeguards. 2............................. Wireless Title: Unleashing Telecommunicatio American Drone ns. Dominance (GN Docket No. 26-74) and Facilitating Opportunities for Advanced Air Mobility (WT Docket No. 24-629). Summary: The Commission will consider a Report and Order that would amend the rules governing three bands, the 450 MHz band, the 24.45- 24.65 GHz band, and the 849-851 MHz/894- 896 MHz band, to support the deployment of Unmanned Aircraft Systems (UAS), counter-UAS technologies, and expanded aviation broadband connectivity. 3............................. Wireline Title: Numbering Competition. Policies for Modern Communications (WC Docket No. 13-97); Telephone Number Requirements for IP- Enabled Service Providers (WC Docket No. 07-243); and Implementation of TRACED Act Section 6(a)--Knowledge of Customers by Entities with Access to Numbering Resources (WC Docket No. 20-67). Summary: The Commission will consider a Fourth Report and Order and Fourth Further Notice of Proposed Rulemaking as an important next",
+      "latest_date": "2026-11-18",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [
+        "FR ID 378431"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23467/sunshine-act-open-commission-meeting-thursday-november-19-2026",
+      "score": 10,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “sunshine act”, “open commission meeting”"
+        ],
+        [
+          30,
+          "Abstract repeatedly discusses space (11 mentions)"
+        ],
+        [
+          10,
+          "Sustainability/safety terms: spectrum"
+        ]
+      ],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
