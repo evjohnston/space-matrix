@@ -67,14 +67,14 @@
         {
           "date": "2026-11-12",
           "type": "Floor",
-          "chamber": "Senate",
-          "text": "Message on Senate action sent to the House."
+          "chamber": "House",
+          "text": "Received in the House."
         },
         {
           "date": "2026-11-12",
           "type": "Floor",
-          "chamber": "House",
-          "text": "Received in the House."
+          "chamber": "Senate",
+          "text": "Message on Senate action sent to the House."
         },
         {
           "date": "2026-11-10",
