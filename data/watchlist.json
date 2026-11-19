@@ -113390,6 +113390,31 @@
       "first_seen": "2026-11-18",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23529": {
+      "key": "fr-2026-23529",
+      "source": "federal_register",
+      "document": "2026-23529",
+      "label": "Rule",
+      "title": "Addressing Remote Access to Advanced Semiconductors",
+      "agencies": [
+        "Commerce Department",
+        "Industry and Security Bureau"
+      ],
+      "summary": "In this interim final rule (IFR), the Department of Commerce is establishing new rules to prevent certain foreign actors from leveraging advanced computing power based on U.S. technology to threaten U.S. national security and foreign policy interests. First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau. These restrictions will undermine the ability of companies headquartered in countries of concern from using U.S. advanced Super Intelligence (SI) semiconductors to train advanced SI models. Data centers, foreign foundries, and chip exporters are required to perform robust due diligence on their customers, including any direct or indirect ownership or control by persons in Country Group D:5 or Macau, as part of complying with this new control. The license requirement will not apply to commercial recommender systems, such as those used by online retailers or social media companies, as these functions do not pose the same national security threat. Second, in addition to the current license requirements for advanced semiconductors, a license will be required to export, reexport, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of Sta",
+      "latest_date": "2026-11-19",
+      "latest_text": "Interim final rule.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No. 261116-0005"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-19",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
