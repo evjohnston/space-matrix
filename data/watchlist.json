@@ -113404,7 +113404,7 @@
       "summary": "In this interim final rule (IFR), the Department of Commerce is establishing new rules to prevent certain foreign actors from leveraging advanced computing power based on U.S. technology to threaten U.S. national security and foreign policy interests. First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau. These restrictions will undermine the ability of companies headquartered in countries of concern from using U.S. advanced Super Intelligence (SI) semiconductors to train advanced SI models. Data centers, foreign foundries, and chip exporters are required to perform robust due diligence on their customers, including any direct or indirect ownership or control by persons in Country Group D:5 or Macau, as part of complying with this new control. The license requirement will not apply to commercial recommender systems, such as those used by online retailers or social media companies, as these functions do not pose the same national security threat. Second, in addition to the current license requirements for advanced semiconductors, a license will be required to export, reexport, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of Sta",
       "latest_date": "2026-11-19",
       "latest_text": "Interim final rule.",
-      "comments_close": "",
+      "comments_close": "2027-01-19",
       "dockets": [
         "Docket No. 261116-0005"
       ],
@@ -113413,6 +113413,79 @@
       "tier": "Likely noise",
       "reasons": [],
       "first_seen": "2026-11-19",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23630": {
+      "key": "fr-2026-23630",
+      "source": "federal_register",
+      "document": "2026-23630",
+      "label": "Notice",
+      "title": "NuFuels, Inc.; Crownpoint Uranium Recovery Project; Draft Environmental Assessment and Draft Programmatic Agreement",
+      "agencies": [
+        "Nuclear Regulatory Commission"
+      ],
+      "summary": "The U.S. Nuclear Regulatory Commission (NRC) is issuing for public comment a draft environmental assessment (EA) and finding of no significant impact (FONSI) and draft programmatic agreement (PA) regarding the proposed renewal of Source and Byproduct Materials License Number SUA-1580, which authorizes NuFuels, Inc., to operate the proposed Crownpoint Uranium Project (CUP) in situ recovery (ISR) facility. NuFuels requests a renewed license that, if granted, would authorize it to construct and operate the CUP for 20 years beyond the date of the renewed license. The CUP operations are proposed on four project areas in the Church Rock and Crownpoint areas of McKinley County, New Mexico (Church Rock Section 8, Church Rock Section 17, Unit 1, and Crownpoint).",
+      "latest_date": "2026-11-20",
+      "latest_text": "Notice; request for comment.",
+      "comments_close": "2026-12-21",
+      "dockets": [
+        "Docket No. 040-08968",
+        "NRC-2026-1882"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23630/nufuels-inc-crownpoint-uranium-recovery-project-draft-environmental-assessment-and-draft",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-20",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23640": {
+      "key": "fr-2026-23640",
+      "source": "federal_register",
+      "document": "2026-23640",
+      "label": "Notice",
+      "title": "Arms Sales Notification",
+      "agencies": [
+        "Defense Department"
+      ],
+      "summary": "The DoD (referred to herein as \"the Department,\" \"Department of War\" or \"DoW\") is publishing the unclassified text of an arms sales notification.",
+      "latest_date": "2026-11-20",
+      "latest_text": "Arms sales notice.",
+      "comments_close": "",
+      "dockets": [
+        "Transmittal No. 26-1K"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23640/arms-sales-notification",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-20",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23654": {
+      "key": "fr-2026-23654",
+      "source": "federal_register",
+      "document": "2026-23654",
+      "label": "Notice",
+      "title": "Arms Sales Notification",
+      "agencies": [
+        "Defense Department"
+      ],
+      "summary": "The DoD (referred to herein as \"the Department,\" \"Department of War\" or \"DoW\") is publishing the unclassified text of an arms sales notification.",
+      "latest_date": "2026-11-20",
+      "latest_text": "Arms sales notice.",
+      "comments_close": "",
+      "dockets": [
+        "Transmittal No. 26-91"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23654/arms-sales-notification",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-20",
       "status": "new",
       "in_matrix": ""
     }
