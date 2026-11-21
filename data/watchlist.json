@@ -112574,6 +112574,997 @@
       "first_seen": "2026-11-03",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-22598": {
+      "key": "fr-2026-22598",
+      "source": "federal_register",
+      "document": "2026-22598",
+      "label": "Notice",
+      "title": "Bureau of Industry and Security",
+      "agencies": [
+        "Commerce Department"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-05",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22598/bureau-of-industry-and-security",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-05",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22600": {
+      "key": "fr-2026-22600",
+      "source": "federal_register",
+      "document": "2026-22600",
+      "label": "Rule",
+      "title": "Modernizing Spectrum Sharing for Satellite Broadband",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Space Bureau (Bureau or we) within the Federal Communications Commission (Commission) updates the initial set of geostationary (GSO) satellite network reference links adopted in the Modernizing Spectrum Sharing for Satellite Broadband Report and Order (Order). Ensuring the GSO reference links appropriately reflect typical and widespread GSO satellite operations in the United States will promote efficient spectrum sharing among today's broadband satellite systems.",
+      "latest_date": "2026-11-05",
+      "latest_text": "Final action.",
+      "comments_close": "",
+      "dockets": [
+        "SB Docket No. 25-157",
+        "DA 26-973",
+        "FR ID 375524"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/05/2026-22600/modernizing-spectrum-sharing-for-satellite-broadband",
+      "score": 83,
+      "tier": "High",
+      "reasons": [
+        [
+          35,
+          "Title mentions “satellite”"
+        ],
+        [
+          30,
+          "Abstract repeatedly discusses space (6 mentions)"
+        ],
+        [
+          10,
+          "Sustainability/safety terms: spectrum"
+        ],
+        [
+          8,
+          "Binding rulemaking (rule)"
+        ]
+      ],
+      "first_seen": "2026-11-05",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22739": {
+      "key": "fr-2026-22739",
+      "source": "federal_register",
+      "document": "2026-22739",
+      "label": "Rule",
+      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program and Ambulatory Surgical Center Quality Program; Request for Information on Strengthening the Standardization and Comparability of Hospital Price Transparency (HPT) Data; Prior Authorization; Accrediting Organization (AO) Deeming for Emergency Medical Treatment and Labor Act (EMTALA); and Notices of Closure of Teaching Hospitals and Opportunities To Apply for Available Slots",
+      "agencies": [
+        "Health and Human Services Department",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period updates and refines the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We finalized the expansion of the prior authorization requirement to include additional Botulinum Toxin Injection services. We also finalized implementation of certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this final rule with comment period announces notices of closure of teaching hospitals and opportunities to apply for available slots. Additionally, we finalized the policy that hospital accrediting organizations (AOs) with deeming authority may assess compliance with certain Emergency Medical Treatment and Labor Act (EMTALA) administrative requirements under 42 CFR 489.20 during accreditation and reaccreditation surveys.",
+      "latest_date": "2026-11-06",
+      "latest_text": "Final rule with comment period.",
+      "comments_close": "2027-01-04",
+      "dockets": [
+        "CMS-1850-FC"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-06",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22750": {
+      "key": "fr-2026-22750",
+      "source": "federal_register",
+      "document": "2026-22750",
+      "label": "Rule",
+      "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update; Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model; Medicare Provider Enrollment, Durable Medical Equipment (DME), and DME, Prosthetics, Orthotics, and Supplies (DMEPOS) Policies",
+      "agencies": [
+        "Health and Human Services Department",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "summary": "This final rule sets forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this final rule discusses the behavior adjustments and finalizes a temporary behavior adjustment. It also finalizes the recalibrated case-mix weights and updated functional impairment levels; comorbidity subgroups; and low-utilization payment adjustment (LUPA) thresholds for CY 2027. Additionally, this final rule discusses and responds to comments on the provision of home health palliative care services and includes a summary of comments received on the request for information (RFI) on a home health specific wage index included in the proposed rule. This rule also finalizes changes to the Home Health Quality Reporting Program (HH QRP) and summarizes potential initiatives to improve alignment between the HH QRP and expanded Home Health Value- Based Purchasing (HHVBP) Model. Lastly, the rule clarifies the application of the DMEPOS face-to- face encounter requirements for the replacement of DMEPOS items; makes changes to the provider and supplier enrollment requirements; makes changes to implement a DME benefit expansion for infusion pumps and drugs; and discusses collection of information requirement changes regarding the DMEPOS Competitive Bidding Program (CBP) country of origin.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "CMS-1844-F"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22750/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22777": {
+      "key": "fr-2026-22777",
+      "source": "federal_register",
+      "document": "2026-22777",
+      "label": "Notice",
+      "title": "Hazardous Materials: Notice of Applications for New Special Permits",
+      "agencies": [
+        "Transportation Department",
+        "Pipeline and Hazardous Materials Safety Administration"
+      ],
+      "summary": "In accordance with the procedures governing the application for, and the processing of, special permits from the Department of Transportation's Hazardous Material Regulations, notice is hereby given that the Office of Hazardous Materials Safety has received the application described herein.",
+      "latest_date": "2026-11-09",
+      "latest_text": "List of applications for special permits.",
+      "comments_close": "2026-12-09",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22777/hazardous-materials-notice-of-applications-for-new-special-permits",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “hazardous materials”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22779": {
+      "key": "fr-2026-22779",
+      "source": "federal_register",
+      "document": "2026-22779",
+      "label": "Notice",
+      "title": "Hazardous Materials: Notice of Actions on Special Permits",
+      "agencies": [
+        "Transportation Department",
+        "Pipeline and Hazardous Materials Safety Administration"
+      ],
+      "summary": "In accordance with the procedures governing the application for, and the processing of, special permits from the Department of Transportation's Hazardous Material Regulations, notice is hereby given that the Office of Hazardous Materials Safety has granted or denied the application described herein.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of actions on special permit applications.",
+      "comments_close": "2026-12-09",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22779/hazardous-materials-notice-of-actions-on-special-permits",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “hazardous materials”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22781": {
+      "key": "fr-2026-22781",
+      "source": "federal_register",
+      "document": "2026-22781",
+      "label": "Rule",
+      "title": "Technical Corrections of Commercial Space Transportation Regulations",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "This final rule contains technical corrections in FAA regulations.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Final rule; technical amendment.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No.: FAA-2026-7035",
+        "Amdt. Nos. 413-15, 414-5, 450-4, 460-5"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22781/technical-corrections-of-commercial-space-transportation-regulations",
+      "score": 43,
+      "tier": "Low",
+      "reasons": [
+        [
+          35,
+          "Title mentions “commercial space”"
+        ],
+        [
+          8,
+          "Binding rulemaking (rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22782": {
+      "key": "fr-2026-22782",
+      "source": "federal_register",
+      "document": "2026-22782",
+      "label": "Proposed Rule",
+      "title": "Flight Abort Burden Reducing Clarification on End of Flight Safety Limits",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to clarify the conditions under which a vehicle operator is not required to abort a flight.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2026-12-09",
+      "dockets": [
+        "Docket No.: FAA-2026-9943",
+        "Notice No. 26-21"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22782/flight-abort-burden-reducing-clarification-on-end-of-flight-safety-limits",
+      "score": 43,
+      "tier": "Low",
+      "reasons": [
+        [
+          20,
+          "Abstract mentions “commercial space”, “launch and reentry”"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: licensing, license"
+        ],
+        [
+          8,
+          "Binding rulemaking (proposed rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22783": {
+      "key": "fr-2026-22783",
+      "source": "federal_register",
+      "document": "2026-22783",
+      "label": "Proposed Rule",
+      "title": "Flight Safety Limits Objectives Burden Reducing Clarification",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to clarify the requirements for establishing flight safety limits that define when a vehicle operator must initiate flight abort.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2026-12-09",
+      "dockets": [
+        "Docket No.: FAA-2026- 9937",
+        "Notice No. 26-24"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22783/flight-safety-limits-objectives-burden-reducing-clarification",
+      "score": 43,
+      "tier": "Low",
+      "reasons": [
+        [
+          20,
+          "Abstract mentions “commercial space”, “launch and reentry”"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: licensing, license"
+        ],
+        [
+          8,
+          "Binding rulemaking (proposed rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22784": {
+      "key": "fr-2026-22784",
+      "source": "federal_register",
+      "document": "2026-22784",
+      "label": "Proposed Rule",
+      "title": "Conditional Expected Casualty Exception for Failures Resulting in an Uncontrolled Atmospheric Return",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to amend its commercial space launch and reentry licensing regulations to streamline the licensing process and reduce regulatory burden for license applicants. Specifically, FAA proposes to allow a launch and reentry vehicle operator to protect against high consequence events during an uncontrolled atmospheric return by showing that there would be sufficient breakup of the vehicle to ensure protection against a single event expected to produce multiple casualties.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2026-12-09",
+      "dockets": [
+        "Docket No.: FAA-2026-9942",
+        "Notice No. 26-20"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22784/conditional-expected-casualty-exception-for-failures-resulting-in-an-uncontrolled-atmospheric-return",
+      "score": 53,
+      "tier": "Medium",
+      "reasons": [
+        [
+          30,
+          "Abstract repeatedly discusses space (3 mentions)"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: licensing, license"
+        ],
+        [
+          8,
+          "Binding rulemaking (proposed rule)"
+        ]
+      ],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22789": {
+      "key": "fr-2026-22789",
+      "source": "federal_register",
+      "document": "2026-22789",
+      "label": "Presidential Document",
+      "title": "The American Declaration of Freedom in Space",
+      "agencies": [
+        "Executive Office of the President"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-06",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/06/2026-22789/the-american-declaration-of-freedom-in-space",
+      "score": 27,
+      "tier": "Low",
+      "reasons": [
+        [
+          12,
+          "Title says “space” (ambiguous on its own)"
+        ],
+        [
+          15,
+          "Title term confirmed as space-related by the summary, subjects or committee"
+        ]
+      ],
+      "first_seen": "2026-11-06",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22792": {
+      "key": "fr-2026-22792",
+      "source": "federal_register",
+      "document": "2026-22792",
+      "label": "Rule",
+      "title": "Medicare Drug Price Negotiation Program and Medicare Prescription Drug Benefit Program",
+      "agencies": [
+        "Health and Human Services Department",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "summary": "This rule finalizes and codifies the Medicare Drug Price Negotiation Program (\"Negotiation Program\") and establishes certain new policies for the Negotiation Program and the Medicare Prescription Drug Benefit Program (\"Part D Program\") as required by the Inflation Reduction Act of 2022. This final rule also finalizes a proposed policy for specific fixed combination drugs that are new formulations.",
+      "latest_date": "2026-11-09",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "CMS-4215-F"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-08",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22887": {
+      "key": "fr-2026-22887",
+      "source": "federal_register",
+      "document": "2026-22887",
+      "label": "Rule",
+      "title": "Air Plan Approval; Michigan; Determination of Attainment by the Attainment Date for the 2015 Ozone Standards",
+      "agencies": [
+        "Environmental Protection Agency"
+      ],
+      "summary": "The U.S. Environmental Protection Agency (EPA) is determining under the Clean Air Act (CAA) that the Detroit, Michigan Moderate nonattainment area (\"Detroit area\" or \"area\") attained the 2015 ozone National Ambient Air Quality Standards (NAAQS) by the applicable attainment date. This determination relies on the EPA's concurrence on an exceptional events request submitted by the Michigan Department of Environment, Great Lakes, and Energy (EGLE) on February 19, 2026, and concurred on by the EPA on March 24, 2026. Therefore, the EPA is taking final agency action on Michigan's exceptional events request. This action fulfills the EPA's statutory obligation to determine whether the Detroit area attained the 2015 ozone NAAQS by the Moderate attainment date of August 3, 2024.",
+      "latest_date": "2026-11-10",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "EPA-R05-OAR-2026-3070",
+        "FRL-13352-02-R5"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22887/air-plan-approval-michigan-determination-of-attainment-by-the-attainment-date-for-the-2015-ozone",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-10",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-22898": {
+      "key": "fr-2026-22898",
+      "source": "federal_register",
+      "document": "2026-22898",
+      "label": "Notice",
+      "title": "Notice of Intent To Prepare a Programmatic Environmental Impact Statement (PEIS), Open Public Scoping Period, and Hold Public Scoping Meetings on the Proposed SpaceX Starship-Super Heavy Launch and Landing Operations at the Boca Chica Launch Site at Starbase, Texas and Expansion of Starship Landing and Expenditure Locations",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "In accordance with the National Environmental Policy Act of 1969, as amended (NEPA) and FAA Order 1050.1G, FAA National Environmental Policy Act Implementing Procedures, the FAA is providing an update regarding its notice intent to prepare a PEIS analyzing Space Exploration Technologies Corp.'s (SpaceX) proposal to increase Starship-Super Heavy operations at the Boca Chica Launch Site at Starbase, TX and expand Starship landing and expenditure locations. Subsequent license modifications or renewals under 14 CFR part 400 are within the scope of the PEIS, and the issuance of temporary airspace closures associated with the Proposed Action are included in FAA's Federal Action. FAA is requesting comments concerning the alternatives or impacts and on relevant information, studies, or analyses with respect to the proposed agency action. A Draft PEIS will be released for public review and comment at a later date.",
+      "latest_date": "2026-11-10",
+      "latest_text": "Update regarding the notice of intent to prepare a PEIS, extending the public scoping period, and holding public scoping meetings.",
+      "comments_close": "",
+      "dockets": [
+        "FAA-2026-12808"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22898/notice-of-intent-to-prepare-a-programmatic-environmental-impact-statement-peis-open-public-scoping",
+      "score": 35,
+      "tier": "Low",
+      "reasons": [
+        [
+          35,
+          "Title mentions “launch site”"
+        ],
+        [
+          -30,
+          "Title has a non-space context: “meetings”"
+        ],
+        [
+          20,
+          "Abstract mentions “space exploration”, “launch site”"
+        ],
+        [
+          10,
+          "Sustainability/safety terms: license"
+        ]
+      ],
+      "first_seen": "2026-11-10",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23040": {
+      "key": "fr-2026-23040",
+      "source": "federal_register",
+      "document": "2026-23040",
+      "label": "Rule",
+      "title": "National Television Multiple Ownership Rule",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Federal Communications Commission (Commission) repeals the national television multiple ownership rule (national cap), which prohibits a commercial television licensee from having a cognizable interest in television stations that have an aggregate national audience reach above 39%. The Commission finds, given seismic changes in the modern media marketplace, that the rule's repeal will help empower local broadcast television stations to operate in the public interest and to better serve the needs and interests of their local communities. The Commission will review on a case-by-case basis proposed transactions that would have been prohibited under the national cap to determine whether a proposed transaction would serve the Commission's media ownership goals of localism, competition, and viewpoint diversity.",
+      "latest_date": "2026-11-12",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "MB Docket No. 17-318",
+        "FCC 26-53",
+        "FR ID 376834"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23040/national-television-multiple-ownership-rule",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-11",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23042": {
+      "key": "fr-2026-23042",
+      "source": "federal_register",
+      "document": "2026-23042",
+      "label": "Notice",
+      "title": "Information Collection Being Submitted for Review and Approval to Office of Management and Budget",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "As part of its continuing effort to reduce paperwork burdens, as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (FCC or the Commission) invites the general public and other Federal Agencies to take this opportunity to comment on the following information collection. Pursuant to the Small Business Paperwork Relief Act of 2002, the FCC seeks specific comment on how it can further reduce the information collection burden for small business concerns with fewer than 25 employees.",
+      "latest_date": "2026-11-12",
+      "latest_text": "Notice; request for comments.",
+      "comments_close": "2026-12-14",
+      "dockets": [
+        "OMB 3060-0678",
+        "FR ID 376960"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23042/information-collection-being-submitted-for-review-and-approval-to-office-of-management-and-budget",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-11",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23109": {
+      "key": "fr-2026-23109",
+      "source": "federal_register",
+      "document": "2026-23109",
+      "label": "Proposed Rule",
+      "title": "Amendment of Class C Airspace; President Donald J. Trump International Airport, FL",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "This action proposes to amend Class C airspace at the President Donald J. Trump International Airport (DJT), West Palm Beach, FL. The FAA is proposing this action to enhance the efficient management of air traffic operations and reduce the potential for midair collision in the West Palm Beach, FL, terminal area.",
+      "latest_date": "2026-11-13",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2027-01-12",
+      "dockets": [
+        "Docket No. FAA-2026-5281",
+        "Airspace Docket No. 26-AWA-1"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/13/2026-23109/amendment-of-class-c-airspace-president-donald-j-trump-international-airport-fl",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “airspace”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-13",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23216": {
+      "key": "fr-2026-23216",
+      "source": "federal_register",
+      "document": "2026-23216",
+      "label": "Notice",
+      "title": "Information Collections Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "As part of its continuing effort to reduce paperwork burdens, and as required by the Paperwork Reduction Act (PRA) of 1995, the Federal Communications Commission (Commission) invites the general public and other Federal agencies to take this opportunity to comment on the following information collection. Comments are requested concerning: whether the collection of information is necessary for the proper performance of the functions of the Commission, including whether the information shall have practical utility; the accuracy of the Commission's burden estimate; ways to enhance the quality, utility, and clarity of the information collected; ways to minimize the burden of the collection of information on the respondents, including the use of automated collection techniques or other forms of information technology; and ways to further reduce the information collection burden on small business concerns with fewer than 25 employees.",
+      "latest_date": "2026-11-16",
+      "latest_text": "Notice; request for comments.",
+      "comments_close": "2027-01-15",
+      "dockets": [
+        "OMB 3060-0546, OMB 3060-1326",
+        "FR ID 377154"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23216/information-collections-being-reviewed-by-the-federal-communications-commission-under-delegated",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collections”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-14",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23292": {
+      "key": "fr-2026-23292",
+      "source": "federal_register",
+      "document": "2026-23292",
+      "label": "Notice",
+      "title": "Agency Information Collection Activities; Comment Request; Workforce Innovation and Opportunity Act Joint Quarterly Narrative Report",
+      "agencies": [
+        "Labor Department",
+        "Employment and Training Administration"
+      ],
+      "summary": "The Department of Labor's (DOL) Employment and Training Administration (ETA) is soliciting comments concerning a proposed revision for the authority to conduct the information collection request (ICR) titled, \"Workforce Innovation and Opportunity Act Joint Quarterly Narrative Report.\" This comment request is part of continuing Departmental efforts to reduce paperwork and respondent burden in accordance with the Paperwork Reduction Act of 1995 (PRA).",
+      "latest_date": "2026-11-16",
+      "latest_text": "Notice.",
+      "comments_close": "2027-01-15",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23292/agency-information-collection-activities-comment-request-workforce-innovation-and-opportunity-act",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-14",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23369": {
+      "key": "fr-2026-23369",
+      "source": "federal_register",
+      "document": "2026-23369",
+      "label": "Notice",
+      "title": "Proposed Information Collection Activity; Community Services Block Grant Model State Plan Applications",
+      "agencies": [
+        "Health and Human Services Department",
+        "Children and Families Administration"
+      ],
+      "summary": "The Office of Community Services (OCS), Administration for Children and Families (ACF) requests a 3-year extension of the Community Services Block Grant (CSBG) State Plan, CSBG Eligible Entity Master List, and the American Customer Survey Index (ACSI) forms (Office of Management and Budget (OMB) #: 0970-0382, expiration August 31, 2027). There are changes requested to these information collections to reduce burden.",
+      "latest_date": "2026-11-17",
+      "latest_text": "Request for public comments.",
+      "comments_close": "2027-01-19",
+      "dockets": [
+        "Office of Management and Budget #: 0970-0382"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23369/proposed-information-collection-activity-community-services-block-grant-model-state-plan",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-17",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23385": {
+      "key": "fr-2026-23385",
+      "source": "federal_register",
+      "document": "2026-23385",
+      "label": "Rule",
+      "title": "Modernizing the Commission's National Environmental Policy Act Rules",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document (Order), the Federal Communications Commission (\"Commission\" or \"FCC\") takes action to cut through outdated and unnecessary burdens that have slowed deployment of critical communications networks. These reforms restore balance to the Commission's National Environmental Policy Act (NEPA) implementation by providing clear and predictable rules to ensure NEPA serves as a tool for informed decision-making rather than a barrier to investment, innovation, and connectivity.",
+      "latest_date": "2026-11-17",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "WT Docket No. 25-217",
+        "FCC 26-64",
+        "FR ID 374712"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23385/modernizing-the-commissions-national-environmental-policy-act-rules",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-17",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23397": {
+      "key": "fr-2026-23397",
+      "source": "federal_register",
+      "document": "2026-23397",
+      "label": "Proposed Rule",
+      "title": "Modernizing to Electronic Payments",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "FAA proposes to modernize its payment systems to require electronic payments and eliminate the option to pay by paper payment methods such as cash, money orders, and paper checks. This proposal complies with Executive Order 14247 titled \"Modernizing Payments To and From America's Bank Account,\" which seeks to increase the efficiency of the Federal Government by phasing out paper receipts and mandating electronic payments to and from agencies.",
+      "latest_date": "2026-11-17",
+      "latest_text": "Notice of proposed rulemaking (NPRM).",
+      "comments_close": "2027-01-04",
+      "dockets": [
+        "Docket No. FAA-2026-3538",
+        "Notice No. 27-01"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/17/2026-23397/modernizing-to-electronic-payments",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-17",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23415": {
+      "key": "fr-2026-23415",
+      "source": "federal_register",
+      "document": "2026-23415",
+      "label": "Rule",
+      "title": "Copyright Office Fees",
+      "agencies": [
+        "Library of Congress",
+        "Copyright Office, Library of Congress"
+      ],
+      "summary": "The Copyright Office is publishing a final rule establishing adjusted fees for registration, recordation, record retrieval, search and certification, the Licensing Section services, and other services. The Office last adjusted fees in 2020, based on a study of our fiscal 2016 and 2017 costs. Since that time, the costs of providing Office services have risen substantially due to inflation and other increases. The adjusted fees are intended to enable recovery of a percentage of the Office's costs, closer to historical levels, without imposing undue barriers to access its services. This rule will take effect January 5, 2027.",
+      "latest_date": "2026-11-18",
+      "latest_text": "Final rule.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No. 2026-2"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23415/copyright-office-fees",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23434": {
+      "key": "fr-2026-23434",
+      "source": "federal_register",
+      "document": "2026-23434",
+      "label": "Notice",
+      "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Type-Approval Requirements for Vessel Monitoring Systems (VMS)",
+      "agencies": [
+        "Commerce Department",
+        "National Oceanic and Atmospheric Administration"
+      ],
+      "summary": "",
+      "latest_date": "2026-11-18",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23434/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “information collection”"
+        ]
+      ],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23450": {
+      "key": "fr-2026-23450",
+      "source": "federal_register",
+      "document": "2026-23450",
+      "label": "Proposed Rule",
+      "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to Military Readiness Activities in the Mariana Islands Training and Testing Study Area",
+      "agencies": [
+        "Commerce Department",
+        "National Oceanic and Atmospheric Administration"
+      ],
+      "summary": "NMFS has received a request from the U.S. Department of the Navy (including the U.S. Navy and the U.S. Marine Corps; Navy) and on behalf of the U.S. Coast Guard (Coast Guard), U.S. Army (Army), and U.S. Air Force (Air Force) (hereafter, Navy, Coast Guard, Army, and Air Force are collectively referred to as the Action Proponents) for Incidental Take Regulations (ITR) and an associated Letter of Authorization (LOA) pursuant to the Marine Mammal Protection Act (MMPA). The requested regulations would govern the authorization of take of marine mammals incidental to training and testing activities and modernization and sustainment of ranges conducted in the Mariana Islands Training and Testing (MITT) Study Area over the course of 7 years from July 2027 through July 2034. NMFS requests comments on this proposed rule. NMFS will consider public comments prior to making any final decision on the promulgation of the requested ITR and issuance of the LOA; agency responses to public comments will be summarized in the final rule, if issued. The Action Proponents' activities are considered military readiness activities pursuant to the MMPA, as amended by the National Defense Authorization Act for Fiscal Year 2004 (2004 NDAA) and the NDAA for Fiscal Year 2019 (2019 NDAA).",
+      "latest_date": "2026-11-18",
+      "latest_text": "Proposed rule; proposed letter of authorization; request for comments.",
+      "comments_close": "2026-12-18",
+      "dockets": [
+        "Docket No. 261113-0006"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23450/takes-of-marine-mammals-incidental-to-specified-activities-taking-marine-mammals-incidental-to",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23467": {
+      "key": "fr-2026-23467",
+      "source": "federal_register",
+      "document": "2026-23467",
+      "label": "Notice",
+      "title": "Sunshine Act; Open Commission Meeting Thursday, November 19, 2026",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "The Commission will consider a Report and Order that would authorize non- federal operation of radio frequency jamming solutions in the limited context of correctional facilities, in compliance with applicable congressional statutes. It will also consider a Further Notice that would seek comment on a proposed framework to authorize jamming solutions on unlicensed spectrum, the application of jamming solutions to satellite communications, and potential additional safeguards. 2............................. Wireless Title: Unleashing Telecommunicatio American Drone ns. Dominance (GN Docket No. 26-74) and Facilitating Opportunities for Advanced Air Mobility (WT Docket No. 24-629). Summary: The Commission will consider a Report and Order that would amend the rules governing three bands, the 450 MHz band, the 24.45- 24.65 GHz band, and the 849-851 MHz/894- 896 MHz band, to support the deployment of Unmanned Aircraft Systems (UAS), counter-UAS technologies, and expanded aviation broadband connectivity. 3............................. Wireline Title: Numbering Competition. Policies for Modern Communications (WC Docket No. 13-97); Telephone Number Requirements for IP- Enabled Service Providers (WC Docket No. 07-243); and Implementation of TRACED Act Section 6(a)--Knowledge of Customers by Entities with Access to Numbering Resources (WC Docket No. 20-67). Summary: The Commission will consider a Fourth Report and Order and Fourth Further Notice of Proposed Rulemaking as an important next",
+      "latest_date": "2026-11-18",
+      "latest_text": "",
+      "comments_close": "",
+      "dockets": [
+        "FR ID 378431"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23467/sunshine-act-open-commission-meeting-thursday-november-19-2026",
+      "score": 10,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “sunshine act”, “open commission meeting”"
+        ],
+        [
+          30,
+          "Abstract repeatedly discusses space (11 mentions)"
+        ],
+        [
+          10,
+          "Sustainability/safety terms: spectrum"
+        ]
+      ],
+      "first_seen": "2026-11-18",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23529": {
+      "key": "fr-2026-23529",
+      "source": "federal_register",
+      "document": "2026-23529",
+      "label": "Rule",
+      "title": "Addressing Remote Access to Advanced Semiconductors",
+      "agencies": [
+        "Commerce Department",
+        "Industry and Security Bureau"
+      ],
+      "summary": "In this interim final rule (IFR), the Department of Commerce is establishing new rules to prevent certain foreign actors from leveraging advanced computing power based on U.S. technology to threaten U.S. national security and foreign policy interests. First, this rule establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to overseas data centers that remotely supply significant volumes of compute to companies headquartered in Country Group D:5 or Macau. These restrictions will undermine the ability of companies headquartered in countries of concern from using U.S. advanced Super Intelligence (SI) semiconductors to train advanced SI models. Data centers, foreign foundries, and chip exporters are required to perform robust due diligence on their customers, including any direct or indirect ownership or control by persons in Country Group D:5 or Macau, as part of complying with this new control. The license requirement will not apply to commercial recommender systems, such as those used by online retailers or social media companies, as these functions do not pose the same national security threat. Second, in addition to the current license requirements for advanced semiconductors, a license will be required to export, reexport, or transfer (in-country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil (and any additional country designated by the Secretary of Commerce, in consultation with the Secretary of Sta",
+      "latest_date": "2026-11-19",
+      "latest_text": "Interim final rule.",
+      "comments_close": "2027-01-19",
+      "dockets": [
+        "Docket No. 261116-0005"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-19",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23630": {
+      "key": "fr-2026-23630",
+      "source": "federal_register",
+      "document": "2026-23630",
+      "label": "Notice",
+      "title": "NuFuels, Inc.; Crownpoint Uranium Recovery Project; Draft Environmental Assessment and Draft Programmatic Agreement",
+      "agencies": [
+        "Nuclear Regulatory Commission"
+      ],
+      "summary": "The U.S. Nuclear Regulatory Commission (NRC) is issuing for public comment a draft environmental assessment (EA) and finding of no significant impact (FONSI) and draft programmatic agreement (PA) regarding the proposed renewal of Source and Byproduct Materials License Number SUA-1580, which authorizes NuFuels, Inc., to operate the proposed Crownpoint Uranium Project (CUP) in situ recovery (ISR) facility. NuFuels requests a renewed license that, if granted, would authorize it to construct and operate the CUP for 20 years beyond the date of the renewed license. The CUP operations are proposed on four project areas in the Church Rock and Crownpoint areas of McKinley County, New Mexico (Church Rock Section 8, Church Rock Section 17, Unit 1, and Crownpoint).",
+      "latest_date": "2026-11-20",
+      "latest_text": "Notice; request for comment.",
+      "comments_close": "2026-12-21",
+      "dockets": [
+        "Docket No. 040-08968",
+        "NRC-2026-1882"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23630/nufuels-inc-crownpoint-uranium-recovery-project-draft-environmental-assessment-and-draft",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-20",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23640": {
+      "key": "fr-2026-23640",
+      "source": "federal_register",
+      "document": "2026-23640",
+      "label": "Notice",
+      "title": "Arms Sales Notification",
+      "agencies": [
+        "Defense Department"
+      ],
+      "summary": "The DoD (referred to herein as \"the Department,\" \"Department of War\" or \"DoW\") is publishing the unclassified text of an arms sales notification.",
+      "latest_date": "2026-11-20",
+      "latest_text": "Arms sales notice.",
+      "comments_close": "",
+      "dockets": [
+        "Transmittal No. 26-1K"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23640/arms-sales-notification",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-20",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23654": {
+      "key": "fr-2026-23654",
+      "source": "federal_register",
+      "document": "2026-23654",
+      "label": "Notice",
+      "title": "Arms Sales Notification",
+      "agencies": [
+        "Defense Department"
+      ],
+      "summary": "The DoD (referred to herein as \"the Department,\" \"Department of War\" or \"DoW\") is publishing the unclassified text of an arms sales notification.",
+      "latest_date": "2026-11-20",
+      "latest_text": "Arms sales notice.",
+      "comments_close": "",
+      "dockets": [
+        "Transmittal No. 26-91"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23654/arms-sales-notification",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-20",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23786": {
+      "key": "fr-2026-23786",
+      "source": "federal_register",
+      "document": "2026-23786",
+      "label": "Rule",
+      "title": "Miscellaneous Technical Amendments; Technical Amendment",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "This technical amendment contains non-substantive corrections to address typographical errors, editorial errors, and outdated or incorrect references in various parts of FAA regulations.",
+      "latest_date": "2026-11-23",
+      "latest_text": "Final rule; technical amendment.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No.: FAA-2026-4853",
+        "Amdt. Nos. 1-81, 5-3, 13-41, 15-5, 16-2, 17-2, 21-111, 23-66, 25-154, 26-8, 27-52, 29-60, 31-6, 33-37, 34-8, 35-11, 38-2, 39-20000, 43-65, 48-4, 61-162, 63-49, 65-68, 67-24, 71-59, 73-10, 77-14, 91-386, 95-341, 97-1341, 99-17, 101-12, 103-18, 105-14, 110-"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23786/miscellaneous-technical-amendments-technical-amendment",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-21",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23812": {
+      "key": "fr-2026-23812",
+      "source": "federal_register",
+      "document": "2026-23812",
+      "label": "Proposed Rule",
+      "title": "Cybersecurity Labeling for Internet of Things",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Public Safety and Homeland Security Bureau (Bureau) of the Federal Communications Commission (Commission or FCC) seeks comment on recommendations for the U.S. Cyber Trust Mark (USCTM) program, a voluntary cybersecurity labeling program for wireless consumer Internet of Things (IoT) products. The Bureau seeks comment on the design and placement of the FCC IoT Label, display of product registry information, certification renewal, post-market surveillance, and procedures for complaints, noncompliant products, and program administrators that withdraw or whose authority is terminated. These actions would support the establishment and effective administration of the USCTM program and provide consumers with accessible cybersecurity information about certified IoT products.",
+      "latest_date": "2026-11-23",
+      "latest_text": "Proposed rule.",
+      "comments_close": "2027-01-07",
+      "dockets": [
+        "PS Docket No. 23-239, DA 26-1162",
+        "FR ID 377778"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23812/cybersecurity-labeling-for-internet-of-things",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-21",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23830": {
+      "key": "fr-2026-23830",
+      "source": "federal_register",
+      "document": "2026-23830",
+      "label": "Proposed Rule",
+      "title": "Connect America Fund; A National Broadband Plan for Our Future High-Cost Universal Support, Reforming the High-Cost Program for an All-IP Future, Safeguarding Universal Service Funding Through Effective Applicant Vetting",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Federal Communications Commission (FCC or Commission) initiates a rulemaking to establish a vetting process for applicants for, and other recipients of, certain new funding awards of high-cost Universal Service Fund (USF) support.",
+      "latest_date": "2026-11-23",
+      "latest_text": "Proposed rule.",
+      "comments_close": "2027-01-22",
+      "dockets": [
+        "WC Docket Nos. 10-90, 26-96, 26-288",
+        "FCC No. 26-75",
+        "FR ID 378440"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23830/connect-america-fund-a-national-broadband-plan-for-our-future-high-cost-universal-support-reforming",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-21",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
