@@ -113488,6 +113488,83 @@
       "first_seen": "2026-11-20",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23786": {
+      "key": "fr-2026-23786",
+      "source": "federal_register",
+      "document": "2026-23786",
+      "label": "Rule",
+      "title": "Miscellaneous Technical Amendments; Technical Amendment",
+      "agencies": [
+        "Transportation Department",
+        "Federal Aviation Administration"
+      ],
+      "summary": "This technical amendment contains non-substantive corrections to address typographical errors, editorial errors, and outdated or incorrect references in various parts of FAA regulations.",
+      "latest_date": "2026-11-23",
+      "latest_text": "Final rule; technical amendment.",
+      "comments_close": "",
+      "dockets": [
+        "Docket No.: FAA-2026-4853",
+        "Amdt. Nos. 1-81, 5-3, 13-41, 15-5, 16-2, 17-2, 21-111, 23-66, 25-154, 26-8, 27-52, 29-60, 31-6, 33-37, 34-8, 35-11, 38-2, 39-20000, 43-65, 48-4, 61-162, 63-49, 65-68, 67-24, 71-59, 73-10, 77-14, 91-386, 95-341, 97-1341, 99-17, 101-12, 103-18, 105-14, 110-"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23786/miscellaneous-technical-amendments-technical-amendment",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-21",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23812": {
+      "key": "fr-2026-23812",
+      "source": "federal_register",
+      "document": "2026-23812",
+      "label": "Proposed Rule",
+      "title": "Cybersecurity Labeling for Internet of Things",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Public Safety and Homeland Security Bureau (Bureau) of the Federal Communications Commission (Commission or FCC) seeks comment on recommendations for the U.S. Cyber Trust Mark (USCTM) program, a voluntary cybersecurity labeling program for wireless consumer Internet of Things (IoT) products. The Bureau seeks comment on the design and placement of the FCC IoT Label, display of product registry information, certification renewal, post-market surveillance, and procedures for complaints, noncompliant products, and program administrators that withdraw or whose authority is terminated. These actions would support the establishment and effective administration of the USCTM program and provide consumers with accessible cybersecurity information about certified IoT products.",
+      "latest_date": "2026-11-23",
+      "latest_text": "Proposed rule.",
+      "comments_close": "2027-01-07",
+      "dockets": [
+        "PS Docket No. 23-239, DA 26-1162",
+        "FR ID 377778"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23812/cybersecurity-labeling-for-internet-of-things",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-21",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-23830": {
+      "key": "fr-2026-23830",
+      "source": "federal_register",
+      "document": "2026-23830",
+      "label": "Proposed Rule",
+      "title": "Connect America Fund; A National Broadband Plan for Our Future High-Cost Universal Support, Reforming the High-Cost Program for an All-IP Future, Safeguarding Universal Service Funding Through Effective Applicant Vetting",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Federal Communications Commission (FCC or Commission) initiates a rulemaking to establish a vetting process for applicants for, and other recipients of, certain new funding awards of high-cost Universal Service Fund (USF) support.",
+      "latest_date": "2026-11-23",
+      "latest_text": "Proposed rule.",
+      "comments_close": "2027-01-22",
+      "dockets": [
+        "WC Docket Nos. 10-90, 26-96, 26-288",
+        "FCC No. 26-75",
+        "FR ID 378440"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23830/connect-america-fund-a-national-broadband-plan-for-our-future-high-cost-universal-support-reforming",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-21",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
