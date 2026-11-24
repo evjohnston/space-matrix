@@ -113565,6 +113565,41 @@
       "first_seen": "2026-11-21",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23905": {
+      "key": "fr-2026-23905",
+      "source": "federal_register",
+      "document": "2026-23905",
+      "label": "Notice",
+      "title": "Wireless Telecommunications Bureau Seeks Comment on Whether Proposed Upper C-Band Relocation Coordinator Satisfies Selection Criteria",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "In this document, the Wireless Telecommunications Bureau (Bureau) invites interested parties to comment on whether the proposed Relocation Coordinator selected by the eligible space station operators in the Upper C-band satisfies the criteria established by the Federal Communications Commission (Commission) in Upper C-band (3.98-4.2 GHz); Expanding Flexible Use of the 3.7 to 4.2 GHz Band, GN Docket Nos. 25-59 and 18-122, Report and Order, Order of Proposed Modification, and Order on Reconsideration, FCC 26-46 (July 24, 2026) (Upper C-band R&O). In the Upper C-band R&O, the Commission adopted rules to make 160 megahertz of mid-band spectrum available for flexible use throughout the contiguous United States by transitioning incumbent Fixed Satellite Service (FSS) operations out of 4.0-4.16 GHz. The Upper C-band R&O required eligible space station operators to select a Relocation Coordinator that will be responsible for managing the overall transition and coordinating relocation actions among eligible FSS space station operators, incumbent FSS earth station operators, and new Upper C-band flexible use licensees.",
+      "latest_date": "2026-11-24",
+      "latest_text": "Notice; solicitation of comments.",
+      "comments_close": "2026-12-14",
+      "dockets": [
+        "GN Docket No. 25-59",
+        "DA 26-1248",
+        "FR ID 378982"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23905/wireless-telecommunications-bureau-seeks-comment-on-whether-proposed-upper-c-band-relocation",
+      "score": 45,
+      "tier": "Medium",
+      "reasons": [
+        [
+          30,
+          "Abstract repeatedly discusses space (4 mentions)"
+        ],
+        [
+          15,
+          "Sustainability/safety terms: spectrum, licensees"
+        ]
+      ],
+      "first_seen": "2026-11-24",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
