@@ -113600,6 +113600,88 @@
       "first_seen": "2026-11-24",
       "status": "new",
       "in_matrix": ""
+    },
+    "fr-2026-23990": {
+      "key": "fr-2026-23990",
+      "source": "federal_register",
+      "document": "2026-23990",
+      "label": "Rule",
+      "title": "Control of Communicable Diseases; Foreign Quarantine",
+      "agencies": [
+        "Health and Human Services Department"
+      ],
+      "summary": "The Centers for Disease Control and Prevention (CDC), in the Department of Health and Human Services (HHS), is extending the expiration date of the interim final rule published on May 27, 2026. This interim final rule removes an exemption for lawful permanent residents from application of regulations implementing section 362 of the Public Health Service (PHS) Act, which authorizes the Secretary, acting through the CDC Director or other delegate, to suspend the introduction of persons from designated countries or places, if required, in the interest of public health.",
+      "latest_date": "2026-11-25",
+      "latest_text": "Notification; extension of interim final rule--expiration date.",
+      "comments_close": "",
+      "dockets": [],
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-23990/control-of-communicable-diseases-foreign-quarantine",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-25",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-24013": {
+      "key": "fr-2026-24013",
+      "source": "federal_register",
+      "document": "2026-24013",
+      "label": "Rule",
+      "title": "Auction of Flexible-Use Licenses in the Upper C-Band for Next-Generation Wireless Services; Notice and Filing Requirements, Minimum Opening Bids, Upfront Payments, and Other Procedures for Auction 115; Bidding Scheduled To Begin April 27, 2027",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "This document summarizes the procedures, deadlines, upfront payment, and minimum opening bid amounts adopted in the Auction 115 Procedures Public Notice for the Federal Communications Commission's (Commission) upcoming auction of 3,248 new flexible-use licenses in the 3.98-4.14 GHz portion of the Upper C-band. The Auction 115 Procedures Public Notice summarized here provides details regarding the procedures, terms, conditions, dates, and deadlines governing participation in Auction 115 bidding, as well as an overview of the post-auction application and payment processes.",
+      "latest_date": "2026-11-25",
+      "latest_text": "Final action; requirements and procedures.",
+      "comments_close": "2027-01-20",
+      "dockets": [
+        "AU Docket No. 26-191",
+        "DA 26-1219",
+        "FR ID 378621"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24013/auction-of-flexible-use-licenses-in-the-upper-c-band-for-next-generation-wireless-services-notice",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [],
+      "first_seen": "2026-11-25",
+      "status": "new",
+      "in_matrix": ""
+    },
+    "fr-2026-24014": {
+      "key": "fr-2026-24014",
+      "source": "federal_register",
+      "document": "2026-24014",
+      "label": "Notice",
+      "title": "Informal Working Group 1 (IWG-1), Informal Working Group 2 (IWG-2), Informal Working Group 3 (IWG-3), and Informal Working Group 4 (IWG-4) of the 2027 World Radiocommunication Conference Advisory Committee (WRC-27 Advisory Committee) Schedule Their Meetings",
+      "agencies": [
+        "Federal Communications Commission"
+      ],
+      "summary": "This notice advises interested persons that Informal Working Group 1 (IWG-1), Informal Working Group 2 (IWG-2,) Informal Working Group 3 (IWG-3,) and Informal Working Group 4 (IWG-4) of the 2027 World Radiocommunication Conference Advisory Committee (WRC-27 Advisory Committee) have scheduled meetings as set forth below. The meetings are open to the public. The meetings are open to the public. Attendees may join via Microsoft Teams (see details, infra). The upcoming Informal Working Group (IWG) meetings in December 2026, January 2027, and February 2027 will focus on developing proposals for future agenda items at the 2027 World Radiocommunication Conference. The full WRC-27 Advisory Committee will meet in the Spring of 2027 to consider items discussed at the upcoming IWG meetings.",
+      "latest_date": "2026-11-25",
+      "latest_text": "Notice.",
+      "comments_close": "",
+      "dockets": [
+        "OIA Docket No. 24-30",
+        "FR ID 379148"
+      ],
+      "url": "https://www.federalregister.gov/documents/2026/11/25/2026-24014/informal-working-group-1-iwg-1-informal-working-group-2-iwg-2-informal-working-group-3-iwg-3-and",
+      "score": 0,
+      "tier": "Likely noise",
+      "reasons": [
+        [
+          -30,
+          "Title has a non-space context: “meetings”"
+        ],
+        [
+          -10,
+          "Abstract uses “space” in a non-space sense"
+        ]
+      ],
+      "first_seen": "2026-11-25",
+      "status": "new",
+      "in_matrix": ""
     }
   }
 }
